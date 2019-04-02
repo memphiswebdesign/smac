@@ -1693,7 +1693,17 @@
 	<!-- Google Map Script -->
 
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?callback=templateInitGoogleMap&key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4"></script>
-
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+				if (!user) {
+					window.netlifyIdentity.on("login", () => {
+						document.location.href = "netlify-cms-tutorial/static/admin/";
+					});
+				}
+			});
+		}
+	</script>
 </body>
 
 </html>

@@ -25,9 +25,9 @@
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-pages-events-news-js",
-        "jsonName": "events-news-ab0",
-        "path": "/events_news/"
+        "componentChunkName": "component---src-pages-events-js",
+        "jsonName": "events-0dc",
+        "path": "/events/"
     },
     {
         "componentChunkName": "component---src-pages-history-js",

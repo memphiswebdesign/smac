@@ -1,5 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { colors } from '../components/colors';
+
+const styles = {
+    activeStyle: {
+        color: colors.primary
+    }
+};
 
 const pages = [
     {
@@ -66,7 +73,7 @@ function buildSubMenu(page) {
             <ul>
                 {page.subMenu.map((sub, index) => (
                     <li key={index}>
-                        <Link to={ sub.url }>{ sub.display }</Link>
+                        <Link to={ sub.url } activeStyle={styles.activeStyle}>{ sub.display }</Link>
                     </li>
                 ))}
             </ul>
@@ -80,7 +87,7 @@ function buildNavbar() {
     return pages.map((page, index) => {
         return (
             <li key={index}>
-                <Link to={ page.url } activeStyle={{ color: '#e43d4e' }}>{ page.display }</Link>
+                <Link to={ page.url } activeStyle={styles.activeStyle}>{ page.display }</Link>
                 {buildSubMenu(page)}
             </li>
         );

@@ -2290,11 +2290,11 @@ img {
 }
 
 .texture-background {
-	background-image: url(../img/background-texture-cover3.jpg);
+	background-image: url(../static/img/background-texture-cover3.jpg);
 }
 
 .pattern-background:before {
-	background-image: url(../img/patterns/pattern1.png);
+	background-image: url(../static/img/patterns/pattern1.png);
 }
 
 @media (min-width: 768px) {
@@ -2609,7 +2609,7 @@ img {
 }
 
 .preloader_image {
-	background: url(../img/preloader.gif) no-repeat 50% 50% transparent;
+	background: url(../static/img/preloader.gif) no-repeat 50% 50% transparent;
 	height: 256px;
 	left: 50%;
 	margin: -128px 0 0 -128px;
@@ -2657,47 +2657,47 @@ body.boxed {
 }
 
 .pattern1 {
-	background-image: url(../img/patterns/pattern1.png);
+	background-image: url(../static/img/patterns/pattern1.png);
 }
 
 .pattern2 {
-	background-image: url(../img/patterns/pattern2.png);
+	background-image: url(../static/img/patterns/pattern2.png);
 }
 
 .pattern3 {
-	background-image: url(../img/patterns/pattern3.png);
+	background-image: url(../static/img/patterns/pattern3.png);
 }
 
 .pattern4 {
-	background-image: url(../img/patterns/pattern4.png);
+	background-image: url(../static/img/patterns/pattern4.png);
 }
 
 .pattern5 {
-	background-image: url(../img/patterns/pattern5.png);
+	background-image: url(../static/img/patterns/pattern5.png);
 }
 
 .pattern6 {
-	background-image: url(../img/patterns/pattern6.png);
+	background-image: url(../static/img/patterns/pattern6.png);
 }
 
 .pattern7 {
-	background-image: url(../img/patterns/pattern7.png);
+	background-image: url(../static/img/patterns/pattern7.png);
 }
 
 .pattern8 {
-	background-image: url(../img/patterns/pattern8.png);
+	background-image: url(../static/img/patterns/pattern8.png);
 }
 
 .pattern9 {
-	background-image: url(../img/patterns/pattern9.png);
+	background-image: url(../static/img/patterns/pattern9.png);
 }
 
 .pattern10 {
-	background-image: url(../img/patterns/pattern10.png);
+	background-image: url(../static/img/patterns/pattern10.png);
 }
 
 .pattern11 {
-	background-image: url(../img/patterns/pattern11.png);
+	background-image: url(../static/img/patterns/pattern11.png);
 }
 
 .boxed .container {
@@ -2731,19 +2731,19 @@ body.boxed {
 
 /*common background sections*/
 .s-map-dark {
-	background-image: url("../img/parallax/map-dark.jpg");
+	background-image: url("../static/img/parallax/map-dark.jpg");
 }
 
 .s-map-light {
-	background-image: url("../img/parallax/map-light.jpg");
+	background-image: url("../static/img/parallax/map-light.jpg");
 }
 
 .s-light-abstract {
-	background-image: url("../img/parallax/light-abstract.jpg");
+	background-image: url("../static/img/parallax/light-abstract.jpg");
 }
 
 .s-light-wood {
-	background-image: url("../img/parallax/light-wood.jpg");
+	background-image: url("../static/img/parallax/light-wood.jpg");
 }
 
 /*bordered columns*/

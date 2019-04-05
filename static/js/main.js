@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use strict";
 //Wrapping all JavaScript code into a IIFE function for prevent global variables creation
 (function($){
@@ -8,24 +9,24 @@ var $window = $(window);
 //hidding menu elements that do not fit in menu width
 //processing center logo
 function menuHideExtraElements() {
-	
+
 	//cleaneng changed elements
 	$('.sf-more-li, .sf-logo-li').remove();
 	var windowWidth = $('body').innerWidth();
-	
+
 	$('.sf-menu').each(function(){
 		var $thisMenu = $(this);
 		var $menuWraper = $thisMenu.closest('.top-nav');
 		$menuWraper.attr('style', '');
 		if (windowWidth > 1199) {
-			//grab all main menu first level items 
+			//grab all main menu first level items
 			var $menuLis = $menuWraper.find('.sf-menu > li');
 			$menuLis.removeClass('sf-xl-hidden');
 
 			var $headerLogoCenter = $thisMenu.closest('.header_logo_center');
 			var logoWidth = 0;
 			var summaryLiWidth = 0;
-			
+
 			if ( $headerLogoCenter.length ) {
 				var $logo = $headerLogoCenter.find('.logo');
 				// 30/2 - left and right margins
@@ -70,7 +71,7 @@ function menuHideExtraElements() {
 				var menuLeftOffset = liLeftRightDotX - logoLeftDotX;
 				$menuWraper.css({'left': -menuLeftOffset})
 			}
-			
+
 		}// > 991
 	}); //sf-menu each
 } //menuHideExtraElements
@@ -117,7 +118,7 @@ function initAffixSidebar() {
 	if ($affixAside.length) {
 
 			$window = $(window);
-		
+
 			//on stick and unstick event
 			$affixAside.on('affix.bs.affix', function(e) {
 				var affixWidth = $affixAside.width() - 1;
@@ -180,7 +181,7 @@ function initAffixSidebar() {
 
 				$affixAside.data('bs.affix').options.offset.top = offsetTop - offsetTopAdd;
 				$affixAside.data('bs.affix').options.offset.bottom = offsetBottom + offsetBottomAdd;
-				
+
 				$affixAside.affix('checkPosition');
 
 			});
@@ -927,79 +928,6 @@ function windowLoadInit() {
 	//////////////
 	//flexslider//
 	//////////////
-	if ($().flexslider) {
-		var $introSlider = $(".page_slider .flexslider");
-		$introSlider.each(function(index){
-			var $currentSlider = $(this);
-			var data = $currentSlider.data();
-			var nav = (data.nav !== 'undefined') ? data.nav : true;
-			var dots = (data.dots !== 'undefined') ? data.dots : true;
-			var speed = (data.speed !== 'undefined') ? data.speed : 7000;
-
-			$currentSlider.flexslider({
-				animation: "fade",
-				pauseOnHover: true, 
-				useCSS: true,
-				controlNav: dots,   
-				directionNav: nav,
-				prevText: "",
-				nextText: "",
-				smoothHeight: false,
-				slideshowSpeed:speed,
-				animationSpeed:600,
-				start: function( slider ) {
-					slider.find('.intro_layers').children().css({'visibility': 'hidden'});
-					slider.find('.flex-active-slide .intro_layers').children().each(function(index){
-						var self = $(this);
-						var animationClass = !self.data('animation') ? 'fadeInRight' : self.data('animation');
-						setTimeout(function(){
-							self.addClass("animated "+animationClass);
-						}, index*250);
-					});
-				},
-				after :function( slider ){
-					slider.find('.flex-active-slide .intro_layers').children().each(function(index){
-						var self = $(this);
-						var animationClass = !self.data('animation') ? 'fadeInRight' : self.data('animation');
-						setTimeout(function(){
-							self.addClass("animated "+animationClass);
-						}, index*250);
-					});
-				},
-				end :function( slider ){
-					slider.find('.intro_layers').children().each(function() {
-						var self = $(this);
-						var animationClass = !self.data('animation') ? 'fadeInRight' : self.data('animation');
-						self.removeClass('animated ' + animationClass).css({'visibility': 'hidden'});
-							// $(this).attr('class', '');
-					});
-				},
-
-			})
-			//wrapping nav with container - uncomment if need
-			// .find('.flex-control-nav')
-			// .wrap('<div class="container nav-container"/>')
-		}); //.page_slider flex slider
-
-		$(".flexslider").each(function(index){
-			var $currentSlider = $(this);
-			//exit if intro slider already activated 
-			if ($currentSlider.find('.flex-active-slide').length) {
-				return;
-			}
-			$currentSlider.flexslider({
-				animation: "fade",
-				useCSS: true,
-				controlNav: true,   
-				directionNav: false,
-				prevText: "",
-				nextText: "",
-				smoothHeight: false,
-				slideshowSpeed:500000,
-				animationSpeed:800,
-			})
-		});
-	}
 
 	////////////////
 	//owl carousel//
@@ -1041,7 +969,7 @@ function windowLoadInit() {
 					var filterValue = $( this ).attr('data-filter');
 					$(this).siblings().removeClass('selected active');
 					$(this).addClass('selected active');
-					
+
 					//removing old items
 					for (var i = $carousel.find('.owl-item').length - 1; i >= 0; i--) {
 						$carousel.trigger('remove.owl.carousel', [1]);
@@ -1053,7 +981,7 @@ function windowLoadInit() {
 						$carousel.trigger('add.owl.carousel', $(this));
 						$(this).addClass('scaleAppear');
 					});
-					
+
 					$carousel.trigger('refresh.owl.carousel');
 
 					//reinit prettyPhoto in filtered OWL carousel
@@ -1064,7 +992,7 @@ function windowLoadInit() {
 						});
 					}
 				});
-				
+
 			} //filters
 
 			$carousel.owlCarousel({
@@ -1247,7 +1175,7 @@ function windowLoadInit() {
 		if ($().countTo) {
 			var $counter = $('.counter');
 			$counter.appear();
-			
+
 			$counter.filter(':appeared').each(function(){
 				initCounter($(this));
 			});
@@ -1257,7 +1185,7 @@ function windowLoadInit() {
 				});
 			});
 		}
-	
+
 		//bootstrap animated progressbar
 		if ($().progressbar) {
 			var $progressbar = $('.progress .progress-bar');

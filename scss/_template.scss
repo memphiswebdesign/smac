@@ -1,4 +1,4 @@
-/* 
+/*
 ** Template Specific Styles
 */
 
@@ -128,7 +128,7 @@ img.absolute_image {
 .header_absolute {
   &.cover-background,
   &.s-parallax {
-    background-image: url("../images/parallax/video_section_background.jpg");
+    background-image: url("../static/images/parallax/video_section_background.jpg");
   }
 }
 .contact-info{
@@ -137,13 +137,13 @@ img.absolute_image {
   }
   &.cover-background,
   &.s-parallax {
-    background: url("../images/parallax/footer_bg.jpg") no-repeat fixed center;
+    background: url("../static/images/parallax/footer_bg.jpg") no-repeat fixed center;
     background-size: cover;
   }
 }
 
 .faq-section-left{
-  background: url("../images/gallery/15.jpg") no-repeat center / cover;
+  background: url("../static/images/gallery/15.jpg") no-repeat center / cover;
   position: relative;
   height: 100%;
   .faq-video{
@@ -171,7 +171,7 @@ img.absolute_image {
 .page_title {
   &.cover-background,
   &.s-parallax {
-    background-image: url("../images/parallax/breadcrumbs.jpg");
+    background-image: url("../static/images/parallax/breadcrumbs.jpg");
   }
   h1,
   h2 {
@@ -227,28 +227,28 @@ img.absolute_image {
 }
 
 .page_404 {
-  background-image: url("../images/404.jpg");
+  background-image: url("../static/images/404.jpg");
 }
 .about-section{
-  background-image: url("../images/parallax/about_section_background.jpg");
+  background-image: url("../static/images/parallax/about_section_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% -10%;
 }
 .ds.coming-soon{
-  background-image: url("../images/parallax/footer_bg.jpg");
+  background-image: url("../static/images/parallax/footer_bg.jpg");
   input{
     background-color: $darkgreyColor;
   }
 }
 .team-section{
-  background-image: url("../images/parallax/team-section.jpg");
+  background-image: url("../static/images/parallax/team-section.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
 .program-section{
-  background-image: url("../images/parallax/programs-bg.jpg");
+  background-image: url("../static/images/parallax/programs-bg.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -318,7 +318,7 @@ img.absolute_image {
   overflow: hidden;
 
   &.s-parallax {
-    background-image: url("../images/parallax/footer_bg.jpg");
+    background-image: url("../static/images/parallax/footer_bg.jpg");
     @media (max-width: 1200px) {
       background-attachment: scroll;
       background-position: 50% 19%!important;
@@ -374,7 +374,7 @@ img.absolute_image {
   line-height: 30px;
   &.cover-background,
   &.s-parallax {
-    background-image: url("../images/parallax/breadcrumbs.jpg");
+    background-image: url("../static/images/parallax/breadcrumbs.jpg");
   }
 }
 

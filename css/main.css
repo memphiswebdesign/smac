@@ -27,12 +27,12 @@ Background color for dark muted section (.ds.ms): #0a0d1b
 Border colors for elements in light section (and .bordered elements): #e1e1e1, rgba(0, 0, 0, 0.1)
 Background color for elements in light section (.hero-bg): #f5f5f5
 
-Dark section (.ds) colors: 
+Dark section (.ds) colors:
 Text color in dark section: #a4a9b9
 Border colors for elements in dark section: #3f4455
 Background color for elements in dark section (.hero-bg): #222739
 
-Color section (.cs) colors: 
+Color section (.cs) colors:
 Background color for elements in color section: rgba(255, 255, 255, 0.1)
 Border color for elements in color section: rgba(255, 255, 255, 0.15)
 
@@ -1878,7 +1878,7 @@ progressbar*/
 
 .owl-carousel .owl-video-play-icon {
 	-webkit-backface-visibility: hidden;
-	background: url("../img/owl.video.play.png") no-repeat;
+	background: url("../static/img/owl.video.play.png") no-repeat;
 	cursor: pointer;
 	height: 80px;
 	left: 50%;
@@ -2636,7 +2636,7 @@ html[xmlns] .slides {
 
 */
 /*
-	
+
 	1. Buttons
 
  */
@@ -2682,7 +2682,7 @@ html[xmlns] .slides {
 .pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
-	background: url(../img/photoswipe/default-skin.png) 0 0 no-repeat;
+	background: url(../static/img/photoswipe/default-skin.png) 0 0 no-repeat;
 	background-size: 264px 88px;
 	height: 44px;
 	width: 44px;
@@ -2693,7 +2693,7 @@ html[xmlns] .slides {
 	.pswp--svg .pswp__button,
 	.pswp--svg .pswp__button--arrow--left:before,
 	.pswp--svg .pswp__button--arrow--right:before {
-		background-image: url(../img/photoswipe/default-skin.svg);
+		background-image: url(../static/img/photoswipe/default-skin.svg);
 	}
 
 	.pswp--svg .pswp__button--arrow--left,
@@ -2928,7 +2928,7 @@ a.pswp__share--download:hover {
 }
 
 /*
-	
+
 	4. Caption
 
  */
@@ -2996,7 +2996,7 @@ a.pswp__share--download:hover {
 
 .pswp__preloader--active .pswp__preloader__icn {
 	/* We use .gif in browsers that don't support CSS animation */
-	background: url(../img/photoswipe/preloader.gif) 0 0 no-repeat;
+	background: url(../static/img/photoswipe/preloader.gif) 0 0 no-repeat;
 }
 
 .pswp--css_animation .pswp__preloader--active {
@@ -3119,7 +3119,7 @@ a.pswp__share--download:hover {
 }
 
 /*
-	
+
 	6. Additional styles
 
  */
@@ -3267,8 +3267,8 @@ a.pswp__share--download:hover {
 	margin-top: 0;
 }
 
-/* 
-** Time Table 
+/*
+** Time Table
 */
 #timetable span {
 	display: block;
@@ -3360,7 +3360,7 @@ a.pswp__share--download:hover {
 	color: #fff;
 }
 
-/* 
+/*
 ** toTop
 */
 #toTop {
@@ -7133,11 +7133,11 @@ img {
 }
 
 .texture-background {
-	background-image: url(../img/background-texture-cover.jpg);
+	background-image: url(../static/img/background-texture-cover.jpg);
 }
 
 .pattern-background:before {
-	background-image: url(../img/patterns/pattern1.png);
+	background-image: url(../static/img/patterns/pattern1.png);
 }
 
 @media (min-width: 768px) {
@@ -7452,7 +7452,7 @@ img {
 }
 
 .preloader_image {
-	background: url(../img/preloader.gif) no-repeat 50% 50% transparent;
+	background: url(../static/img/preloader.gif) no-repeat 50% 50% transparent;
 	height: 256px;
 	left: 50%;
 	margin: -128px 0 0 -128px;
@@ -7500,47 +7500,47 @@ body.boxed {
 }
 
 .pattern1 {
-	background-image: url(../img/patterns/pattern1.png);
+	background-image: url(../static/img/patterns/pattern1.png);
 }
 
 .pattern2 {
-	background-image: url(../img/patterns/pattern2.png);
+	background-image: url(../static/img/patterns/pattern2.png);
 }
 
 .pattern3 {
-	background-image: url(../img/patterns/pattern3.png);
+	background-image: url(../static/img/patterns/pattern3.png);
 }
 
 .pattern4 {
-	background-image: url(../img/patterns/pattern4.png);
+	background-image: url(../static/img/patterns/pattern4.png);
 }
 
 .pattern5 {
-	background-image: url(../img/patterns/pattern5.png);
+	background-image: url(../static/img/patterns/pattern5.png);
 }
 
 .pattern6 {
-	background-image: url(../img/patterns/pattern6.png);
+	background-image: url(../static/img/patterns/pattern6.png);
 }
 
 .pattern7 {
-	background-image: url(../img/patterns/pattern7.png);
+	background-image: url(../static/img/patterns/pattern7.png);
 }
 
 .pattern8 {
-	background-image: url(../img/patterns/pattern8.png);
+	background-image: url(../static/img/patterns/pattern8.png);
 }
 
 .pattern9 {
-	background-image: url(../img/patterns/pattern9.png);
+	background-image: url(../static/img/patterns/pattern9.png);
 }
 
 .pattern10 {
-	background-image: url(../img/patterns/pattern10.png);
+	background-image: url(../static/img/patterns/pattern10.png);
 }
 
 .pattern11 {
-	background-image: url(../img/patterns/pattern11.png);
+	background-image: url(../static/img/patterns/pattern11.png);
 }
 
 .boxed .container {
@@ -7574,19 +7574,19 @@ body.boxed {
 
 /*common background sections*/
 .s-map-dark {
-	background-image: url("../img/parallax/map-dark.jpg");
+	background-image: url("../static/img/parallax/map-dark.jpg");
 }
 
 .s-map-light {
-	background-image: url("../img/parallax/map-light.jpg");
+	background-image: url("../static/img/parallax/map-light.jpg");
 }
 
 .s-light-abstract {
-	background-image: url("../img/parallax/light-abstract.jpg");
+	background-image: url("../static/img/parallax/light-abstract.jpg");
 }
 
 .s-light-wood {
-	background-image: url("../img/parallax/light-wood.jpg");
+	background-image: url("../static/img/parallax/light-wood.jpg");
 }
 
 /*bordered columns*/
@@ -15818,7 +15818,7 @@ a.logo.flex-column.text-center {
 
 @media (min-width: 1200px) {
 	#search_modal .widget:before {
-		background: url("../images/logo.png") no-repeat 0 0;
+		background: url("../static/images/logo.png") no-repeat 0 0;
 		content: "";
 		height: 100px;
 		opacity: 0.2;
@@ -16173,7 +16173,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 }
 
-/* 
+/*
 ** Intro Section Styles
 */
 .page_slider {
@@ -17507,7 +17507,7 @@ h4.entry-title {
 	text-transform: uppercase;
 }
 
-/* 
+/*
 ** Template Specific Styles
 */
 #box_wrapper > section,
@@ -17650,7 +17650,7 @@ img.absolute_image {
 
 .header_absolute.cover-background,
 .header_absolute.s-parallax {
-	background-image: url("../images/parallax/video_section_background.jpg");
+	background-image: url("../static/images/parallax/video_section_background.jpg");
 }
 
 .contact-info.ds {
@@ -17659,12 +17659,12 @@ img.absolute_image {
 
 .contact-info.cover-background,
 .contact-info.s-parallax {
-	background: url("../images/parallax/footer_bg.jpg") no-repeat fixed center;
+	background: url("../static/images/parallax/footer_bg.jpg") no-repeat fixed center;
 	background-size: cover;
 }
 
 .faq-section-left {
-	background: url("../images/gallery/15.jpg") no-repeat center/cover;
+	background: url("../static/images/gallery/15.jpg") no-repeat center/cover;
 	height: 100%;
 	position: relative;
 }
@@ -17696,7 +17696,7 @@ img.absolute_image {
 
 .page_title.cover-background,
 .page_title.s-parallax {
-	background-image: url("../images/parallax/breadcrumbs.jpg");
+	background-image: url("../static/images/parallax/breadcrumbs.jpg");
 }
 
 .page_title h1,
@@ -17764,18 +17764,18 @@ img.absolute_image {
 }
 
 .page_404 {
-	background-image: url("../images/404.jpg");
+	background-image: url("../static/images/404.jpg");
 }
 
 .about-section {
-	background-image: url("../images/parallax/about_section_background.jpg");
+	background-image: url("../static/images/parallax/about_section_background.jpg");
 	background-position: 50% -10%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .ds.coming-soon {
-	background-image: url("../images/parallax/footer_bg.jpg");
+	background-image: url("../static/images/parallax/footer_bg.jpg");
 }
 
 .ds.coming-soon input {
@@ -17783,13 +17783,13 @@ img.absolute_image {
 }
 
 .team-section {
-	background-image: url("../images/parallax/team-section.jpg");
+	background-image: url("../static/images/parallax/team-section.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .program-section {
-	background-image: url("../images/parallax/programs-bg.jpg");
+	background-image: url("../static/images/parallax/programs-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -17863,7 +17863,7 @@ img.absolute_image {
 }
 
 .page_footer.s-parallax {
-	background-image: url("../images/parallax/footer_bg.jpg");
+	background-image: url("../static/images/parallax/footer_bg.jpg");
 }
 
 @media (max-width: 1200px) {
@@ -17920,7 +17920,7 @@ img.absolute_image {
 
 .page_copyright.cover-background,
 .page_copyright.s-parallax {
-	background-image: url("../images/parallax/breadcrumbs.jpg");
+	background-image: url("../static/images/parallax/breadcrumbs.jpg");
 }
 
 .item-hover-content {

@@ -631,9 +631,9 @@ img { max-width: 100%; }
 
 .cover-image { width: 100%; height: 100%; }
 
-.texture-background { background-image: url(../img/background-texture-cover.jpg); }
+.texture-background { background-image: url(../static/img/background-texture-cover.jpg); }
 
-.pattern-background:before { background-image: url(../img/patterns/pattern1.png); }
+.pattern-background:before { background-image: url(../static/img/patterns/pattern1.png); }
 
 @media (min-width: 768px) { .cover-image { display: block; position: absolute; right: 0; left: 0; top: 0; bottom: 0; background-position: 50% 50%; z-index: 2; }
   .cover-image.s-cover-right { width: 50%; left: auto; }
@@ -718,7 +718,7 @@ img { max-width: 100%; }
 
 .no-js .preloader, .lt-ie9 .preloader, .lt-ie10 .preloader { display: none; }
 
-.preloader_image { width: 256px; height: 256px; position: absolute; left: 50%; top: 50%; background: url(../img/preloader.gif) no-repeat 50% 50% transparent; margin: -128px 0 0 -128px; }
+.preloader_image { width: 256px; height: 256px; position: absolute; left: 50%; top: 50%; background: url(../static/img/preloader.gif) no-repeat 50% 50% transparent; margin: -128px 0 0 -128px; }
 
 /* animated elements */
 .animate { visibility: hidden; }
@@ -736,27 +736,27 @@ img { max-width: 100%; }
 
 body.boxed { position: static; width: auto; height: auto; }
 
-.pattern1 { background-image: url(../img/patterns/pattern1.png); }
+.pattern1 { background-image: url(../static/img/patterns/pattern1.png); }
 
-.pattern2 { background-image: url(../img/patterns/pattern2.png); }
+.pattern2 { background-image: url(../static/img/patterns/pattern2.png); }
 
-.pattern3 { background-image: url(../img/patterns/pattern3.png); }
+.pattern3 { background-image: url(../static/img/patterns/pattern3.png); }
 
-.pattern4 { background-image: url(../img/patterns/pattern4.png); }
+.pattern4 { background-image: url(../static/img/patterns/pattern4.png); }
 
-.pattern5 { background-image: url(../img/patterns/pattern5.png); }
+.pattern5 { background-image: url(../static/img/patterns/pattern5.png); }
 
-.pattern6 { background-image: url(../img/patterns/pattern6.png); }
+.pattern6 { background-image: url(../static/img/patterns/pattern6.png); }
 
-.pattern7 { background-image: url(../img/patterns/pattern7.png); }
+.pattern7 { background-image: url(../static/img/patterns/pattern7.png); }
 
-.pattern8 { background-image: url(../img/patterns/pattern8.png); }
+.pattern8 { background-image: url(../static/img/patterns/pattern8.png); }
 
-.pattern9 { background-image: url(../img/patterns/pattern9.png); }
+.pattern9 { background-image: url(../static/img/patterns/pattern9.png); }
 
-.pattern10 { background-image: url(../img/patterns/pattern10.png); }
+.pattern10 { background-image: url(../static/img/patterns/pattern10.png); }
 
-.pattern11 { background-image: url(../img/patterns/pattern11.png); }
+.pattern11 { background-image: url(../static/img/patterns/pattern11.png); }
 
 .boxed .container { padding-left: 50px; padding-right: 50px; }
 
@@ -769,13 +769,13 @@ body.boxed { position: static; width: auto; height: auto; }
 .boxed #box_wrapper.container.top-bottom-margins { margin-top: 150px; margin-bottom: 120px; }
 
 /*common background sections*/
-.s-map-dark { background-image: url("../img/parallax/map-dark.jpg"); }
+.s-map-dark { background-image: url("../static/img/parallax/map-dark.jpg"); }
 
-.s-map-light { background-image: url("../img/parallax/map-light.jpg"); }
+.s-map-light { background-image: url("../static/img/parallax/map-light.jpg"); }
 
-.s-light-abstract { background-image: url("../img/parallax/light-abstract.jpg"); }
+.s-light-abstract { background-image: url("../static/img/parallax/light-abstract.jpg"); }
 
-.s-light-wood { background-image: url("../img/parallax/light-wood.jpg"); }
+.s-light-wood { background-image: url("../static/img/parallax/light-wood.jpg"); }
 
 /*bordered columns*/
 .c-bordered [class*='col-'] { border: 1px solid #e1e1e1; margin-top: -1px; margin-left: -1px; }

@@ -619,11 +619,13 @@
       "resolve": "/Users/adamtaylor/code/smac",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "311248a2ced6eed0a9f66f66f1a59b05",
+      "version": "c4b8c677cc88747202872e669030d6a7",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/adamtaylor/code/smac",
@@ -633,6 +635,10 @@
         "version": "0.1.0",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "bootstrap",
+            "version": "^4.1.1"
+          },
           {
             "name": "gatsby",
             "version": "^2.3.3"
@@ -675,7 +681,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d388f7131ab6f2f5c900c8bac7d53d91",
+        "contentDigest": "612fa9bb09aaf99c4131ac430544ad96",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -789,12 +795,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-04T01:17:53.619Z",
+      "buildTime": "2019-04-04T22:49:59.668Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "06c013bf77b0ffd4e0d7ef3d409cd754",
+        "contentDigest": "03c2347f462c6a24881750d5da8d5bcf",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -804,7 +810,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "807b1fa551201c1ff87ed8db71512bc1",
+        "contentDigest": "5f3ef3ae6a457ccc4e2c2fec2a9f5c68",
         "type": "Directory",
         "description": "Directory \"src/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -813,11 +819,11 @@
       "absolutePath": "/Users/adamtaylor/code/smac/src/blog",
       "relativePath": "",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-04-04T01:15:46.640Z",
-      "accessTime": "2019-04-04T01:17:56.567Z",
-      "changeTime": "2019-04-04T01:15:46.640Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-04-04T01:18:51.518Z",
+      "accessTime": "2019-04-04T22:50:04.818Z",
+      "changeTime": "2019-04-04T01:18:51.518Z",
       "birthTime": "2019-04-04T01:15:46.640Z",
       "root": "/",
       "dir": "/Users/adamtaylor/code/smac/src",
@@ -827,21 +833,68 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 15582180,
       "blocks": 0,
-      "atimeMs": 1554340676566.9792,
-      "mtimeMs": 1554340546639.732,
-      "ctimeMs": 1554340546639.732,
+      "atimeMs": 1554418204818.1948,
+      "mtimeMs": 1554340731518.1133,
+      "ctimeMs": 1554340731518.1133,
       "birthtimeMs": 1554340546639.65,
-      "atime": "2019-04-04T01:17:56.567Z",
-      "mtime": "2019-04-04T01:15:46.640Z",
-      "ctime": "2019-04-04T01:15:46.640Z",
+      "atime": "2019-04-04T22:50:04.818Z",
+      "mtime": "2019-04-04T01:18:51.518Z",
+      "ctime": "2019-04-04T01:18:51.518Z",
       "birthtime": "2019-04-04T01:15:46.640Z"
+    },
+    "b91f95f6-37fe-5916-b1f3-c95581a56769": {
+      "id": "b91f95f6-37fe-5916-b1f3-c95581a56769",
+      "children": [
+        "d4c7231a-760a-5d98-9904-ad86615d810b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "28d5dafbcbd5a68913df64269006114d",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/blog/2019-04-03-yo-dis-my-first-blog.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/adamtaylor/code/smac/src/blog/2019-04-03-yo-dis-my-first-blog.md",
+      "relativePath": "2019-04-03-yo-dis-my-first-blog.md",
+      "extension": "md",
+      "size": 85,
+      "prettySize": "85 B",
+      "modifiedTime": "2019-04-04T01:18:51.518Z",
+      "accessTime": "2019-04-04T04:35:28.553Z",
+      "changeTime": "2019-04-04T01:18:51.518Z",
+      "birthTime": "2019-04-04T01:18:51.518Z",
+      "root": "/",
+      "dir": "/Users/adamtaylor/code/smac/src/blog",
+      "base": "2019-04-03-yo-dis-my-first-blog.md",
+      "ext": ".md",
+      "name": "2019-04-03-yo-dis-my-first-blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 15583233,
+      "blocks": 8,
+      "atimeMs": 1554352528553.482,
+      "mtimeMs": 1554340731518.3228,
+      "ctimeMs": 1554340731518.3228,
+      "birthtimeMs": 1554340731518.103,
+      "atime": "2019-04-04T04:35:28.553Z",
+      "mtime": "2019-04-04T01:18:51.518Z",
+      "ctime": "2019-04-04T01:18:51.518Z",
+      "birthtime": "2019-04-04T01:18:51.518Z"
     },
     "8b9fb424-df14-5104-acfe-fe13f0e05454": {
       "id": "8b9fb424-df14-5104-acfe-fe13f0e05454",
@@ -862,10 +915,10 @@
       "extension": "md",
       "size": 83,
       "prettySize": "83 B",
-      "modifiedTime": "2019-04-04T01:08:13.388Z",
-      "accessTime": "2019-04-04T01:08:13.388Z",
-      "changeTime": "2019-04-04T01:08:13.389Z",
-      "birthTime": "2019-04-04T01:08:13.388Z",
+      "modifiedTime": "2019-04-04T01:15:46.640Z",
+      "accessTime": "2019-04-04T04:35:28.554Z",
+      "changeTime": "2019-04-04T01:15:46.640Z",
+      "birthTime": "2019-04-04T01:15:46.640Z",
       "root": "/",
       "dir": "/Users/adamtaylor/code/smac/src/blog",
       "base": "placeholder.md",
@@ -879,16 +932,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 15579882,
+      "ino": 15582181,
       "blocks": 8,
-      "atimeMs": 1554340093387.9722,
-      "mtimeMs": 1554340093388.0571,
-      "ctimeMs": 1554340093388.5608,
-      "birthtimeMs": 1554340093387.9722,
-      "atime": "2019-04-04T01:08:13.388Z",
-      "mtime": "2019-04-04T01:08:13.388Z",
-      "ctime": "2019-04-04T01:08:13.389Z",
-      "birthtime": "2019-04-04T01:08:13.388Z"
+      "atimeMs": 1554352528553.5168,
+      "mtimeMs": 1554340546639.885,
+      "ctimeMs": 1554340546639.885,
+      "birthtimeMs": 1554340546639.716,
+      "atime": "2019-04-04T04:35:28.554Z",
+      "mtime": "2019-04-04T01:15:46.640Z",
+      "ctime": "2019-04-04T01:15:46.640Z",
+      "birthtime": "2019-04-04T01:15:46.640Z"
     },
     "a357f6cb-1f39-5a35-a7a8-95b77e4a5eea": {
       "id": "a357f6cb-1f39-5a35-a7a8-95b77e4a5eea",
@@ -908,6 +961,46 @@
       "excerpt": "",
       "rawMarkdownBody": "",
       "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/blog/placeholder.md"
+    },
+    "d4c7231a-760a-5d98-9904-ad86615d810b": {
+      "id": "d4c7231a-760a-5d98-9904-ad86615d810b",
+      "children": [],
+      "parent": "b91f95f6-37fe-5916-b1f3-c95581a56769",
+      "internal": {
+        "content": "heyo\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "78638be6c2d5d29cc06af059fabfb70b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "YO dis my first blog",
+        "layout": "blog",
+        "date": "2019-04-04T01:18:06.526Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "heyo\n",
+      "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/blog/2019-04-03-yo-dis-my-first-blog.md"
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8f815640b7dcf269f8c2cd3bc3616440",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /": {
       "jsonName": "index",
@@ -933,7 +1026,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "cd10e9f3205c5e752262ce48e346cd37"
+    "PLUGINS_HASH": "88e7d6c61ad1aaa2ef9c74ab515ec436"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -941,7 +1034,8 @@
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8"
+    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
     "/Users/adamtaylor/code/smac/.cache/dev-404-page.js": {
@@ -950,7 +1044,15 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/about.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/about.js",
+      "query": "",
+      "pages": [
+        "/about/"
+      ],
+      "isInBootstrap": false
     },
     "/Users/adamtaylor/code/smac/src/pages/index.js": {
       "componentPath": "/Users/adamtaylor/code/smac/src/pages/index.js",
@@ -958,7 +1060,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {}

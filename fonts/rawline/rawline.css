@@ -100,7 +100,7 @@
 	src: url('rawline-500.eot?#iefix') format('embedded-opentype'),
 		 url('rawline-500.woff2') format('woff2'),
 		 url('rawline-500.woff') format('woff'),
-		 url('rawline-.ttf') format('truetype'),
+		 url('rawline-500.ttf') format('truetype'),
 		 url('rawline-500.svg') format('svg');
 	font-weight: 500;
 	font-style: normal;

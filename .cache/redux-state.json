@@ -162,39 +162,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/adamtaylor/code/smac/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
-      "name": "query-runner",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamtaylor/code/smac/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "packageJson": {
-        "name": "query-runner",
-        "description": "Internal plugin for running queries",
-        "version": "1.0.0",
-        "main": "index.js",
-        "author": "",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "74688d30590d3012af1bad8381395e00",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
       "resolve": "/Users/adamtaylor/code/smac/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
@@ -641,7 +608,7 @@
           },
           {
             "name": "gatsby",
-            "version": "^2.3.3"
+            "version": "^2.3.13"
           },
           {
             "name": "gatsby-plugin-netlify-cms",
@@ -654,6 +621,10 @@
           {
             "name": "gatsby-transformer-remark",
             "version": "^2.3.8"
+          },
+          {
+            "name": "google-maps",
+            "version": "^3.3.0"
           },
           {
             "name": "netlify-cms",
@@ -791,16 +762,16 @@
     },
     "Site": {
       "siteMetadata": {},
-      "port": "8000",
+      "port": 8000,
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-04T22:49:59.668Z",
+      "buildTime": "2019-04-05T02:29:03.448Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "03c2347f462c6a24881750d5da8d5bcf",
+        "contentDigest": "fd2e74ddb7e8a681ddc4ee7727f73089",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -810,7 +781,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "5f3ef3ae6a457ccc4e2c2fec2a9f5c68",
+        "contentDigest": "0e4f85355e2ce317337c81ff389d0180",
         "type": "Directory",
         "description": "Directory \"src/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -822,7 +793,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-04-04T01:18:51.518Z",
-      "accessTime": "2019-04-04T22:50:04.818Z",
+      "accessTime": "2019-04-05T02:29:07.403Z",
       "changeTime": "2019-04-04T01:18:51.518Z",
       "birthTime": "2019-04-04T01:15:46.640Z",
       "root": "/",
@@ -840,13 +811,60 @@
       "blksize": 4194304,
       "ino": 15582180,
       "blocks": 0,
-      "atimeMs": 1554418204818.1948,
+      "atimeMs": 1554431347402.6228,
       "mtimeMs": 1554340731518.1133,
       "ctimeMs": 1554340731518.1133,
       "birthtimeMs": 1554340546639.65,
-      "atime": "2019-04-04T22:50:04.818Z",
+      "atime": "2019-04-05T02:29:07.403Z",
       "mtime": "2019-04-04T01:18:51.518Z",
       "ctime": "2019-04-04T01:18:51.518Z",
+      "birthtime": "2019-04-04T01:15:46.640Z"
+    },
+    "8b9fb424-df14-5104-acfe-fe13f0e05454": {
+      "id": "8b9fb424-df14-5104-acfe-fe13f0e05454",
+      "children": [
+        "a357f6cb-1f39-5a35-a7a8-95b77e4a5eea"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c13a31cf8319da36447c706ba347e613",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/blog/placeholder.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/adamtaylor/code/smac/src/blog/placeholder.md",
+      "relativePath": "placeholder.md",
+      "extension": "md",
+      "size": 83,
+      "prettySize": "83 B",
+      "modifiedTime": "2019-04-04T01:15:46.640Z",
+      "accessTime": "2019-04-05T01:00:59.490Z",
+      "changeTime": "2019-04-04T01:15:46.640Z",
+      "birthTime": "2019-04-04T01:15:46.640Z",
+      "root": "/",
+      "dir": "/Users/adamtaylor/code/smac/src/blog",
+      "base": "placeholder.md",
+      "ext": ".md",
+      "name": "placeholder",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 15582181,
+      "blocks": 8,
+      "atimeMs": 1554426059489.585,
+      "mtimeMs": 1554340546639.885,
+      "ctimeMs": 1554340546639.885,
+      "birthtimeMs": 1554340546639.716,
+      "atime": "2019-04-05T01:00:59.490Z",
+      "mtime": "2019-04-04T01:15:46.640Z",
+      "ctime": "2019-04-04T01:15:46.640Z",
       "birthtime": "2019-04-04T01:15:46.640Z"
     },
     "b91f95f6-37fe-5916-b1f3-c95581a56769": {
@@ -869,7 +887,7 @@
       "size": 85,
       "prettySize": "85 B",
       "modifiedTime": "2019-04-04T01:18:51.518Z",
-      "accessTime": "2019-04-04T04:35:28.553Z",
+      "accessTime": "2019-04-05T01:00:59.490Z",
       "changeTime": "2019-04-04T01:18:51.518Z",
       "birthTime": "2019-04-04T01:18:51.518Z",
       "root": "/",
@@ -887,61 +905,14 @@
       "blksize": 4194304,
       "ino": 15583233,
       "blocks": 8,
-      "atimeMs": 1554352528553.482,
+      "atimeMs": 1554426059489.547,
       "mtimeMs": 1554340731518.3228,
       "ctimeMs": 1554340731518.3228,
       "birthtimeMs": 1554340731518.103,
-      "atime": "2019-04-04T04:35:28.553Z",
+      "atime": "2019-04-05T01:00:59.490Z",
       "mtime": "2019-04-04T01:18:51.518Z",
       "ctime": "2019-04-04T01:18:51.518Z",
       "birthtime": "2019-04-04T01:18:51.518Z"
-    },
-    "8b9fb424-df14-5104-acfe-fe13f0e05454": {
-      "id": "8b9fb424-df14-5104-acfe-fe13f0e05454",
-      "children": [
-        "a357f6cb-1f39-5a35-a7a8-95b77e4a5eea"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "c13a31cf8319da36447c706ba347e613",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/blog/placeholder.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "markdown-pages",
-      "absolutePath": "/Users/adamtaylor/code/smac/src/blog/placeholder.md",
-      "relativePath": "placeholder.md",
-      "extension": "md",
-      "size": 83,
-      "prettySize": "83 B",
-      "modifiedTime": "2019-04-04T01:15:46.640Z",
-      "accessTime": "2019-04-04T04:35:28.554Z",
-      "changeTime": "2019-04-04T01:15:46.640Z",
-      "birthTime": "2019-04-04T01:15:46.640Z",
-      "root": "/",
-      "dir": "/Users/adamtaylor/code/smac/src/blog",
-      "base": "placeholder.md",
-      "ext": ".md",
-      "name": "placeholder",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 15582181,
-      "blocks": 8,
-      "atimeMs": 1554352528553.5168,
-      "mtimeMs": 1554340546639.885,
-      "ctimeMs": 1554340546639.885,
-      "birthtimeMs": 1554340546639.716,
-      "atime": "2019-04-04T04:35:28.554Z",
-      "mtime": "2019-04-04T01:15:46.640Z",
-      "ctime": "2019-04-04T01:15:46.640Z",
-      "birthtime": "2019-04-04T01:15:46.640Z"
     },
     "a357f6cb-1f39-5a35-a7a8-95b77e4a5eea": {
       "id": "a357f6cb-1f39-5a35-a7a8-95b77e4a5eea",
@@ -1022,11 +993,179 @@
         "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /history/": {
+      "jsonName": "history-dc6",
+      "internalComponentName": "ComponentHistory",
+      "path": "/history/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/history.js",
+      "componentChunkName": "component---src-pages-history-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/history.js",
+      "id": "SitePage /history/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a72abe557e482ef05098617b01da0cb5",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /testimonials/": {
+      "jsonName": "testimonials-534",
+      "internalComponentName": "ComponentTestimonials",
+      "path": "/testimonials/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/testimonials.js",
+      "componentChunkName": "component---src-pages-testimonials-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/testimonials.js",
+      "id": "SitePage /testimonials/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "90dbe2e06ae966f38b479989ec012b99",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /team/": {
+      "jsonName": "team-a07",
+      "internalComponentName": "ComponentTeam",
+      "path": "/team/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/team.js",
+      "componentChunkName": "component---src-pages-team-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/team.js",
+      "id": "SitePage /team/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "296dc884d0e0775c7383d8736c943fe2",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /services/": {
+      "jsonName": "services-522",
+      "internalComponentName": "ComponentServices",
+      "path": "/services/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/services.js",
+      "componentChunkName": "component---src-pages-services-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/services.js",
+      "id": "SitePage /services/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d6c8a24cc1704358e1cd4914431ae827",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /events_news/": {
+      "jsonName": "events-news-ab0",
+      "internalComponentName": "ComponentEventsNews",
+      "path": "/events_news/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/events_news.js",
+      "componentChunkName": "component---src-pages-events-news-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/events_news.js",
+      "id": "SitePage /events_news/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "88a9105994c9a95367318a956dc78268",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /classes/": {
+      "jsonName": "classes-2c5",
+      "internalComponentName": "ComponentClasses",
+      "path": "/classes/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/classes.js",
+      "componentChunkName": "component---src-pages-classes-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/classes.js",
+      "id": "SitePage /classes/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "013c0aeb7f96c4fc6f117d24ceeb6261",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /schedule/": {
+      "jsonName": "schedule-f57",
+      "internalComponentName": "ComponentSchedule",
+      "path": "/schedule/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/schedule.js",
+      "componentChunkName": "component---src-pages-schedule-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/schedule.js",
+      "id": "SitePage /schedule/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3bea7a1674a5c846b47a872f35abd863",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/adamtaylor/code/smac/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "pluginCreatorId": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fed969fb3c36b2e0485dafab2248bad4",
+        "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "88e7d6c61ad1aaa2ef9c74ab515ec436"
+    "PLUGINS_HASH": "25a0fa1439173854da9c18a7fc28179c"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -1035,7 +1174,15 @@
   "jsonDataPaths": {
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8"
+    "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "history-dc6": "521/path---history-dc-6-fea-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "testimonials-534": "333/path---testimonials-534-731-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "team-a07": "857/path---team-a-07-82c-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "services-522": "984/path---services-522-7f2-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "events-news-ab0": "838/path---events-news-ab-0-89d-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "classes-2c5": "687/path---classes-2-c-5-070-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "schedule-f57": "638/path---schedule-f-57-338-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "contact-26a": "279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
     "/Users/adamtaylor/code/smac/.cache/dev-404-page.js": {
@@ -1059,6 +1206,70 @@
       "query": "",
       "pages": [
         "/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/history.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/history.js",
+      "query": "",
+      "pages": [
+        "/history/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/testimonials.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/testimonials.js",
+      "query": "",
+      "pages": [
+        "/testimonials/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/team.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/team.js",
+      "query": "",
+      "pages": [
+        "/team/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/services.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/services.js",
+      "query": "",
+      "pages": [
+        "/services/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/events_news.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/events_news.js",
+      "query": "",
+      "pages": [
+        "/events_news/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/classes.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/classes.js",
+      "query": "",
+      "pages": [
+        "/classes/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/schedule.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/schedule.js",
+      "query": "",
+      "pages": [
+        "/schedule/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/adamtaylor/code/smac/src/pages/contact.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/contact.js",
+      "query": "",
+      "pages": [
+        "/contact/"
       ],
       "isInBootstrap": false
     }

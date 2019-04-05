@@ -10,8 +10,48 @@
         "path": "/about/"
     },
     {
+        "componentChunkName": "component---src-pages-classes-js",
+        "jsonName": "classes-2c5",
+        "path": "/classes/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "jsonName": "contact-26a",
+        "path": "/contact/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-events-news-js",
+        "jsonName": "events-news-ab0",
+        "path": "/events_news/"
+    },
+    {
+        "componentChunkName": "component---src-pages-history-js",
+        "jsonName": "history-dc6",
+        "path": "/history/"
+    },
+    {
+        "componentChunkName": "component---src-pages-schedule-js",
+        "jsonName": "schedule-f57",
+        "path": "/schedule/"
+    },
+    {
+        "componentChunkName": "component---src-pages-services-js",
+        "jsonName": "services-522",
+        "path": "/services/"
+    },
+    {
+        "componentChunkName": "component---src-pages-team-js",
+        "jsonName": "team-a07",
+        "path": "/team/"
+    },
+    {
+        "componentChunkName": "component---src-pages-testimonials-js",
+        "jsonName": "testimonials-534",
+        "path": "/testimonials/"
     }
 ]

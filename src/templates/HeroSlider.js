@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 
-class HeroSlider extends Component {
+export default class HeroSlider extends Component {
 
     // Need this so that jQuery controls the component, not React
     shouldComponentUpdate() {
@@ -9,6 +9,8 @@ class HeroSlider extends Component {
     }
 
     componentDidMount() {
+        window.jQuery = window.$ = $;
+        require('../../static/js/vendor/jquery.flexslider-min.js');
         if ($().flexslider) {
             var $introSlider = $(".page_slider .flexslider");
             $introSlider.each(function(index){
@@ -86,30 +88,30 @@ class HeroSlider extends Component {
 
     render() {
         return (
-            <section classname="page_slider">
-                <div classname="flexslider">
-                    <ul classname="slides">
-                        <li classname="ds text-left">
+            <section className="page_slider">
+                <div className="flexslider">
+                    <ul className="slides">
+                        <li className="ds text-left">
                             <img src="images/slide01.jpg" alt=""/>
-                            <div classname="container">
-                                <div classname="row">
-                                    <div classname="col-md-12">
-                                        <div classname="intro_layers_wrapper intro_text_bottom">
-                                            <div classname="intro_layers">
-                                                <div classname="intro_layer" data-animation="fadeinright">
-                                                    <h2 classname="intro_featured_word special-heading">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <div className="intro_layers_wrapper intro_text_bottom">
+                                            <div className="intro_layers">
+                                                <div className="intro_layer" data-animation="fadeinright">
+                                                    <h2 className="intro_featured_word special-heading">
                                                         welcome to <br/> karate and martial <br/> arts school
                                                     </h2>
                                                 </div>
-                                                <div classname="intro_layer short"
+                                                <div className="intro_layer short"
                                                      data-animation="fadeinright">
-                                                    <p classname="intro_before_featured_word">karate is
+                                                    <p className="intro_before_featured_word">karate is
                                                         martial art and way of life that trains
                                                         <br/> a practitioner to be peaceful.</p>
                                                 </div>
-                                                <div classname="intro_layer button"
+                                                <div className="intro_layer button"
                                                      data-animation="fadeinleft">
-                                                    <button classname="btn btn-maincolor intro_button">get a
+                                                    <button className="btn btn-maincolor intro_button">get a
                                                         free lesson
                                                     </button>
                                                 </div>

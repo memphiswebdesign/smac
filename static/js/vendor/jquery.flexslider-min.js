@@ -1,3 +1,4 @@
+/* eslint-disable */
 /*
  * jQuery FlexSlider v2.6.3
  * Copyright 2012 WooThemes

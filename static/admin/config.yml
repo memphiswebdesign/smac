@@ -16,3 +16,17 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Type", name: "blog", widget: "hidden", default: "blog" }
+  - name: events
+    label: Events
+    folder: src/events
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    fields:
+      - {label: "Name", name: "name", widget: "string" }
+      - {label: "Date", name: "date", widget: "datetime" }
+      - {label: "Location", name: "location", widget: "string" }
+      - {label: "Featured Image", name: "featured-image", widget: "image" }
+      - {label: "Body", name: "body", widget: "markdown" }
+      - {label: "Type", name: "event", widget: "hidden", default: "event" }

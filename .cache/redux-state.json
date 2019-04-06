@@ -308,15 +308,15 @@
         "owner": "internal-data-bridge"
       }
     },
-    "d61cee96-9725-54ac-a372-ef533f7a6da5": {
+    "fb75bd71-5050-50e8-973f-a5f240bff7df": {
       "resolve": "/Users/adamtaylor/code/smac/node_modules/gatsby-source-filesystem",
-      "id": "d61cee96-9725-54ac-a372-ef533f7a6da5",
+      "id": "fb75bd71-5050-50e8-973f-a5f240bff7df",
       "name": "gatsby-source-filesystem",
       "version": "2.0.28",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/adamtaylor/code/smac/src/blog",
-        "name": "markdown-pages"
+        "name": "blog"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -430,7 +430,134 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "df21e4e992a7863d68c1b7beb06a89df",
+        "contentDigest": "51a13b739fb5fca4bc46b6685bd16269",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0997fb19-ba18-5d7b-b8c2-41bb47f8bcfa": {
+      "resolve": "/Users/adamtaylor/code/smac/node_modules/gatsby-source-filesystem",
+      "id": "0997fb19-ba18-5d7b-b8c2-41bb47f8bcfa",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/adamtaylor/code/smac/src/events",
+        "name": "events"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamtaylor/code/smac/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b42245f52626ba4a4a39727852c8125a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -586,7 +713,7 @@
       "resolve": "/Users/adamtaylor/code/smac",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "c4b8c677cc88747202872e669030d6a7",
+      "version": "da74023b8d81b7b8ea023561795c977a",
       "pluginOptions": {
         "plugins": []
       },
@@ -652,7 +779,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "612fa9bb09aaf99c4131ac430544ad96",
+        "contentDigest": "985a29423bd68559e06c6c0ad94693c4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -764,14 +891,12 @@
       "siteMetadata": {},
       "port": 8000,
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-04-05T03:05:58.371Z",
+      "buildTime": "2019-04-06T22:01:24.731Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8577d9905a2dadf8b636e394e11b6246",
+        "contentDigest": "fe57edbc3def68a8038da7c5357d6b20",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -781,20 +906,20 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "93aa0948462a6aab4e9e61847784df20",
+        "contentDigest": "e1157c6cc20911d4bd48c653a49143e1",
         "type": "Directory",
         "description": "Directory \"src/blog\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "markdown-pages",
+      "sourceInstanceName": "blog",
       "absolutePath": "/Users/adamtaylor/code/smac/src/blog",
       "relativePath": "",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2019-04-04T01:18:51.518Z",
-      "accessTime": "2019-04-05T03:06:03.051Z",
-      "changeTime": "2019-04-04T01:18:51.518Z",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-04-06T18:04:34.686Z",
+      "accessTime": "2019-04-06T22:01:28.957Z",
+      "changeTime": "2019-04-06T18:04:34.686Z",
       "birthTime": "2019-04-04T01:15:46.640Z",
       "root": "/",
       "dir": "/Users/adamtaylor/code/smac/src",
@@ -804,21 +929,115 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 5,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 15582180,
       "blocks": 0,
-      "atimeMs": 1554433563050.7466,
-      "mtimeMs": 1554340731518.1133,
-      "ctimeMs": 1554340731518.1133,
+      "atimeMs": 1554588088956.9514,
+      "mtimeMs": 1554573874685.9856,
+      "ctimeMs": 1554573874685.9856,
       "birthtimeMs": 1554340546639.65,
-      "atime": "2019-04-05T03:06:03.051Z",
-      "mtime": "2019-04-04T01:18:51.518Z",
-      "ctime": "2019-04-04T01:18:51.518Z",
+      "atime": "2019-04-06T22:01:28.957Z",
+      "mtime": "2019-04-06T18:04:34.686Z",
+      "ctime": "2019-04-06T18:04:34.686Z",
       "birthtime": "2019-04-04T01:15:46.640Z"
+    },
+    "b91f95f6-37fe-5916-b1f3-c95581a56769": {
+      "id": "b91f95f6-37fe-5916-b1f3-c95581a56769",
+      "children": [
+        "d4c7231a-760a-5d98-9904-ad86615d810b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "81f22423441c85f1c9801840e0efe817",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/blog/2019-04-03-yo-dis-my-first-blog.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/adamtaylor/code/smac/src/blog/2019-04-03-yo-dis-my-first-blog.md",
+      "relativePath": "2019-04-03-yo-dis-my-first-blog.md",
+      "extension": "md",
+      "size": 392,
+      "prettySize": "392 B",
+      "modifiedTime": "2019-04-06T18:04:34.686Z",
+      "accessTime": "2019-04-06T18:18:50.264Z",
+      "changeTime": "2019-04-06T18:04:34.686Z",
+      "birthTime": "2019-04-06T18:04:34.686Z",
+      "root": "/",
+      "dir": "/Users/adamtaylor/code/smac/src/blog",
+      "base": "2019-04-03-yo-dis-my-first-blog.md",
+      "ext": ".md",
+      "name": "2019-04-03-yo-dis-my-first-blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16181742,
+      "blocks": 8,
+      "atimeMs": 1554574730264.281,
+      "mtimeMs": 1554573874685.877,
+      "ctimeMs": 1554573874685.877,
+      "birthtimeMs": 1554573874685.7434,
+      "atime": "2019-04-06T18:18:50.264Z",
+      "mtime": "2019-04-06T18:04:34.686Z",
+      "ctime": "2019-04-06T18:04:34.686Z",
+      "birthtime": "2019-04-06T18:04:34.686Z"
+    },
+    "bc2e2678-d600-50ff-906a-34e3ac54593d": {
+      "id": "bc2e2678-d600-50ff-906a-34e3ac54593d",
+      "children": [
+        "a255e4d5-47ac-5e40-9498-48ea07d01925"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a0d5cf8434e2c2f049bcb67341ff0929",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/blog/2019-04-06-elis-first-blog.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/adamtaylor/code/smac/src/blog/2019-04-06-elis-first-blog.md",
+      "relativePath": "2019-04-06-elis-first-blog.md",
+      "extension": "md",
+      "size": 146,
+      "prettySize": "146 B",
+      "modifiedTime": "2019-04-06T18:04:34.686Z",
+      "accessTime": "2019-04-06T18:18:50.264Z",
+      "changeTime": "2019-04-06T18:04:34.686Z",
+      "birthTime": "2019-04-06T18:04:34.686Z",
+      "root": "/",
+      "dir": "/Users/adamtaylor/code/smac/src/blog",
+      "base": "2019-04-06-elis-first-blog.md",
+      "ext": ".md",
+      "name": "2019-04-06-elis-first-blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16181743,
+      "blocks": 8,
+      "atimeMs": 1554574730264.3218,
+      "mtimeMs": 1554573874686.0947,
+      "ctimeMs": 1554573874686.0947,
+      "birthtimeMs": 1554573874685.9785,
+      "atime": "2019-04-06T18:18:50.264Z",
+      "mtime": "2019-04-06T18:04:34.686Z",
+      "ctime": "2019-04-06T18:04:34.686Z",
+      "birthtime": "2019-04-06T18:04:34.686Z"
     },
     "8b9fb424-df14-5104-acfe-fe13f0e05454": {
       "id": "8b9fb424-df14-5104-acfe-fe13f0e05454",
@@ -833,14 +1052,14 @@
         "description": "File \"src/blog/placeholder.md\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "markdown-pages",
+      "sourceInstanceName": "blog",
       "absolutePath": "/Users/adamtaylor/code/smac/src/blog/placeholder.md",
       "relativePath": "placeholder.md",
       "extension": "md",
       "size": 83,
       "prettySize": "83 B",
       "modifiedTime": "2019-04-04T01:15:46.640Z",
-      "accessTime": "2019-04-05T01:00:59.490Z",
+      "accessTime": "2019-04-06T18:18:50.264Z",
       "changeTime": "2019-04-04T01:15:46.640Z",
       "birthTime": "2019-04-04T01:15:46.640Z",
       "root": "/",
@@ -858,61 +1077,52 @@
       "blksize": 4194304,
       "ino": 15582181,
       "blocks": 8,
-      "atimeMs": 1554426059489.585,
+      "atimeMs": 1554574730264.3555,
       "mtimeMs": 1554340546639.885,
       "ctimeMs": 1554340546639.885,
       "birthtimeMs": 1554340546639.716,
-      "atime": "2019-04-05T01:00:59.490Z",
+      "atime": "2019-04-06T18:18:50.264Z",
       "mtime": "2019-04-04T01:15:46.640Z",
       "ctime": "2019-04-04T01:15:46.640Z",
       "birthtime": "2019-04-04T01:15:46.640Z"
     },
-    "b91f95f6-37fe-5916-b1f3-c95581a56769": {
-      "id": "b91f95f6-37fe-5916-b1f3-c95581a56769",
-      "children": [
-        "d4c7231a-760a-5d98-9904-ad86615d810b"
-      ],
-      "parent": null,
+    "d4c7231a-760a-5d98-9904-ad86615d810b": {
+      "id": "d4c7231a-760a-5d98-9904-ad86615d810b",
+      "children": [],
+      "parent": "b91f95f6-37fe-5916-b1f3-c95581a56769",
       "internal": {
-        "contentDigest": "28d5dafbcbd5a68913df64269006114d",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/blog/2019-04-03-yo-dis-my-first-blog.md\"",
-        "owner": "gatsby-source-filesystem"
+        "content": "heyo\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0HpYEZ86Wuc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nadfadfjdfdf\n\n\n\n![hello](/assets/zay-eb.jpg \"Eli & Zay\")\n\nmore text below the image\n\nasdfadsf\n\nsadfasd\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "7009f39b8f1100bdfe16251b6836ee07",
+        "owner": "gatsby-transformer-remark"
       },
-      "sourceInstanceName": "markdown-pages",
-      "absolutePath": "/Users/adamtaylor/code/smac/src/blog/2019-04-03-yo-dis-my-first-blog.md",
-      "relativePath": "2019-04-03-yo-dis-my-first-blog.md",
-      "extension": "md",
-      "size": 85,
-      "prettySize": "85 B",
-      "modifiedTime": "2019-04-04T01:18:51.518Z",
-      "accessTime": "2019-04-05T01:00:59.490Z",
-      "changeTime": "2019-04-04T01:18:51.518Z",
-      "birthTime": "2019-04-04T01:18:51.518Z",
-      "root": "/",
-      "dir": "/Users/adamtaylor/code/smac/src/blog",
-      "base": "2019-04-03-yo-dis-my-first-blog.md",
-      "ext": ".md",
-      "name": "2019-04-03-yo-dis-my-first-blog",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 15583233,
-      "blocks": 8,
-      "atimeMs": 1554426059489.547,
-      "mtimeMs": 1554340731518.3228,
-      "ctimeMs": 1554340731518.3228,
-      "birthtimeMs": 1554340731518.103,
-      "atime": "2019-04-05T01:00:59.490Z",
-      "mtime": "2019-04-04T01:18:51.518Z",
-      "ctime": "2019-04-04T01:18:51.518Z",
-      "birthtime": "2019-04-04T01:18:51.518Z"
+      "frontmatter": {
+        "title": "YO dis my first blog",
+        "layout": "blog",
+        "date": "2019-04-04T01:18:06.526Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "heyo\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0HpYEZ86Wuc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nadfadfjdfdf\n\n\n\n![hello](/assets/zay-eb.jpg \"Eli & Zay\")\n\nmore text below the image\n\nasdfadsf\n\nsadfasd\n",
+      "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/blog/2019-04-03-yo-dis-my-first-blog.md"
+    },
+    "a255e4d5-47ac-5e40-9498-48ea07d01925": {
+      "id": "a255e4d5-47ac-5e40-9498-48ea07d01925",
+      "children": [],
+      "parent": "bc2e2678-d600-50ff-906a-34e3ac54593d",
+      "internal": {
+        "content": "**April Fools!**\n\n# My First blog post!@\n\n\n\n[Hello World](google.com)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "cd95dee974bf209382ad21dc1bf28887",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Eli's First Blog",
+        "layout": "blog",
+        "date": "2019-04-01T16:57:04.995Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "**April Fools!**\n\n# My First blog post!@\n\n\n\n[Hello World](google.com)\n",
+      "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/blog/2019-04-06-elis-first-blog.md"
     },
     "a357f6cb-1f39-5a35-a7a8-95b77e4a5eea": {
       "id": "a357f6cb-1f39-5a35-a7a8-95b77e4a5eea",
@@ -933,24 +1143,185 @@
       "rawMarkdownBody": "",
       "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/blog/placeholder.md"
     },
-    "d4c7231a-760a-5d98-9904-ad86615d810b": {
-      "id": "d4c7231a-760a-5d98-9904-ad86615d810b",
+    "e03dc382-b47a-570b-9d0b-89aaef449381": {
+      "id": "e03dc382-b47a-570b-9d0b-89aaef449381",
       "children": [],
-      "parent": "b91f95f6-37fe-5916-b1f3-c95581a56769",
+      "parent": null,
       "internal": {
-        "content": "heyo\n",
+        "contentDigest": "85274ce763ab4b2d9eb81db6ca8ecb4c",
+        "type": "Directory",
+        "description": "Directory \"src/events\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "events",
+      "absolutePath": "/Users/adamtaylor/code/smac/src/events",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-04-06T21:51:43.648Z",
+      "accessTime": "2019-04-06T22:01:28.967Z",
+      "changeTime": "2019-04-06T21:51:43.648Z",
+      "birthTime": "2019-04-06T21:49:05.086Z",
+      "root": "/",
+      "dir": "/Users/adamtaylor/code/smac/src",
+      "base": "events",
+      "ext": "",
+      "name": "events",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16208515,
+      "blocks": 0,
+      "atimeMs": 1554588088966.7915,
+      "mtimeMs": 1554587503648.1948,
+      "ctimeMs": 1554587503648.1948,
+      "birthtimeMs": 1554587345085.8948,
+      "atime": "2019-04-06T22:01:28.967Z",
+      "mtime": "2019-04-06T21:51:43.648Z",
+      "ctime": "2019-04-06T21:51:43.648Z",
+      "birthtime": "2019-04-06T21:49:05.086Z"
+    },
+    "e6ab039a-b2d1-5f17-95f2-c4d717664a39": {
+      "id": "e6ab039a-b2d1-5f17-95f2-c4d717664a39",
+      "children": [
+        "ffa588d2-2855-54bb-bd29-264bcf66e6e3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cc4ecf41a75453179d54cf7d23eb5997",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/events/new-event.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "events",
+      "absolutePath": "/Users/adamtaylor/code/smac/src/events/new-event.md",
+      "relativePath": "new-event.md",
+      "extension": "md",
+      "size": 152,
+      "prettySize": "152 B",
+      "modifiedTime": "2019-04-06T21:49:05.086Z",
+      "accessTime": "2019-04-06T21:49:05.174Z",
+      "changeTime": "2019-04-06T21:49:05.086Z",
+      "birthTime": "2019-04-06T21:49:05.086Z",
+      "root": "/",
+      "dir": "/Users/adamtaylor/code/smac/src/events",
+      "base": "new-event.md",
+      "ext": ".md",
+      "name": "new-event",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16208516,
+      "blocks": 8,
+      "atimeMs": 1554587345174.3289,
+      "mtimeMs": 1554587345086.0881,
+      "ctimeMs": 1554587345086.0881,
+      "birthtimeMs": 1554587345085.9602,
+      "atime": "2019-04-06T21:49:05.174Z",
+      "mtime": "2019-04-06T21:49:05.086Z",
+      "ctime": "2019-04-06T21:49:05.086Z",
+      "birthtime": "2019-04-06T21:49:05.086Z"
+    },
+    "ffa588d2-2855-54bb-bd29-264bcf66e6e3": {
+      "id": "ffa588d2-2855-54bb-bd29-264bcf66e6e3",
+      "children": [],
+      "parent": "e6ab039a-b2d1-5f17-95f2-c4d717664a39",
+      "internal": {
+        "content": "This is the best event ever.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "78638be6c2d5d29cc06af059fabfb70b",
+        "contentDigest": "a7d1fd06e4364e10ab98fc3744fc3fee",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
-        "title": "YO dis my first blog",
-        "layout": "blog",
-        "date": "2019-04-04T01:18:06.526Z"
+        "title": "",
+        "name": "The Best Event Ever",
+        "date": "2019-04-06T21:47:54.420Z",
+        "location": "Adam's Place",
+        "featured-image": "/assets/idunno.jpg"
       },
       "excerpt": "",
-      "rawMarkdownBody": "heyo\n",
-      "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/blog/2019-04-03-yo-dis-my-first-blog.md"
+      "rawMarkdownBody": "This is the best event ever.\n",
+      "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/events/new-event.md"
+    },
+    "597d2786-8468-5139-a734-04ab1e802908": {
+      "id": "597d2786-8468-5139-a734-04ab1e802908",
+      "children": [
+        "ae758932-4048-552d-877f-a50780f52396"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "28466d9878dd15601e0ef4f2485ff54e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/events/second-event.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "events",
+      "absolutePath": "/Users/adamtaylor/code/smac/src/events/second-event.md",
+      "relativePath": "second-event.md",
+      "extension": "md",
+      "size": 114,
+      "prettySize": "114 B",
+      "modifiedTime": "2019-04-06T21:51:43.648Z",
+      "accessTime": "2019-04-06T21:51:45.466Z",
+      "changeTime": "2019-04-06T21:51:43.648Z",
+      "birthTime": "2019-04-06T21:51:43.648Z",
+      "root": "/",
+      "dir": "/Users/adamtaylor/code/smac/src/events",
+      "base": "second-event.md",
+      "ext": ".md",
+      "name": "second-event",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16209365,
+      "blocks": 8,
+      "atimeMs": 1554587505465.8274,
+      "mtimeMs": 1554587503648.3088,
+      "ctimeMs": 1554587503648.3088,
+      "birthtimeMs": 1554587503648.189,
+      "atime": "2019-04-06T21:51:45.466Z",
+      "mtime": "2019-04-06T21:51:43.648Z",
+      "ctime": "2019-04-06T21:51:43.648Z",
+      "birthtime": "2019-04-06T21:51:43.648Z"
+    },
+    "ae758932-4048-552d-877f-a50780f52396": {
+      "id": "ae758932-4048-552d-877f-a50780f52396",
+      "children": [],
+      "parent": "597d2786-8468-5139-a734-04ab1e802908",
+      "internal": {
+        "content": " Bleh\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "3ceb6b5b68e4bfec8ad209b4f499f5c4",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "name": "Second Event",
+        "date": "2019-04-06T21:51:17.563Z",
+        "location": "Here",
+        "featured-image": "/assets/zay-eb.jpg"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": " Bleh\n",
+      "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/events/second-event.md"
     },
     "SitePage /about/": {
       "jsonName": "about-f34",
@@ -1161,11 +1532,80 @@
         "description": "ffdea1fe-d5fa-543a-a525-f423b48e0a77",
         "owner": "internal-data-bridge"
       }
+    },
+    "ab04aa21-d058-54fe-be99-6cc53bff8dd8": {
+      "id": "ab04aa21-d058-54fe-be99-6cc53bff8dd8",
+      "children": [
+        "c784d405-16e4-524a-bc50-11e26dd77680"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "66f3f7456cfcbb66607f815a23e95b7f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/events/third-event.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "events",
+      "absolutePath": "/Users/adamtaylor/code/smac/src/events/third-event.md",
+      "relativePath": "third-event.md",
+      "extension": "md",
+      "size": 123,
+      "prettySize": "123 B",
+      "modifiedTime": "2019-04-06T22:10:47.141Z",
+      "accessTime": "2019-04-06T22:10:47.239Z",
+      "changeTime": "2019-04-06T22:10:47.141Z",
+      "birthTime": "2019-04-06T22:10:47.141Z",
+      "root": "/",
+      "dir": "/Users/adamtaylor/code/smac/src/events",
+      "base": "third-event.md",
+      "ext": ".md",
+      "name": "third-event",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16212336,
+      "blocks": 8,
+      "atimeMs": 1554588647239.0176,
+      "mtimeMs": 1554588647140.8333,
+      "ctimeMs": 1554588647140.8333,
+      "birthtimeMs": 1554588647140.696,
+      "atime": "2019-04-06T22:10:47.239Z",
+      "mtime": "2019-04-06T22:10:47.141Z",
+      "ctime": "2019-04-06T22:10:47.141Z",
+      "birthtime": "2019-04-06T22:10:47.141Z"
+    },
+    "c784d405-16e4-524a-bc50-11e26dd77680": {
+      "id": "c784d405-16e4-524a-bc50-11e26dd77680",
+      "children": [],
+      "parent": "ab04aa21-d058-54fe-be99-6cc53bff8dd8",
+      "internal": {
+        "content": "sdf\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5ee294a769c48f806ef04f128be8c634",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "name": "THird Event",
+        "date": "2019-04-06T22:10:04.214Z",
+        "location": "sdf",
+        "featured-image": "/assets/idunno.jpg",
+        "event": "event"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "sdf\n",
+      "fileAbsolutePath": "/Users/adamtaylor/code/smac/src/events/third-event.md"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "25a0fa1439173854da9c18a7fc28179c"
+    "PLUGINS_HASH": "7a91de78f3031af7432649988e67a5fa"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -1192,7 +1632,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/adamtaylor/code/smac/src/pages/about.js": {
       "componentPath": "/Users/adamtaylor/code/smac/src/pages/about.js",
@@ -1200,47 +1640,7 @@
       "pages": [
         "/about/"
       ],
-      "isInBootstrap": false
-    },
-    "/Users/adamtaylor/code/smac/src/pages/index.js": {
-      "componentPath": "/Users/adamtaylor/code/smac/src/pages/index.js",
-      "query": "",
-      "pages": [
-        "/"
-      ],
-      "isInBootstrap": false
-    },
-    "/Users/adamtaylor/code/smac/src/pages/history.js": {
-      "componentPath": "/Users/adamtaylor/code/smac/src/pages/history.js",
-      "query": "",
-      "pages": [
-        "/history/"
-      ],
-      "isInBootstrap": false
-    },
-    "/Users/adamtaylor/code/smac/src/pages/testimonials.js": {
-      "componentPath": "/Users/adamtaylor/code/smac/src/pages/testimonials.js",
-      "query": "",
-      "pages": [
-        "/testimonials/"
-      ],
-      "isInBootstrap": false
-    },
-    "/Users/adamtaylor/code/smac/src/pages/team.js": {
-      "componentPath": "/Users/adamtaylor/code/smac/src/pages/team.js",
-      "query": "",
-      "pages": [
-        "/team/"
-      ],
-      "isInBootstrap": false
-    },
-    "/Users/adamtaylor/code/smac/src/pages/services.js": {
-      "componentPath": "/Users/adamtaylor/code/smac/src/pages/services.js",
-      "query": "",
-      "pages": [
-        "/services/"
-      ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/adamtaylor/code/smac/src/pages/classes.js": {
       "componentPath": "/Users/adamtaylor/code/smac/src/pages/classes.js",
@@ -1248,15 +1648,7 @@
       "pages": [
         "/classes/"
       ],
-      "isInBootstrap": false
-    },
-    "/Users/adamtaylor/code/smac/src/pages/schedule.js": {
-      "componentPath": "/Users/adamtaylor/code/smac/src/pages/schedule.js",
-      "query": "",
-      "pages": [
-        "/schedule/"
-      ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/adamtaylor/code/smac/src/pages/contact.js": {
       "componentPath": "/Users/adamtaylor/code/smac/src/pages/contact.js",
@@ -1264,7 +1656,7 @@
       "pages": [
         "/contact/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/adamtaylor/code/smac/src/pages/events.js": {
       "componentPath": "/Users/adamtaylor/code/smac/src/pages/events.js",
@@ -1272,7 +1664,55 @@
       "pages": [
         "/events/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
+    },
+    "/Users/adamtaylor/code/smac/src/pages/history.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/history.js",
+      "query": "",
+      "pages": [
+        "/history/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/adamtaylor/code/smac/src/pages/index.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/index.js",
+      "query": "",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/adamtaylor/code/smac/src/pages/schedule.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/schedule.js",
+      "query": "",
+      "pages": [
+        "/schedule/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/adamtaylor/code/smac/src/pages/services.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/services.js",
+      "query": "",
+      "pages": [
+        "/services/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/adamtaylor/code/smac/src/pages/team.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/team.js",
+      "query": "",
+      "pages": [
+        "/team/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/adamtaylor/code/smac/src/pages/testimonials.js": {
+      "componentPath": "/Users/adamtaylor/code/smac/src/pages/testimonials.js",
+      "query": "",
+      "pages": [
+        "/testimonials/"
+      ],
+      "isInBootstrap": true
     }
   },
   "staticQueryComponents": {}

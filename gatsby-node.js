@@ -1,8 +1,5 @@
-import { graphql } from "gatsby";
-const path = require("path");
-const { createFilePath, createFileNode } = require(`gatsby-source-filesystem`);
-
-console.log('In here');
+const path = require("path")
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions
@@ -27,8 +24,8 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
                 if (result.errors) {
-                    console.log(result.errors);
-                    return reject(result.errors);
+                    console.log(result.errors)
+                    return reject(result.errors)
                 }
                 const blogTemplate = path.resolve('./src/templates/blogTemplate.js');
                 result.data.allMarkdownRemark.edges.forEach(({ node }) => {
@@ -37,7 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
                         component: blogTemplate,
                         context: {
                             slug: node.fields.slug,
-                        }, // additional data can be passed via context
+                        } // additional data can be passed via context
                     })
                 })
             })
@@ -45,17 +42,20 @@ exports.createPages = ({ actions, graphql }) => {
     })
 }
 
+// highlight-start
 exports.onCreateNode = ({ node, getNode, actions }) => {
-    console.log('==>>I AM BEING CALLED');
-    const { createNodeField } = actions;
+    const { createNodeField } = actions
+    // highlight-end
     if (node.internal.type === `MarkdownRemark`) {
-        const slug = createFilePath({ node, getNode, basePath: `src` });
+        // highlight-start
+        const slug = createFilePath({ node, getNode, basePath: `src` })
+        const layout = node.frontmatter.layout;
+        console.log('slug', `/${layout}${slug}`);
         createNodeField({
             node,
             name: `slug`,
-            value: slug,
-        });
-    } else {
-        throw Error('Do not know what this is')
+            value: `/${layout}${slug}`,
+        })
+        // highlight-end
     }
 }

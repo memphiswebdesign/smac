@@ -13,6 +13,9 @@ export const getRecentBlogPosts = () => {
                 sort: {fields: frontmatter___date, order: DESC}
               ) {
                 nodes {
+                  fields {
+                    slug
+                  }
                   frontmatter {
                     title
                     layout
@@ -40,7 +43,7 @@ export default () => {
                 <li>
                     {allMarkdownRemark.nodes.map(post => (
                         <>
-                            <a href={ post.fileAbsolutePath }>{ post.frontmatter.title }</a>
+                            <a href={ post.fields.slug }>{ post.frontmatter.title }</a>
                             <span className="post-date">{ post.frontmatter.date }</span>
                         </>
                     ))}

@@ -1,36 +1,14 @@
 import React from "react"
 import Layout from '../components/Layout';
+import Breadcrumb from '../components/Breadcrumb';
 
 /* eslint-disable */
 export default () => {
     return (
         <Layout>
-            <section className="page_title ds s-parallax s-overlay s-py-5">
-                <div className="container">
-                    <div className="row">
 
-                        <div className="divider-45"></div>
-
-                        <div className="col-md-12 text-center">
-                            <h1 className="bold">About </h1>
-                            <ol className="breadcrumb">
-                                <li className="breadcrumb-item">
-                                    <a href="./">Home</a>
-                                </li>
-                                <li className="breadcrumb-item">
-                                    <a href="#">Pages</a>
-                                </li>
-                                <li className="breadcrumb-item active">
-                                    About
-                                </li>
-                            </ol>
-                        </div>
-
-                        <div className="divider-50"></div>
-
-                    </div>
-                </div>
-            </section>
+            <Breadcrumb list={[ {name: 'home', href: '/'}, {name: 'about', href='/about'} ]} />
+            
             <section className="ds s-py-60 s-py-md-90 s-overlay mobile-overlay about-section">
                 <div className="container">
                     <div className="row d-flex justify-content-end">

@@ -140,8 +140,8 @@ class Index extends Component {
                                     <div className="icon-styled">
                                         <i className="fa fa-phone"></i>
                                     </div>
-                                    <span>CALL US 24/7</span>
-                                    <h5>+7-85-569-123</h5>
+                                    <span>CALL US TODAY</span>
+                                    <h5><a class="linked" href="tel:6154434783" target="_blank">(615)443-4783</a></h5>
                                 </div>
                             </div>
                             <div className="col-12 col-md-4 text-center">
@@ -149,8 +149,8 @@ class Index extends Component {
                                     <div className="icon-styled">
                                         <i className="fa fa-map-marker"></i>
                                     </div>
-                                    <span>SEASON STREET 45/2</span>
-                                    <h5>LOS ANGELES, INC - 4502</h5>
+                                    <span>Lebanon, TN</span>
+                                    <h5><a class="linked" href="https://www.google.com/maps/place/1443+W+Baddour+Pkwy,+Lebanon,+TN+37087" target="_blank">1443 W Baddour Pkwy</a></h5>
                                 </div>
                             </div>
                             <div className="col-12 col-md-4 text-center">

@@ -59,7 +59,9 @@
     position: absolute;
     display: none;
     top: 100%;
+    left: 50%;
     z-index: 99;
+    transform: translate(-50%);
   }
 
   .sf-menu li:hover > ul,
@@ -219,17 +221,18 @@
   .sf-menu > li .mega-menu,
   .sf-menu li > ul {
     //for animation
-    margin-top: 5px;
     text-align: center;
     list-style: none;
-    padding: 15px;
+    margin: 0;
+    padding: 0;
     background-color: $darkgreyColor;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     min-width: 15em; /* allow long menu items to determine submenu width */
     *width: 10em; /* no auto sub width for IE7, see white-space comment below */
+
     li{
-      padding-right: 30px;
-      padding-left: 30px;
+      padding-right: 12px;
+      padding-left: 12px;
       a{
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         padding-right: 0;
@@ -239,6 +242,7 @@
     }
   }
   .sf-menu li > ul {
+
     li:last-child{
       a{
         border-bottom: none;

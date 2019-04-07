@@ -39,11 +39,9 @@ export default (props) => (
             <div id="box_wrapper">
 
                 <MobileSearch/>
-
-                <div className="header_absolute">
+                
                     <Navbar/>
                     { renderHero(props.renderHero) }
-                </div>
 
                 {/* Render all the children passed into the Layout component */}
                 { props.children }

@@ -18,8 +18,8 @@ const pages = [
         url: '/about',
         subMenu: [
             {
-                display: 'History',
-                url: '/history'
+                display: 'Team',
+                url: '/team'
             },
             {
                 display: 'Testimonials',
@@ -28,20 +28,12 @@ const pages = [
         ]
     },
     {
-        display: 'Team',
-        url: '/team'
-    },
-    {
-        display: 'Services',
-        url: '/services'
-    },
-    {
         display: 'Events & News',
         url: '/events'
     },
     {
-        display: 'Classes',
-        url: '/classes',
+        display: 'Programs',
+        url: '/programs',
         subMenu: [
             {
                 display: 'Class 1',

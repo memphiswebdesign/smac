@@ -140,6 +140,15 @@ img.absolute_image {
     background: url("../static/images/parallax/footer_bg.jpg") no-repeat fixed center;
     background-size: cover;
   }
+  .icon-box {
+    a {
+      display: inline-block;
+      &.linked {
+        padding-bottom: 3px;
+        border-bottom: 2px solid rgba(white, 0.4);
+      }
+    }
+  }
 }
 
 .faq-section-left{

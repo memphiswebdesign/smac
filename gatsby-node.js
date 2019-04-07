@@ -45,6 +45,7 @@ exports.createPages = ({ actions, graphql }) => {
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
+    console.log('==>>I AM BEING CALLED');
     const { createNodeField } = actions;
     if (node.internal.type === `MarkdownRemark`) {
         const slug = createFilePath({ node, getNode, basePath: `src` });

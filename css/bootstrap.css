@@ -2608,16 +2608,6 @@ img {
 	display: none;
 }
 
-.preloader_image {
-	background: url(../static/img/preloader.gif) no-repeat 50% 50% transparent;
-	height: 256px;
-	left: 50%;
-	margin: -128px 0 0 -128px;
-	position: absolute;
-	top: 50%;
-	width: 256px;
-}
-
 /* animated elements */
 .animate {
 	visibility: hidden;

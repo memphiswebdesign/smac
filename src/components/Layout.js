@@ -14,27 +14,6 @@ function renderHero(shouldRender) {
 
 export default (props) => (
     <>
-        <div className="modal" tabIndex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            <div className="widget widget_search">
-                <form method="get" className="searchform search-form" action="/">
-                    <div className="form-group">
-                        <input type="text" value="" name="search" className="form-control" placeholder="Search keyword"
-                               id="modal-search-input"/>
-                    </div>
-                    <button type="submit" className="btn">Search</button>
-                </form>
-            </div>
-        </div>
-
-        <div className="modal fade" tabIndex="-1" role="dialog" id="messages_modal">
-            <div className="fw-messages-wrap ls p-normal">
-
-            </div>
-        </div>
-
         <div id="canvas">
             <div id="box_wrapper">
 
@@ -62,7 +41,6 @@ export default (props) => (
 
             </div>
         </div>
-
     </>
 );
 

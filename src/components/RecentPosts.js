@@ -41,11 +41,11 @@ export default () => {
 
             <ul>
                 <li>
-                    {allMarkdownRemark.nodes.map(post => (
-                        <>
+                    {allMarkdownRemark.nodes.map(( post, index ) => (
+                        <React.Fragment key={ index }>
                             <a href={ post.fields.slug }>{ post.frontmatter.title }</a>
                             <span className="post-date">{ post.frontmatter.date }</span>
-                        </>
+                        </React.Fragment>
                     ))}
                 </li>
             </ul>

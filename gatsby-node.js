@@ -2,6 +2,8 @@ import { graphql } from "gatsby";
 const path = require("path");
 const { createFilePath, createFileNode } = require(`gatsby-source-filesystem`);
 
+console.log('In here');
+
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions
     return new Promise((resolve, reject) => {
@@ -38,7 +40,6 @@ exports.createPages = ({ actions, graphql }) => {
                         }, // additional data can be passed via context
                     })
                 })
-                return
             })
         )
     })
@@ -54,5 +55,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
             name: `slug`,
             value: slug,
         });
+    } else {
+        throw Error('Do not know what this is')
     }
 }

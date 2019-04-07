@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 
+/* eslint-disable */
 export default class OwlCarousel extends Component {
 
     // Need this so that jQuery controls the component, not React

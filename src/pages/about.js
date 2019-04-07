@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from '../components/Layout';
 
+/* eslint-disable */
 export default () => {
     return (
         <Layout>

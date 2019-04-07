@@ -1,5 +1,6 @@
 import React from 'react';
 
+/* eslint-disable */
 export default () => (
     <section className="page_topline ds c-my-10 s-borderbottom  d-xl-none">
         <div className="container-fluid">

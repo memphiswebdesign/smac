@@ -121,7 +121,7 @@ export default () => (
                     <ul className="top-includes">
                         <li>
                             <span>
-                                <a href="#" className="btn btn-outline-maincolor">free trial class</a>
+                                <a href="/trial" className="btn btn-outline-maincolor">free trial class</a>
                             </span>
                         </li>
                     </ul>

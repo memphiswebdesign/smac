@@ -1,10 +1,10 @@
 // import "../../static/js/vendor/bootstrap.bundle.min.js";
 import React, { Component } from "react"
-import HeroSlider from '../templates/HeroSlider';
 import OwlCarousel from '../templates/OwlCarousel';
 import Layout from '../components/Layout';
 import $ from 'jquery';
 
+/* eslint-disable */
 class Index extends Component {
 
     componentDidMount() {

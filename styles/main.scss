@@ -46,7 +46,8 @@
 //@import 'dashboard';
 @import 'switcher_styles';
 
-@if $switcher == true {
-  @include switcherStyles;
+
+body {
+  color: red !important;
 }
 

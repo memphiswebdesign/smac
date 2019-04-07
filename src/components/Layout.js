@@ -4,6 +4,8 @@ import MobileSearch from '../components/MobileSearch';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+import "../../styles/main.scss";
+
 function renderHero(shouldRender) {
     if (shouldRender) {
         return <HeroSlider/>

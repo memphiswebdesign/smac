@@ -12,7 +12,7 @@ const pages = [
     {
         display: 'Home',
         url: '/'
-    },
+    }, 
     {
         display: 'About',
         url: '/about',

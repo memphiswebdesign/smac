@@ -5,7 +5,7 @@ import Breadcrumb from '../components/Breadcrumb';
 /* eslint-disable */
 export default () => {
     return (
-        <Layout>
+        <Layout> 
 
             <Breadcrumb list={[ {name: 'home', href: '/'}, {name: 'about', href='/about'} ]} />
             

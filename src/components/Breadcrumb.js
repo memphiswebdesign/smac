@@ -15,7 +15,7 @@ export default (props) => {
                                 <a href="./">Home</a>
                             </li>
                             <li className="breadcrumb-item active">
-                                About
+                                About 
                             </li>
                         </ol>
                     </div>

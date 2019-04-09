@@ -14,13 +14,13 @@ export default () => (
                             <div className="col-xs-12 col-md-4">
                                 <div className="form-group">
                                     <input className="form-control" type="text" name="text_1fcfb46"
-                                           placeholder="Full Name" value="" required="required"/>
+                                           placeholder="Full Name" defaultValue="" required="required"/>
                                 </div>
                             </div>
                             <div className="col-xs-12 col-md-4">
                                 <div className="form-group">
                                     <input className="form-control" type="text" name="text_42598d5"
-                                           placeholder="Phone Number" value="" required="required"/>
+                                           placeholder="Phone Number" defaultValue="" required="required"/>
                                 </div>
                             </div>
                             <div className="col-xs-12 col-md-2">

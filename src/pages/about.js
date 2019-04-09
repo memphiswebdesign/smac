@@ -5,10 +5,10 @@ import Breadcrumb from '../components/Breadcrumb';
 /* eslint-disable */
 export default () => {
     return (
-        <Layout> 
+        <Layout>
 
-            <Breadcrumb list={[ {name: 'home', href: '/'}, {name: 'about', href='/about'} ]} />
-            
+            <Breadcrumb list={[ {name: 'home', href: '/'}, {name: 'about', href: '/about'} ]} />
+
             <section className="ds s-py-60 s-py-md-90 s-overlay mobile-overlay about-section">
                 <div className="container">
                     <div className="row d-flex justify-content-end">

@@ -1,5 +1,5 @@
 import React from "react"
-import HeroSlider from '../templates/HeroSlider';
+import HeroSlider from './HeroSlider';
 import MobileSearch from '../components/MobileSearch';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -18,7 +18,7 @@ export default (props) => (
             <div id="box_wrapper">
 
                 <MobileSearch/>
-                
+
                     <Navbar/>
                     { renderHero(props.renderHero) }
 

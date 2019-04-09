@@ -1,6 +1,6 @@
 // import "../../static/js/vendor/bootstrap.bundle.min.js";
 import React, { Component } from "react"
-import OwlCarousel from '../templates/OwlCarousel';
+import OwlCarousel from '../components/OwlCarousel';
 import Layout from '../components/Layout';
 import $ from 'jquery';
 import ContactForm from '../components/ContactForm';

@@ -10,7 +10,7 @@ export default () => (
                     <div className="divider-60 d-none d-xl-block"></div>
                     <div className="divider-40 hidden-above-md"></div>
 
-                    <form action="/contact-success" name="contact-form" data-netlify-recaptcha="true" data-netlify="true">
+                    <form action="/contact-success/" name="contact-form" data-netlify="true">
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="form-group">
@@ -60,7 +60,6 @@ export default () => (
                         <div className="row">
                             <div className="col-12 text-center">
                                 <button className="btn btn-maincolor" type="submit">Send Message</button>
-                                <div data-netlify-recaptcha="true"></div>
                                 {/*<button className="btn btn-outline-maincolor" type="submit">our contacts</button>*/}
                             </div>
                         </div>

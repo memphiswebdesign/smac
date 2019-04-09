@@ -10,17 +10,17 @@ export default () => (
                     <div className="divider-60 d-none d-xl-block"></div>
                     <div className="divider-40 hidden-above-md"></div>
 
-                    <form action="/contact-success/" name="contact-form" data-netlify="true">
+                    <form name="contact-form" action="/contact-success" method="post" data-netlify="true">
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="form-group">
-                                    <input className="form-control" type="text" name="text_1fcfb46"
+                                    <input className="form-control" type="text" name="fullname_input"
                                            placeholder="Full Name" defaultValue="" required="required"/>
                                 </div>
                             </div>
                             <div className="col-xl-12">
                                 <div className="form-group">
-                                    <input className="form-control" type="text" name="text_42598d5"
+                                    <input className="form-control" type="text" name="phonenumber_input"
                                            placeholder="Phone Number" defaultValue="" required="required"/>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ export default () => (
                         <div className="row">
                             <div className="col-12">
                                 <div className="form-group">
-                                                <textarea className="form-control" rows="5" name="textarea_edfe99b"
+                                                <textarea className="form-control" rows="5" name="message_textarea"
                                                           placeholder="Your Message" required="required"></textarea>
                                 </div>
                             </div>

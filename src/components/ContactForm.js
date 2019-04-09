@@ -15,13 +15,13 @@ export default () => (
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="form-group">
-                                    <input className="form-control" type="text" name="fullname_input"
+                                    <input className="form-control" type="text" name="full_name"
                                            placeholder="Full Name" defaultValue="" required="required"/>
                                 </div>
                             </div>
                             <div className="col-xl-12">
                                 <div className="form-group">
-                                    <input className="form-control" type="text" name="phonenumber_input"
+                                    <input className="form-control" type="text" name="phone_number"
                                            placeholder="Phone Number" defaultValue="" required="required"/>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ export default () => (
                         <div className="row">
                             <div className="col-12">
                                 <div className="form-group">
-                                                <textarea className="form-control" rows="5" name="message_textarea"
+                                                <textarea className="form-control" rows="5" name="message_body"
                                                           placeholder="Your Message" required="required"></textarea>
                                 </div>
                             </div>

@@ -11,6 +11,7 @@ export default () => (
                     <div className="divider-40 hidden-above-md"></div>
 
                     <form name="contact-form" action="/contact-success" method="post" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact-form" />
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="form-group">

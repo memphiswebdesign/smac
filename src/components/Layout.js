@@ -19,8 +19,8 @@ export default (props) => (
 
                 <MobileSearch/>
 
-                    <Navbar/>
-                    { renderHero(props.renderHero) }
+                <Navbar/>
+                { renderHero(props.renderHero) }
 
                 {/* Render all the children passed into the Layout component */}
                 { props.children }

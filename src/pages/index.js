@@ -2,8 +2,9 @@
 import React, { Component } from "react"
 import OwlCarousel from '../components/OwlCarousel';
 import Layout from '../components/Layout';
-import $ from 'jquery';
 import ContactForm from '../components/ContactForm';
+import LatestNews from "../components/LatestNews";
+import InfoBanner from "../components/InfoBanner";
 
 /* eslint-disable */
 class Index extends Component {
@@ -133,39 +134,10 @@ class Index extends Component {
     render() {
         return (
             <Layout renderHero={true} >
-                <section className="s-pb-40 s-pt-0 s-py-lg-50 c-my-40 c-my-lg-15 ds contact-info">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-md-4 text-center">
-                                <div className="icon-box icon-absolute text-center">
-                                    <div className="icon-styled">
-                                        <i className="fa fa-phone"></i>
-                                    </div>
-                                    <span>CALL US TODAY</span>
-                                    <h5><a className="linked" href="tel:6154434783" target="_blank">(615)443-4783</a></h5>
-                                </div>
-                            </div>
-                            <div className="col-12 col-md-4 text-center">
-                                <div className="icon-box icon-absolute text-center">
-                                    <div className="icon-styled">
-                                        <i className="fa fa-map-marker"></i>
-                                    </div>
-                                    <span>Lebanon, TN</span>
-                                    <h5><a className="linked" href="https://www.google.com/maps/place/1443+W+Baddour+Pkwy,+Lebanon,+TN+37087" target="_blank">1443 W Baddour Pkwy</a></h5>
-                                </div>
-                            </div>
-                            <div className="col-12 col-md-4 text-center">
-                                <div className="icon-box icon-absolute text-center">
-                                    <div className="icon-styled">
-                                        <i className="fa fa-clock-o"></i>
-                                    </div>
-                                    <span>OPEN</span>
-                                    <h5>MONDAY-THURSDAY</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
+                <InfoBanner color={"navy"} />
+
+                {/* About Block */}
                 <section className="ds s-py-60 s-py-md-90 s-overlay mobile-overlay about-section">
                     <div className="container">
                         <div className="row d-flex justify-content-end">
@@ -201,6 +173,8 @@ class Index extends Component {
                         </div>
                     </div>
                 </section>
+
+                {/* Programs (Classes) */}
                 <section className="ds ms s-py-60 s-py-md-90 s-overlay program-section programs">
                     <div className="container">
                         <div className="row">
@@ -217,6 +191,8 @@ class Index extends Component {
                         </div>
                     </div>
                 </section>
+
+                {/* What Clients Say */}
                 <section className="ds s-py-60 s-py-md-90 testimonials-section">
                     <div className="container">
                         <div className="row">
@@ -306,6 +282,8 @@ class Index extends Component {
                         </div>
                     </div>
                 </section>
+
+                {/* Instructors */}
                 <section className="ds ms s-py-60 s-py-md-90 s-overlay team-section">
                     <div className="container">
                         <div className="row">
@@ -477,6 +455,7 @@ class Index extends Component {
 
                 <ContactForm />
 
+                {/* Sparring / FAQ */}
                 <section className="ds ms faq-section container-px-0">
                     <div className="container-fluid">
                         <div className="row">
@@ -587,213 +566,13 @@ class Index extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="ds s-pt-60 s-pb-0 s-py-md-90 c-mb-30 news-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="divider-70 d-none d-xl-block"></div>
-                            <div className="col-12">
-                                <h3 className="special-heading text-center">latest news</h3>
-                                <div className="divider-60 d-none d-xl-block"></div>
-                                <div className="divider-40 hidden-above-md"></div>
-                                <div className="row">
-                                    <div className="col-md-12 col-lg-4">
-                                        <article
-                                            className="vertical-item content-padding padding-small post type-post status-publish format-standard has-post-thumbnail">
-                                            <div className="item-media post-thumbnail">
-                                                <a href="blog-single-@@type.html">
-                                                    <img src="images/gallery/09.jpg" alt=""/>
-                                                </a>
-                                            </div>
-                                            <div className="item-content">
-                                                <header className="entry-header">
-                                                    <div className="entry-meta">
-                                                        <div className="entry-date">
-                                                            <a href="blog-single-video-@@type.html" rel="bookmark">
-                                                                <time className="published updated"
-                                                                      dateTime="2018-03-18T15:15:12+00:00">
-                                                                    26 dec 2017
-                                                                </time>
-                                                            </a>
-                                                        </div>
-                                                        <div className="entry-categories">
-                                                            <a href="#">karate</a>
-                                                        </div>
-                                                    </div>
-                                                    <h4 className="entry-title">
-                                                        <a href="blog-single-@@type.html" rel="bookmark">
-                                                            Iain Aber Karate Seminar in Los
-                                                        </a>
-                                                    </h4>
-                                                </header>
 
-
-                                                <div className="entry-content">
-                                                    <p className="text-lg-left text-center">A special treat is coming
-                                                        up, when world-renown Iain Aber will be in Los Angeles.</p>
-                                                    <div className="blog-adds">
-													<span className="like-count">
-														<i className="fa fa-heart" aria-hidden="true"></i>
-														7420
-													</span>
-                                                        <span className="views-count">
-														<i className="fa fa-eye" aria-hidden="true"></i>
-														5209
-													</span>
-                                                        <span className="comment-count">
-														<i className="fa fa-comment" aria-hidden="true"></i>
-														997
-													</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div className="col-md-12 col-lg-4">
-                                        <article
-                                            className="vertical-item content-padding padding-small post type-post status-publish format-standard has-post-thumbnail">
-                                            <div className="item-media post-thumbnail">
-                                                <a href="blog-single-@@type.html">
-                                                    <img src="images/gallery/04.jpg" alt=""/>
-                                                </a>
-                                            </div>
-                                            <div className="item-content">
-                                                <header className="entry-header">
-                                                    <div className="entry-meta">
-                                                        <div className="entry-date">
-                                                            <a href="blog-single-video-@@type.html" rel="bookmark">
-                                                                <time className="published updated"
-                                                                      dateTime="2018-03-18T15:15:12+00:00">
-                                                                    27 dec 2017
-                                                                </time>
-                                                            </a>
-                                                        </div>
-                                                        <div className="entry-categories">
-                                                            <a href="#">jiu-jitsu</a>
-                                                        </div>
-                                                    </div>
-                                                    <h4 className="entry-title">
-                                                        <a href="blog-single-@@type.html" rel="bookmark">
-                                                            Knee Pain in Martial Arts
-                                                        </a>
-                                                    </h4>
-                                                </header>
-
-
-                                                <div className="entry-content">
-                                                    <p className="text-lg-left text-center">It is an unfortunate fact
-                                                        that many martial artists suffer from knee pain.</p>
-                                                    <div className="blog-adds">
-													<span className="like-count">
-														<i className="fa fa-heart" aria-hidden="true"></i>
-														7420
-													</span>
-                                                        <span className="views-count">
-														<i className="fa fa-eye" aria-hidden="true"></i>
-														5209
-													</span>
-                                                        <span className="comment-count">
-														<i className="fa fa-comment" aria-hidden="true"></i>
-														997
-													</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div className="col-md-12 col-lg-4">
-                                        <article
-                                            className="vertical-item content-padding padding-small post type-post status-publish format-standard has-post-thumbnail">
-                                            <div className="item-media post-thumbnail">
-                                                <a href="blog-single-@@type.html">
-                                                    <img src="images/gallery/05.jpg" alt=""/>
-                                                </a>
-                                            </div>
-                                            <div className="item-content">
-                                                <header className="entry-header">
-                                                    <div className="entry-meta">
-                                                        <div className="entry-date">
-                                                            <a href="blog-single-video-@@type.html" rel="bookmark">
-                                                                <time className="published updated"
-                                                                      dateTime="2018-03-18T15:15:12+00:00">
-                                                                    30 dec 2017
-                                                                </time>
-                                                            </a>
-                                                        </div>
-                                                        <div className="entry-categories">
-                                                            <a href="#">kick boxing</a>
-                                                        </div>
-                                                    </div>
-                                                    <h4 className="entry-title">
-                                                        <a href="blog-single-@@type.html" rel="bookmark">
-                                                            Self-Defense Combat Inside a Car
-                                                        </a>
-                                                    </h4>
-                                                </header>
-
-
-                                                <div className="entry-content">
-                                                    <p className="text-lg-left text-center">For self-defense, awareness,
-                                                        escape. strategies take precedent over fighting.</p>
-                                                    <div className="blog-adds">
-													<span className="like-count">
-														<i className="fa fa-heart" aria-hidden="true"></i>
-														7420
-													</span>
-                                                        <span className="views-count">
-														<i className="fa fa-eye" aria-hidden="true"></i>
-														5209
-													</span>
-                                                        <span className="comment-count">
-														<i className="fa fa-comment" aria-hidden="true"></i>
-														997
-													</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="divider-10 d-none d-xl-block"></div>
-                        </div>
-                    </div>
-                </section>
+                <LatestNews />
 
                 {/*<GoogleMaps/>*/}
 
-                <section className="s-py-20 s-py-lg-50 c-my-40 c-my-lg-15 cs s-parallax s-overlay contact-info">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-md-4 text-center">
-                                <div className="icon-box icon-absolute text-center">
-                                    <div className="icon-styled">
-                                        <i className="color-main fa fa-phone"></i>
-                                    </div>
-                                    <span>CALL US TODAY</span>
-                                    <h5><a className="linked" href="tel:6154434783" target="_blank">(615)443-4783</a></h5>
-                                </div>
-                            </div>
-                            <div className="col-12 col-md-4 text-center">
-                                <div className="icon-box icon-absolute text-center">
-                                    <div className="icon-styled">
-                                        <i className="color-main fa fa-map-marker"></i>
-                                    </div>
-                                    <span>Lebanon, TN</span>
-                                    <h5><a className="linked" href="https://www.google.com/maps/place/1443+W+Baddour+Pkwy,+Lebanon,+TN+37087" target="_blank">1443 W Baddour Pkwy</a></h5>
-                                </div>
-                            </div>
-                            <div className="col-12 col-md-4 text-center">
-                                <div className="icon-box icon-absolute text-center">
-                                    <div className="icon-styled">
-                                        <i className="color-main fa fa-clock-o"></i>
-                                    </div>
-                                    <span>OPEN</span>
-                                    <h5>MONDAY-THURSDAY</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <InfoBanner color={"red"} />
+
             </Layout>
         );
     }

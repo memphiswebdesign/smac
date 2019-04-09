@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
+import Breadcrumb from "../components/Breadcrumb";
 
 export default ({ data }) => {
     return (
         <Layout>
+            <Breadcrumb list={[ {name: 'home', url: '/'}, {name: 'events', url: '/events'} ]} title={"Events"} />
+
             <div>{ data.allMarkdownRemark.nodes[0].frontmatter.title }</div>
         </Layout>
     );

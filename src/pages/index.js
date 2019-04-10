@@ -159,8 +159,8 @@ class Index extends Component {
                                     <div className="icon-styled">
                                         <i className="fa fa-clock-o"></i>
                                     </div>
-                                    <span>WORKING HOURS</span>
-                                    <h5>DAILY: 9AM - 8PM</h5>
+                                    <span>OPEN</span>
+                                    <h5>MONDAY-THURSDAY</h5>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +172,7 @@ class Index extends Component {
                             <div className="divider-70 d-none d-xl-block"></div>
                             <div className="col-md-12 col-xl-6 ">
                                 <h3 className="special-heading text-lg-left text-center">about <span
-                                    className="color-main">fight</span> school</h3>
+                                    className="color-main">SMAC</span></h3>
                                 <div className="divider-40 d-none d-xl-block"></div>
                                 <p className="excerpt text-lg-left text-center">Fight School has specialized in martial
                                     arts since 1986 and has one of the most innovative programs in the nation.</p>
@@ -769,8 +769,8 @@ class Index extends Component {
                                     <div className="icon-styled">
                                         <i className="color-main fa fa-phone"></i>
                                     </div>
-                                    <span>CALL US 24/7</span>
-                                    <h5>+7-85-569-123</h5>
+                                    <span>CALL US TODAY</span>
+                                    <h5><a className="linked" href="tel:6154434783" target="_blank">(615)443-4783</a></h5>
                                 </div>
                             </div>
                             <div className="col-12 col-md-4 text-center">
@@ -778,8 +778,8 @@ class Index extends Component {
                                     <div className="icon-styled">
                                         <i className="color-main fa fa-map-marker"></i>
                                     </div>
-                                    <span>SEASON STREET 45/2</span>
-                                    <h5>LOS ANGELES, INC - 4502</h5>
+                                    <span>Lebanon, TN</span>
+                                    <h5><a className="linked" href="https://www.google.com/maps/place/1443+W+Baddour+Pkwy,+Lebanon,+TN+37087" target="_blank">1443 W Baddour Pkwy</a></h5>
                                 </div>
                             </div>
                             <div className="col-12 col-md-4 text-center">
@@ -787,8 +787,8 @@ class Index extends Component {
                                     <div className="icon-styled">
                                         <i className="color-main fa fa-clock-o"></i>
                                     </div>
-                                    <span>WORKING HOURS</span>
-                                    <h5>DAILY: 9AM - 8PM</h5>
+                                    <span>OPEN</span>
+                                    <h5>MONDAY-THURSDAY</h5>
                                 </div>
                             </div>
                         </div>

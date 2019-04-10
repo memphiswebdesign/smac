@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
+import { Link } from 'gatsby';
 
 export default class HeroSlider extends Component {
 
@@ -111,9 +112,12 @@ export default class HeroSlider extends Component {
                                                 </div>
                                                 <div className="intro_layer button"
                                                      data-animation="fadeinleft">
-                                                    <button className="btn btn-maincolor intro_button">get a
+                                                    {/*<button className="btn btn-maincolor intro_button">get a
                                                         free lesson
-                                                    </button>
+                                                    </button>*/}
+                                                    {/*<a href="/trial" class="btn btn-maincolor intro_button">get a free lesson</a>*/}
+                                                    <Link to={"/trial"} class="btn btn-maincolor intro_button">get a free lesson</Link>
+                                                    <Link to={"/trial"} class="btn btn-outline-maincolor">view programs</Link>
                                                 </div>
                                             </div>
                                         </div>

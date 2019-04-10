@@ -143,7 +143,6 @@ class Index extends Component {
                 <section className="ds s-py-60 s-py-md-90 s-overlay mobile-overlay about-section">
                     <div className="container">
                         <div className="row d-flex justify-content-end">
-                        <div className="row d-flex justify-content-end">
                             <div className="divider-70 d-none d-xl-block"></div>
                             <div className="col-md-12 col-xl-6 ">
                                 <h3 className="special-heading text-lg-left text-center">about <span

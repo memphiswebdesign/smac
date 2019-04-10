@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import ContactForm from '../components/ContactForm';
 import LatestNews from "../components/LatestNews";
 import InfoBanner from "../components/InfoBanner";
+import { Link } from 'gatsby';
 
 /* eslint-disable */
 class Index extends Component {
@@ -295,105 +296,71 @@ class Index extends Component {
                                 <div className="owl-carousel" data-loop="true" data-margin="30" data-nav="true"
                                      data-dots="true" data-center="false" data-items="1" data-autoplay="true"
                                      data-responsive-xs="1" data-responsive-sm="2" data-responsive-md="3"
-                                     data-responsive-lg="3">
+                                     data-responsive-lg="4">
                                     <div className="vertical-item box-shadow content-padding text-center">
                                         <div className="item-media">
-                                            <img src="images/team/01.jpg" alt=""/>
+                                            <img src="images/team/karenda-bolich.jpg" alt="karenda bolich black belt instructor"/>
                                             <div className="media-links">
                                                 <a className="abs-link" title="" href="team-single.html"></a>
                                             </div>
                                         </div>
                                         <div className="item-content">
-                                            <h5>
-                                                <a href="team-single.html">Randall Schwartz</a>
-                                            </h5>
-
-                                            <p className="small-text color-main">
-                                                KIDS INSTRUCTOR
-                                            </p>
+                                            <h5><a href="team-single.html">Karenda Bolich</a></h5>
+                                            <p className="small-text color-main">INSTRUCTOR TITLE</p>
                                             <p className="social-icons">
-
-                                                <a href="#" className="fa fa-facebook" title="facebook"></a>
-                                                <a href="#" className="fa fa-twitter" title="twitter"></a>
-                                                <a href="#" className="fa fa-google-plus" title="google"></a>
-
+                                                <a href="https://www.facebook.com/kbolich" target="_blank" className="fa fa-facebook" title="facebook"></a>
+                                                <a href="https://www.instagram.com/karendabolich/" target="_blank" className="fa fa-instagram" title="instagram"></a>
                                             </p>
-
                                         </div>
                                     </div>
                                     <div className="vertical-item box-shadow content-padding text-center">
                                         <div className="item-media">
-                                            <img src="images/team/02.jpg" alt=""/>
+                                            <img src="images/team/amy-williams.jpg" alt="amy williams black belt instructor"/>
                                             <div className="media-links">
                                                 <a className="abs-link" title="" href="team-single.html"></a>
                                             </div>
                                         </div>
                                         <div className="item-content">
-                                            <h5>
-                                                <a href="team-single.html">Randall Schwartz</a>
-                                            </h5>
-
-                                            <p className="small-text color-main">
-                                                KIDS INSTRUCTOR
-                                            </p>
+                                            <h5><a href="team-single.html">Amy Williams</a></h5>
+                                            <p className="small-text color-main">INSTRUCTOR TITLE</p>
                                             <p className="social-icons">
-
-                                                <a href="#" className="fa fa-facebook" title="facebook"></a>
-                                                <a href="#" className="fa fa-twitter" title="twitter"></a>
-                                                <a href="#" className="fa fa-google-plus" title="google"></a>
-
+                                                <a href="https://www.facebook.com/amy.b.williams.566" target="_blank" className="fa fa-facebook" title="facebook"></a>
+                                                {/*<a href="#" className="fa fa-instagram" title="instagram"></a>*/}
                                             </p>
-
                                         </div>
                                     </div>
                                     <div className="vertical-item box-shadow content-padding text-center">
                                         <div className="item-media">
-                                            <img src="images/team/03.jpg" alt=""/>
+                                            <img src="images/team/jacob-besse.jpg" alt="jacob besse black belt instructor"/>
                                             <div className="media-links">
                                                 <a className="abs-link" title="" href="team-single.html"></a>
                                             </div>
                                         </div>
                                         <div className="item-content">
-                                            <h5>
-                                                <a href="team-single.html">Randall Schwartz</a>
-                                            </h5>
-
-                                            <p className="small-text color-main">
-                                                KIDS INSTRUCTOR
-                                            </p>
+                                            <h5><a href="team-single.html">Jacob Besse</a></h5>
+                                            <p className="small-text color-main">INSTRUCTOR TITLE</p>
                                             <p className="social-icons">
-
-                                                <a href="#" className="fa fa-facebook" title="facebook"></a>
-                                                <a href="#" className="fa fa-twitter" title="twitter"></a>
-                                                <a href="#" className="fa fa-google-plus" title="google"></a>
-
+                                                <a href="https://www.facebook.com/jacob.besse.5" target="_blank" className="fa fa-facebook" title="facebook"></a>
+                                                <a href="https://www.instagram.com/p/BoiUgXbhoRP/" target="_blank" className="fa fa-instagram" title="instagram"></a>
                                             </p>
-
                                         </div>
                                     </div>
                                     <div className="vertical-item box-shadow content-padding text-center">
                                         <div className="item-media">
-                                            <img src="images/team/01.jpg" alt=""/>
+                                            <img src="images/team/reid-presley.jpg" alt="Reid Presley black belt instructor"/>
                                             <div className="media-links">
                                                 <a className="abs-link" title="" href="team-single.html"></a>
                                             </div>
                                         </div>
                                         <div className="item-content">
-                                            <h5>
-                                                <a href="team-single.html">Randall Schwartz</a>
-                                            </h5>
-
-                                            <p className="small-text color-main">
-                                                KIDS INSTRUCTOR
-                                            </p>
+                                            <h5><a href="team-single.html">Reid Presley</a></h5>
+                                            <p className="small-text color-main">INSTRUCTOR TITLE</p>
                                             <p className="social-icons">
-
-                                                <a href="#" className="fa fa-facebook" title="facebook"></a>
-                                                <a href="#" className="fa fa-twitter" title="twitter"></a>
-                                                <a href="#" className="fa fa-google-plus" title="google"></a>
-
+                                                <a href="https://www.facebook.com/ReidPresleyAthlete/" target="_blank" className="fa fa-facebook" title="facebook"></a>
+                                                <a href="https://www.instagram.com/reidpresley/" target="_blank" className="fa fa-twitter" title="instagram"></a>
+                                                <a href="https://twitter.com/ReidPresley" target="_blank" className="fa <fa-twitter></fa-twitter>" title="twitter"></a>
+                                                <a href="https://twitter.com/ReidPresley" target="_blank" className="fa fa-link" title="personal website"></a>
                                             </p>
-
                                         </div>
                                     </div>
                                     <div className="vertical-item box-shadow content-padding text-center">
@@ -448,7 +415,15 @@ class Index extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="divider-70 d-none d-xl-block"></div>
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="divider-20 d-none d-lg-block"></div>
+                                    <div class="col-md-12 text-center">
+                                        <a class="btn btn-outline-maincolor" href="/team">Meet the Team</a>
+                                    </div>
+                                    <div class="divider-20 d-none d-lg-block"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

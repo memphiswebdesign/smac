@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import ContactForm from '../components/ContactForm';
 import LatestNews from "../components/LatestNews";
 import InfoBanner from "../components/InfoBanner";
+import FaqAccordion from "../components/FaqAccordion";
 import { Link } from 'gatsby';
 
 /* eslint-disable */
@@ -141,6 +142,7 @@ class Index extends Component {
                 {/* About Block */}
                 <section className="ds s-py-60 s-py-md-90 s-overlay mobile-overlay about-section">
                     <div className="container">
+                        <div className="row d-flex justify-content-end">
                         <div className="row d-flex justify-content-end">
                             <div className="divider-70 d-none d-xl-block"></div>
                             <div className="col-md-12 col-xl-6 ">
@@ -443,100 +445,12 @@ class Index extends Component {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-6">
-                                <div className="faq-section-right">
-                                    <div className="divider-90 d-none d-xl-block"></div>
-                                    <h3 className="special-heading text-lg-left text-center">sparring / faq</h3>
-                                    <div className="divider-50 d-none d-xl-block"></div>
-                                    <div className="divider-40 hidden-above-md"></div>
-                                    <div id="accordion01" role="tablist">
-                                        <div className="card">
-                                            <div className="card-header" role="tab" id="collapse01_header">
-                                                <h5>
-                                                    <a data-toggle="collapse" href="#collapse01" aria-expanded="true"
-                                                       aria-controls="collapse01">
-                                                        <i className="fa fa-pencil"></i>
-                                                        Do I have to be in shape to get started?
-                                                    </a>
-                                                </h5>
-                                            </div>
-
-                                            <div id="collapse01" className="collapse show" role="tabpanel"
-                                                 aria-labelledby="collapse01_header" data-parent="#accordion01">
-                                                <div className="card-body">
-
-                                                    <p>Not at all. You’ll find that our classes for beginners are the
-                                                        perfect way to build up your overall fitness level regardless of
-                                                        your physical condition. Good luck!</p>
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="card">
-                                            <div className="card-header" role="tab" id="collapse02_header">
-                                                <h5>
-                                                    <a className="collapsed" data-toggle="collapse" href="#collapse02"
-                                                       aria-expanded="false" aria-controls="collapse02">
-                                                        <i className="fa fa-pencil"></i>
-                                                        Can I come and watch a class?
-                                                    </a>
-                                                </h5>
-                                            </div>
-                                            <div id="collapse02" className="collapse" role="tabpanel"
-                                                 aria-labelledby="collapse02_header" data-parent="#accordion01">
-                                                <div className="card-body">
-                                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                                    single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                                                    keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                                    sapiente ea proident.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="card">
-                                            <div className="card-header" role="tab" id="collapse03_header">
-                                                <h5>
-                                                    <a className="collapsed" data-toggle="collapse" href="#collapse03"
-                                                       aria-expanded="false" aria-controls="collapse02">
-                                                        <i className="fa fa-pencil"></i>
-                                                        Am I too old to start martial arts training?
-                                                    </a>
-                                                </h5>
-                                            </div>
-                                            <div id="collapse03" className="collapse" role="tabpanel"
-                                                 aria-labelledby="collapse03_header" data-parent="#accordion01">
-                                                <div className="card-body">
-                                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                                    single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                                                    keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                                    sapiente ea proident.
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="card">
-                                            <div className="card-header" role="tab" id="collapse04_header">
-                                                <h5>
-                                                    <a className="collapsed" data-toggle="collapse" href="#collapse04"
-                                                       aria-expanded="false" aria-controls="collapse04">
-                                                        <i className="fa fa-pencil"></i>
-                                                        Will I get hurt during the training?
-                                                    </a>
-                                                </h5>
-                                            </div>
-                                            <div id="collapse04" className="collapse" role="tabpanel"
-                                                 aria-labelledby="collapse04_header" data-parent="#accordion01">
-                                                <div className="card-body">
-                                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                                                    synth nesciunt you probably haven't heard of them accusamus labore
-                                                    sustainable sunt aliqua put a bird on it squid single-origin coffee
-                                                    shoreditch et.
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                <FaqAccordion>
+                                    <div>
+                                        <span>Header</span>
+                                        <span>Message</span>
                                     </div>
-                                    <div className="divider-90 d-none d-xl-block"></div>
-                                </div>
+                                </FaqAccordion>
                             </div>
                         </div>
                     </div>

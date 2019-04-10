@@ -21,7 +21,13 @@ export default () => (
                             </div>
                             <div className="col-xl-12">
                                 <div className="form-group">
-                                    <input className="form-control" type="text" name="phone_number"
+                                    <input className="form-control" type="email" name="email_address"
+                                           placeholder="Email Address" defaultValue="" required="required"/>
+                                </div>
+                            </div>
+                            <div className="col-xl-12">
+                                <div className="form-group">
+                                    <input className="form-control" type="tel" name="phone_number"
                                            placeholder="Phone Number" defaultValue="" required="required"/>
                                 </div>
                             </div>

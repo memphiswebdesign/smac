@@ -116,8 +116,8 @@ export default class HeroSlider extends Component {
                                                         free lesson
                                                     </button>*/}
                                                     {/*<a href="/trial" class="btn btn-maincolor intro_button">get a free lesson</a>*/}
-                                                    <Link to={"/trial"} class="btn btn-maincolor intro_button">get a free lesson</Link>
-                                                    <Link to={"/trial"} class="btn btn-outline-maincolor">view programs</Link>
+                                                    <Link to={"/trial"} className="btn btn-maincolor intro_button">get a free lesson</Link>
+                                                    <Link to={"/trial"} className="btn btn-outline-maincolor">view programs</Link>
                                                 </div>
                                             </div>
                                         </div>

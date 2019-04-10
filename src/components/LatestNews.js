@@ -36,7 +36,6 @@ export const getRecentEvents = () => {
 export default () => {
 
     const { allMarkdownRemark } = getRecentEvents();
-    console.log('allMarkdownRemark', allMarkdownRemark.nodes[0]);
 
     return (
         <section className="ds s-pt-60 s-pb-0 s-py-md-90 c-mb-30 news-section">

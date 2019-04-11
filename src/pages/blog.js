@@ -10,11 +10,16 @@ class Blog extends Component {
     }
 
     renderFeaturedImage(blog) {
-        return (
-            <Link to={ blog.fields.slug }>
-                <img src={ blog.frontmatter.featured_image } alt={ blog.frontmatter.title } />
-            </Link>
-        )
+        if (blog.frontmatter.featured_image) {
+            console.log('blog', blog);
+            return (
+                <Link to={ blog.fields.slug }>
+                    <img src={ blog.frontmatter.featured_image } alt={ blog.frontmatter.title } />
+                </Link>
+            )
+        } else {
+            return;
+        }
     }
 
     render() {
@@ -42,7 +47,7 @@ class Blog extends Component {
                                               <article
                                                   className="vertical-item content-padding padding-small post type-post status-publish format-standard has-post-thumbnail">
                                                   <div className="item-media post-thumbnail">
-                                                      { blog.frontmatter.featured_image ? this.renderFeaturedImage(blog) : null }
+                                                      { this.renderFeaturedImage(blog) }
                                                   </div>
                                                   <div className="item-content">
                                                       <header className="entry-header">

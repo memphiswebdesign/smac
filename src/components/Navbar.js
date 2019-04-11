@@ -12,7 +12,7 @@ const pages = [
     {
         display: 'Home',
         url: '/'
-    }, 
+    },
     {
         display: 'About',
         url: '/about',
@@ -30,6 +30,10 @@ const pages = [
     {
         display: 'Events & News',
         url: '/events'
+    },
+    {
+        display: 'Blog',
+        url: '/blog'
     },
     {
         display: 'Programs',

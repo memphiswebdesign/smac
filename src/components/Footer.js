@@ -1,7 +1,59 @@
 import React, { Component } from 'react';
 import RecentPosts from './RecentPosts';
+import $ from 'jquery';
+import { Links } from "./data";
+import SocialLinkList from './SocialLinkList';
 
 export default class Footer extends Component {
+
+    /* eslint-disable */
+    componentDidMount() {
+        window.jQuery = window.$ = $;
+        require('../../static/js/vendor/jquery.appear');
+
+        var $body = $('body');
+
+        if ($().appear) {
+            //animation to elements on scroll
+            var $animate = $('.animate');
+            $animate.appear();
+
+            $animate.filter(':appeared').each(function(index){
+                initAnimateElement($(this), index);
+            });
+
+            $body.on('appear', '.animate', function(e, $affected ) {
+                $($affected).each(function(index){
+                    initAnimateElement($(this), index);
+                });
+            });
+        }
+
+        function initAnimateElement(self, index) {
+            var animationClass = !self.data('animation') ? 'fadeInUp' : self.data('animation');
+            var animationDelay = !self.data('delay') ? 150 : self.data('delay');
+            setTimeout(function(){
+                self.addClass("animated " + animationClass);
+            }, index * animationDelay);
+        }
+    }
+
+    renderSocialLinks() {
+
+        let links = Object.keys(Links).map((socialType, index) => {
+            if (Links[socialType]) {
+                return (
+                    <React.Fragment key={ index }>
+                        <a href={ Links[socialType] } className={`fa fa-${socialType} border-icon rounded-icon`} target="_blank" title={socialType}></a>
+                    </React.Fragment>
+                );
+            } else {
+                return null;
+            }
+        });
+
+        return <>{links}</>;
+    }
 
     /* eslint-disable */
     render() {
@@ -29,9 +81,8 @@ export default class Footer extends Component {
                                 <p>Fight School has specialized in martial arts since 1986 and has one of the most
                                     innovative programs in the nation.</p>
                                 <div className="widget widget_social_buttons">
-                                    <a href="https://www.facebook.com/" className="fa fa-facebook border-icon rounded-icon" title="facebook"></a>
-                                    <a href="https://twitter.com/" className="fa fa-twitter border-icon rounded-icon" title="twitter"></a>
-                                    <a href="https://www.google.com/" className="fa fa-google-plus border-icon rounded-icon" title="google"></a>
+                                    {/*{ this.renderSocialLinks() }*/}
+                                    <SocialLinkList rounded={true} list={ Links.social }/>
                                 </div>
                             </div>
                         </div>

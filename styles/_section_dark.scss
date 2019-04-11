@@ -274,7 +274,9 @@
   }
 
   .panel-heading .panel-title > a.collapsed,
-  .vertical-tabs .nav > li > a {
+  .vertical-tabs .nav > li > a,
+    .panel-heading .panel-title > button.collapsed,
+    .vertical-tabs .nav > li > button {
     background-color: $darkBackgroundColor;
     color: $lightColor;
   }

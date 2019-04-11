@@ -45,7 +45,6 @@ export default () => {
                     <div className="col-12">
                         <h3 className="special-heading text-center">Latest News &amp; Events</h3>
                         <div className="divider-60 d-none d-xl-block"></div>
-                        <div className="divider-40 hidden-above-md"></div>
                         <div className="row">
                             {allMarkdownRemark.nodes.map((post, index) => {
                                 return (
@@ -61,11 +60,9 @@ export default () => {
                                             <header className="entry-header">
                                                 <div className="entry-meta">
                                                     <div className="entry-date">
-                                                        <a>
-                                                            <time className="published updated">
-                                                                { post.frontmatter.date }
-                                                            </time>
-                                                        </a>
+                                                        <time className="published updated">
+                                                            { post.frontmatter.date }
+                                                        </time>
                                                     </div>
                                                     {/* Categories.. We could replace this with something else */}
                                                     {/*<div className="entry-categories">*/}
@@ -73,9 +70,7 @@ export default () => {
                                                     {/*</div>*/}
                                                 </div>
                                                 <h4 className="entry-title">
-                                                    <a>
-                                                        { post.frontmatter.title }
-                                                    </a>
+                                                    { post.frontmatter.title }
                                                 </h4>
                                             </header>
 

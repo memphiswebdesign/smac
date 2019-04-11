@@ -5,9 +5,11 @@ import { graphql } from 'gatsby';
 import { Link } from 'gatsby';
 
 class Blog extends Component {
+    /* eslint-disable */
     constructor(props) {
         super(props);
     }
+    /* eslint-enable */
 
     renderFeaturedImage(blog) {
         if (blog.frontmatter.featured_image) {

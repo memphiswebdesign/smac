@@ -6,7 +6,6 @@ import ContactForm from '../components/ContactForm';
 import LatestNews from "../components/LatestNews";
 import InfoBanner from "../components/InfoBanner";
 import FaqAccordion from "../components/FaqAccordion";
-import { Link } from 'gatsby';
 import InstructorsBlock from "../components/InstructorsBlock";
 
 /* eslint-disable */

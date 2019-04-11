@@ -25,6 +25,9 @@
 }
 
 .ds {
+  .entry-date time {
+    color:$colorMain;
+  }
   a:not(.btn) {
       color:$lightColor;
     &:hover {

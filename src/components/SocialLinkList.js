@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
 class SocialLinkList extends Component {
+  /* eslint-disable */
   constructor(props) {
     super(props);
   }
+  /* eslint-enable */
 
   render() {
     if (!this.props.list) { return <></> }
@@ -21,13 +23,13 @@ class SocialLinkList extends Component {
         'site': 'link'
       };
 
-      let classNames = `fa fa-${typeClassNameMap[socialType]} ${this.props.rounded ? 'border-icon rounded-icon' : ''}`;
+      let classNames = `screen-reader-text fa fa-${typeClassNameMap[socialType]} ${this.props.rounded ? 'border-icon rounded-icon' : ''}`;
 
       const link = socialObject[socialType];
       if (link) {
         return (
             <React.Fragment key={ index }>
-              <a href={ link } className={ classNames } target="_blank" title={ socialType }></a>
+              <a href={ link } className={ classNames } target="_blank" rel="noopener noreferrer" title={ socialType }>Social Links</a>
             </React.Fragment>
         );
       } else {

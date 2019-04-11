@@ -21,9 +21,9 @@ export default ({ data }) => {
 
                                 <div className="item-media post-thumbnail">
                                     { frontmatter.featured_image ? (
-                                        <img src={ frontmatter.featured_image } alt="" />
+                                        <img src={ frontmatter.featured_image } alt={ frontmatter.title } />
                                     ) : (
-                                        <img/>
+                                        <img alt="no featured_image was found" />
                                     ) }
                                 </div>
 
@@ -32,11 +32,9 @@ export default ({ data }) => {
                                         <h2 className="color-main">{ frontmatter.title }</h2>
                                         <div className="entry-meta">
                                             <div className="entry-date">
-                                                <a rel="bookmark">
-                                                    <time className="published updated" dateTime="2018-03-18T15:15:12+00:00">
-                                                        { frontmatter.date }
-                                                    </time>
-                                                </a>
+                                                <time className="published updated" dateTime="2018-03-18T15:15:12+00:00">
+                                                    { frontmatter.date }
+                                                </time>
                                             </div>
                                         </div>
                                     </header>

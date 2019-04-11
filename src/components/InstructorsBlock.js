@@ -24,7 +24,7 @@ class InstructorsBlock extends Component {
                           <div className="item-media">
                             <img src={ instructor.img_src } alt={ `${instructor.name} ${instructor.title}` } />
                             <div className="media-links">
-                              <a className="abs-link" title="" href={ instructor.page }></a>
+                              <a className="abs-link screen-reader-text" title="" href={ instructor.page }>Instructor's Page</a>
                             </div>
                           </div>
                           <div className="item-content">

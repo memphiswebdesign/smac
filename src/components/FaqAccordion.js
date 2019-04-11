@@ -55,12 +55,12 @@ class Accordion extends Component {
                                 <div className="card-header">
                                     <h5>
                                         {/* Add toClick() */}
-                                        <a data-toggle="collapse"
+                                        <button data-toggle="collapse"
                                            className={this.state.activeIndex === index ? "" : "collapsed"}
                                            onClick={() => { this.setState({ activeIndex: index }) }} >
                                             <i className="fa fa-pencil"></i>
                                             { faq.header }
-                                        </a>
+                                        </button>
                                     </h5>
                                 </div>
 

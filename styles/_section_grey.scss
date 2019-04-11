@@ -30,7 +30,7 @@
   .panel-title > a {
     background-color: $darkgreyColor;
   }
-  .panel-title > a.collapsed {
+  .panel-title > a.collapsed, .panel-title > button.collapsed {
     background-color: $lightColor;
   }
 
@@ -39,7 +39,9 @@
 
   }
   .panel-title > a.collapsed:hover,
-  .panel-title > a:hover {
+  .panel-title > a:hover,
+  .panel-title > button.collapsed:hover,
+  .panel-title > button:hover {
     background-color: $darkgreyColor;
   }
 

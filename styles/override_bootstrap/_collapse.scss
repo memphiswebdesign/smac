@@ -38,7 +38,7 @@
     &:hover{
       background-color: $colorMain;
     }
-    a {
+    a, button {
 
 
       font-size: 14px;
@@ -54,6 +54,8 @@
       color: $lightColor;
       border-radius: 0;
       word-wrap: break-word;
+      text-align: left;
+      width: 100%;
       i{
         margin-right: 20px;
         color: $lightColor;
@@ -128,7 +130,7 @@
   }
 
   [role="tab"] {
-    a{
+    a, button {
       display: block;
     }
   }
@@ -146,7 +148,8 @@
   }
 }
 .ds.ms{
-  [role="tablist"] .card-header a.collapsed{
+  [role="tablist"] .card-header a.collapsed,
+    [role="tablist"] .card-header button.collapsed {
     background-color: $darkgreyColor;
     &:hover{
       background-color: $colorMain;

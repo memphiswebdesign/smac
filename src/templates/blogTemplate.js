@@ -20,9 +20,12 @@ export default ({ data }) => {
                             <article className="vertical-item post type-post status-publish format-standard has-post-thumbnail">
 
                                 <div className="item-media post-thumbnail">
-                                    <img src="images/gallery/12.jpg" alt="" />
+                                    { frontmatter.featured_image ? (
+                                        <img src={ frontmatter.featured_image } alt="" />
+                                    ) : (
+                                        <img/>
+                                    ) }
                                 </div>
-
 
                                 <div className="item-content">
                                     <header className="entry-header">

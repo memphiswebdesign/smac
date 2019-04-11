@@ -11,7 +11,6 @@ class Blog extends Component {
 
     renderFeaturedImage(blog) {
         if (blog.frontmatter.featured_image) {
-            console.log('blog', blog);
             return (
                 <Link to={ blog.fields.slug }>
                     <img src={ blog.frontmatter.featured_image } alt={ blog.frontmatter.title } />

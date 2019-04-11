@@ -17,5 +17,11 @@ module.exports = {
         },
         `gatsby-transformer-remark`,
         `gatsby-plugin-sass`,
+        {
+            resolve: 'gatsby-plugin-mailchimp',
+            options: {
+                endpoint: 'https://smaclebanon.us8.list-manage.com/subscribe/post?u=82fc3d4e8e44c1e88fba92822&amp;id=10c51f8007',
+            },
+        },
     ]
 };

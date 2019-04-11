@@ -47,3 +47,53 @@
 @import 'switcher_styles';
 
 
+form {
+  border: 1px solid transparent !important;
+  transition: border .3s;
+
+  &.error, &.success  {
+    .form-state-icon {
+      left: -50px;
+    }
+  }
+  &.error {
+    input {
+      border: 1px solid $colorMain !important;
+    }
+    .form-state-icon { background: $colorDanger; }
+  }
+
+  &.success {
+    .form-state-icon { background: $colorSuccess; }
+  }
+
+  #mailchimp_email {
+    padding-left: 20px;
+  }
+
+  i.form-state-icon {
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    border-radius: 50%;
+    background: $colorDanger;
+    width: 35px;
+    height: 35px;
+    transition: left .3s;
+    z-index: -1;
+
+    &:before {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      color: white;
+    }
+  }
+}
+
+.response {
+  &.success { color: $colorSuccess; }
+  &.error { color: $colorDanger; }
+}
+

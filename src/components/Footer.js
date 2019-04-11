@@ -3,6 +3,7 @@ import RecentPosts from './RecentPosts';
 import $ from 'jquery';
 import { Links } from "./data";
 import SocialLinkList from './SocialLinkList';
+import MailchimpSignup from "./MailchimpSignup";
 
 export default class Footer extends Component {
 
@@ -87,34 +88,7 @@ export default class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 text-center animate" data-animation="fadeInUp">
-                            <div className="widget widget_mailchimp">
-
-                                <h3 className="widget-title">Newsletter</h3>
-
-                                <p>
-                                    Subscribe to our Newsletter to be updated.
-                                    <br/>
-                                    We promise not to spam.
-                                </p>
-
-                                <form className="signup" action="/">
-                                    <label htmlFor="mailchimp_email">
-                                        <span className="screen-reader-text">Subscribe:</span>
-                                    </label>
-
-                                    <input id="mailchimp_email" name="email" type="email"
-                                           className="form-control mailchimp_email" placeholder="Email Address"/>
-
-                                    <button type="submit" className="search-submit">
-                                        <span className="screen-reader-text">Subscribe</span>
-                                    </button>
-                                    <div className="response"></div>
-                                </form>
-
-                            </div>
-                        </div>
-
+                        <MailchimpSignup />
 
                         <div className="divider-70 d-none d-xl-block"></div>
                     </div>

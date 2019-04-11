@@ -15,6 +15,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false, hint: "This is not required, but it is recommended so that blog posts have an image associated with them."}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: events
     label: Events

@@ -28,7 +28,7 @@ export const getRecentBlogPosts = () => {
               }
             }
         `
-    )
+    );
     return allMarkdownRemark;
 };
 

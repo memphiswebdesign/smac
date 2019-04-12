@@ -23,7 +23,7 @@ class SocialLinkList extends Component {
         'site': 'link'
       };
 
-      let classNames = `screen-reader-text fa fa-${typeClassNameMap[socialType]} ${this.props.rounded ? 'border-icon rounded-icon' : ''}`;
+      let classNames = `fa fa-${typeClassNameMap[socialType]} ${this.props.rounded ? 'border-icon rounded-icon' : ''}`;
 
       const link = socialObject[socialType];
       if (link) {

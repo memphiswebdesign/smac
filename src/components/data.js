@@ -44,7 +44,7 @@ export const Instructors = [
                 { facebook: 'https://www.facebook.com/ReidPresleyAthlete/' },
                 { instagram: 'https://www.instagram.com/reidpresley/' },
                 { twitter: 'https://twitter.com/ReidPresley' },
-                { site: 'https://twitter.com/ReidPresley' }
+                { site: 'https://equippedfit.com/' }
             ]
         }
 ];

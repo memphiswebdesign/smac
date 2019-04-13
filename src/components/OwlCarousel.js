@@ -132,7 +132,7 @@ export default class OwlCarousel extends Component {
 
     render() {
         return (
-            <div className="owl-carousel" data-loop="false" data-margin="30" data-nav="true"
+            <div className="owl-carousel" data-loop="true" data-margin="30" data-nav="true"
                  data-dots="true" data-center="false" data-items="1" data-autoplay="true"
                  data-responsive-xs="1" data-responsive-sm="2" data-responsive-md="3"
                  data-responsive-lg="3">
@@ -140,154 +140,165 @@ export default class OwlCarousel extends Component {
                     <div className="item-media">
                         <img width="370" height="230" src="images/gallery/17.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="service-single.html"></a>
+                            <a className="abs-link" title="" href="/programs"></a>
                         </div>
                     </div>
-                    <a href="service-single.html" className="services-icon">
-                        <i className="fa fa-calendar"></i>
+                    <a href="/programs" className="services-icon">
+                        <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="service-single.html">Kids Karate Groups</a>
+                            <a href="/programs">Lil' Dragons</a>
                         </h5>
-                        <span>10:00-11:00 AM / LIZZIE MEYER</span>
+                        {/*<span>10:00-11:00 AM / LIZZIE MEYER</span>*/}
                         <p>
-                            Ribeye kevin shank bacon bris fatback. Sirloin frankfurter brisket,
-                            tri-tip pork chicken.
+                            Dynamic, Highly Energetic <em>(30 min)</em> classes for 4 & 5 year old warriors!
                         </p>
                         <div className="services-link">
-                            <a href="service-single.html"><i className="fa fa-angle-down"
-                                                             aria-hidden="true"></i></a>
+                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="vertical-item text-center">
                     <div className="item-media">
-                        <img width="370" height="230" src="images/gallery/14.jpg" alt=""/>
+                        <img src="images/gallery/17.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="service-single.html"></a>
+                            <a className="abs-link" title="" href="/programs"></a>
                         </div>
                     </div>
-                    <a href="service-single.html" className="services-icon">
-                        <i className="fa fa-calendar"></i>
+                    <a href="/programs" className="services-icon">
+                        <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="service-single.html">Teen & Adult Karate</a>
+                            <a href="/programs">Adult & Child Martial Arts</a>
                         </h5>
-                        <span>5:00-6:00 AM / ALEJANDRO DIAZ</span>
+                        {/*<span>5:00-6:00 AM / ALEJANDRO DIAZ</span>*/}
                         <p>
-                            Tenderloin jerky ground round landjaeger pork ham pancetta pastrami
-                            turkey.
+                            We cater to ages 4 and up with our Martial Arts classes.
                         </p>
                         <div className="services-link">
-                            <a href="service-single.html"><i className="fa fa-angle-down"
-                                                             aria-hidden="true"></i></a>
+                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="vertical-item text-center">
                     <div className="item-media">
-                        <img src="images/gallery/01.jpg" alt=""/>
+                        <img src="images/gallery/17.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="service-single.html"></a>
+                            <a className="abs-link" title="" href="/programs"></a>
                         </div>
                     </div>
-                    <a href="service-single.html" className="services-icon">
-                        <i className="fa fa-calendar"></i>
+                    <a href="/programs" className="services-icon">
+                        <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="service-single.html">Traditional Martial Arts</a>
+                            <a href="/programs">Birthday parties</a>
                         </h5>
-                        <span>6:00-7:00 PM / COLE BUTLER</span>
+                        {/*<span>6:00-7:00 PM / COLE BUTLER</span>*/}
                         <p>
-                            Filet mignon bresaola doner, buffalo pork belly meatball meatl swine
-                            sirloin.
+                            We can organize an action-packed birthday party at our studio.
                         </p>
                         <div className="services-link">
-                            <a href="service-single.html"><i className="fa fa-angle-down"
-                                                             aria-hidden="true"></i></a>
+                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
 
                 </div>
                 <div className="vertical-item text-center">
                     <div className="item-media">
-                        <img width="370" height="230" src="images/gallery/17.jpg" alt=""/>
+                        <img src="images/gallery/17.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="service-single.html"></a>
+                            <a className="abs-link" title="" href="/programs"></a>
                         </div>
                     </div>
-                    <a href="service-single.html" className="services-icon">
-                        <i className="fa fa-calendar"></i>
+                    <a href="/programs" className="services-icon">
+                        <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="service-single.html">Kids Karate Groups</a>
+                            <a href="/programs">Fitness Classes</a>
                         </h5>
-                        <span>10:00-11:00 AM / LIZZIE MEYER</span>
+                        {/*<span>10:00-11:00 AM / LIZZIE MEYER</span>*/}
                         <p>
-                            Ribeye kevin shank bacon bris fatback. Sirloin frankfurter brisket,
-                            tri-tip pork chicken.
+                            Just looking to get in shape. We have classes to fit your needs.
                         </p>
                         <div className="services-link">
-                            <a href="service-single.html"><i className="fa fa-angle-down"
-                                                             aria-hidden="true"></i></a>
+                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="vertical-item text-center">
                     <div className="item-media">
-                        <img width="370" height="230" src="images/gallery/14.jpg" alt=""/>
+                        <img src="images/gallery/17.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="service-single.html"></a>
+                            <a className="abs-link" title="" href="/programs"></a>
                         </div>
                     </div>
-                    <a href="service-single.html" className="services-icon">
-                        <i className="fa fa-calendar"></i>
+                    <a href="/programs" className="services-icon">
+                        <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="service-single.html">Teen & Adult Karate</a>
+                            <a href="/programs">Private Training Available</a>
                         </h5>
-                        <span>5:00-6:00 AM / ALEJANDRO DIAZ</span>
+                        {/*<span>5:00-6:00 AM / ALEJANDRO DIAZ</span>*/}
                         <p>
-                            Tenderloin jerky ground round landjaeger pork ham pancetta pastrami
-                            turkey.
+                            One on One training on your schedule.
                         </p>
                         <div className="services-link">
-                            <a href="service-single.html"><i className="fa fa-angle-down"
-                                                             aria-hidden="true"></i></a>
+                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="vertical-item text-center">
                     <div className="item-media">
-                        <img src="images/gallery/01.jpg" alt=""/>
+                        <img src="images/gallery/17.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="service-single.html"></a>
+                            <a className="abs-link" title="" href="/programs"></a>
                         </div>
                     </div>
-                    <a href="service-single.html" className="services-icon">
-                        <i className="fa fa-calendar"></i>
+                    <a href="/programs" className="services-icon">
+                        <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="service-single.html">Traditional Martial Arts</a>
+                            <a href="/programs">Training via Skype</a>
                         </h5>
-                        <span>6:00-7:00 PM / COLE BUTLER</span>
+                        {/*<span>6:00-7:00 PM / COLE BUTLER</span>*/}
                         <p>
-                            Filet mignon bresaola doner, buffalo pork belly meatball meatl swine
-                            sirloin.
+                            Not in our area, arrange for a class or classes via Skype.
                         </p>
                         <div className="services-link">
-                            <a href="service-single.html"><i className="fa fa-angle-down"
-                                                             aria-hidden="true"></i></a>
+                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
+                </div>
+                <div className="vertical-item text-center">
+                    <div className="item-media">
+                        <img src="images/gallery/17.jpg" alt=""/>
+                        <div className="media-links">
+                            <a className="abs-link" title="" href="/programs"></a>
+                        </div>
+                    </div>
+                    <a href="/programs" className="services-icon">
+                        <i className="fa fa-users"></i>
+                    </a>
+                    <div className="item-content">
+                        <h5>
+                            <a href="/programs">Training Camp programs</a>
+                        </h5>
+                        {/*<span>6:00-7:00 PM / COLE BUTLER</span>*/}
+                        <p>
+                            Join us for a training camp.
+                        </p>
+                        <div className="services-link">
+                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
 
-                </div>
             </div>
         )
     }

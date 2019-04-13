@@ -41,8 +41,8 @@ class Index extends Component {
 
                                 <div className="signature">
                                     <div className="signature__left">
-                                        <h5>Aiden Richards</h5>
-                                        <span>DIRECTOR / INSTRUCTOR</span>
+                                        <h5>Jason Warren</h5>
+                                        <span>FOUNDER / CHIEF INSTRUCTOR</span>
                                     </div>
                                     <div className="signature__right">
                                         <img src="images/signature.png" alt="signature"/>
@@ -60,14 +60,19 @@ class Index extends Component {
                         <div className="row">
                             <div className="divider-70 d-none d-xl-block"></div>
                             <div className="col-12">
-                                <h3 className="special-heading text-center">OUR programs</h3>
+                                <h3 className="special-heading text-center">OUR Programs</h3>
                                 <div className="divider-60 d-none d-xl-block"></div>
                                 <div className="divider-40 hidden-above-md"></div>
 
                                 <OwlCarousel/>
 
                             </div>
-                            <div className="divider-70 d-none d-xl-block"></div>
+                            <div className="divider-40 d-none d-lg-block"></div>
+                                <div className="col-md-12 text-center">
+                                  <a className="btn btn-outline-maincolor" href="/programs">All Programs</a>
+                                  <a className="btn btn-outline-maincolor" href="/schedule">Class Schedule</a>
+                                </div>
+                            <div className="divider-70 d-none d-lg-block"></div>
                         </div>
                     </div>
                 </section>

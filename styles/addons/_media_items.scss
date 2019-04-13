@@ -355,6 +355,8 @@ blockquote.vertical-item{
   bottom: 0;
   left: 0;
   opacity: 0;
+  cursor: pointer;
+
   [class*="-item"]:hover & {
     opacity: 1;
   }
@@ -445,23 +447,25 @@ blockquote.vertical-item{
     padding-bottom: 20px;
   }
 }
-.programs{
-  &.program-section{
-    .vertical-item{
-      .item-content{
+.programs {
+  &.program-section {
+    .vertical-item {
+      .item-content {
         padding: 50px 55px 40px;
         @media(max-width: 768px){
           padding: 40px 30px;
         }
-        p{
-          margin-bottom: 3px;
+        p {
+          font-size: 0.9rem;
+          line-height: 1.48;
+          margin-bottom: 10px;
         }
-        .services-link{
-          i{
+        .services-link {
+          i {
             color: $colorMain;
           }
-          &:hover{
-            i{
+          &:hover {
+            i {
               color:$lightColor;
             }
           }

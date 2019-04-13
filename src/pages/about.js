@@ -26,16 +26,17 @@ export default () => {
                                 you. Unlike other martial arts schools, we do not require you to sign long term
                                 contracts.
                                 You just pay one low monthly fee for your martial arts and self defense classes
-                                at the beginning of each month. Many martial arts...
-                                <a className="about-link" href="about.html">
+                                at the beginning of each month.
+
+                                {/*<a className="about-link" href="/about">
                                     read more <i className="fa fa-level-down" aria-hidden="true"></i>
-                                </a>
+                                </a>*/}
                             </p>
 
                             <div className="signature">
                                 <div className="signature__left">
-                                    <h5>Aiden Richards</h5>
-                                    <span>DIRECTOR / INSTRUCTOR</span>
+                                    <h5>Jason Warren</h5>
+                                    <span>FOUNDER / CHIEF INSTRUCTOR</span>
                                 </div>
                                 <div className="signature__right">
                                     <img src="images/signature.png" alt="signature"/>
@@ -221,7 +222,7 @@ export default () => {
                         <div className="col-12">
                             <h3 className="special-heading text-center">what clients say</h3>
                             <div className="divider-60 d-none d-xl-block"></div>
-                            <div className="owl-carousel" data-loop="false" data-margin="30" data-nav="true"
+                            <div className="owl-carousel" data-loop="true" data-margin="30" data-nav="true"
                                  data-dots="true" data-center="false" data-items="1" data-autoplay="false"
                                  data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="1"
                                  data-responsive-lg="1">

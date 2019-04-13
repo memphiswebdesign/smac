@@ -143,6 +143,9 @@ img.absolute_image {
   .icon-box {
     a {
       display: inline-block;
+      position: relative;
+      z-index: 10;
+      
       &.linked {
         padding-bottom: 3px;
         border-bottom: 2px solid rgba(white, 0.4);

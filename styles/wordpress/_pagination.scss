@@ -47,6 +47,15 @@
   }
 }
 
+.page-numbers {
+  cursor: pointer;
+  &.current {
+    background-color: $colorMain!important;
+    color: #fff!important;
+    cursor: default!important;
+  }
+}
+
 .page-links a:first-child {
   margin-left: 1em;
 }

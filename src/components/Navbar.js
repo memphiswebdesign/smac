@@ -28,14 +28,6 @@ const pages = [
         ]
     },
     {
-        display: 'Events & News',
-        url: '/events'
-    },
-    {
-        display: 'Blog',
-        url: '/blog'
-    },
-    {
         display: 'Programs',
         url: '/programs',
         subMenu: [
@@ -56,6 +48,14 @@ const pages = [
                 url: '/schedule'
             }
         ]
+    },
+    {
+        display: 'Events & News',
+        url: '/events'
+    },
+    {
+        display: 'Blog',
+        url: '/blog'
     },
     {
         display: 'Contact',

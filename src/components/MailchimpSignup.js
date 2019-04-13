@@ -39,7 +39,7 @@ class MailchimpSignup extends Component {
             <p>
               Subscribe to our Newsletter to be updated.
               <br/>
-              We promise not to spam.
+              We promise not to spam. 
             </p>
 
             <form className={`signup ${this.state.formClass}`} onSubmit={this.handleSubmit}>

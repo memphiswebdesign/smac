@@ -85,7 +85,7 @@ class Index extends Component {
                             <div className="col-12">
                                 <h3 className="special-heading text-center">what clients say</h3>
                                 <div className="divider-60 d-none d-xl-block"></div>
-                                <div className="owl-carousel" data-loop="false" data-margin="30" data-nav="true"
+                                <div className="owl-carousel" data-loop="true" data-margin="30" data-nav="true"
                                      data-dots="true" data-center="false" data-items="1" data-autoplay="false"
                                      data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="1"
                                      data-responsive-lg="1">
@@ -93,16 +93,14 @@ class Index extends Component {
                                         className="vertical-item testimonial-item box-shadow content-padding text-center">
                                         <blockquote className="quote-item">
                                             <div className="quote-image">
-                                                <img src="images/team/testimonials_01.jpg" alt=""/>
+                                                <img src="images/team/puckett-family.jpg" alt=""/>
                                             </div>
-                                            <h5>Clifford Carter</h5>
+                                            <h5>Danielle Puckett</h5>
                                             <p className="small-text color-main">
-                                                VISITORS / BUSINESSMAN
+                                                Proud Parents
                                             </p>
                                             <p>
-                                                Pork belly shankle brisket pig swine sausage landjaeger tri-tip
-                                                drumstick kielbasa burgdoggen pork chop prosciutto rump ground round.
-                                                Andouille ribeye chicken swine. Biltong rump venison.
+                                                Our family has not only grown physically stronger but also mentally stronger at Success Martial Arts Center. Each one of us has learned to be more focused and to push forward even when we didn’t feel like we could. Most importantly we have become closer as a family by learning taekwondo together. As a bonus we have gained an amazing martial arts family at SMAC. Our instructors and fellow students have become a wonderful support system for us. And we are so thankful for our SMAC family!
                                             </p>
                                             <i className="fa fa-quote-right" aria-hidden="true"></i>
                                         </blockquote>
@@ -113,14 +111,12 @@ class Index extends Component {
                                             <div className="quote-image">
                                                 <img src="images/team/testimonials_04.jpg" alt=""/>
                                             </div>
-                                            <h5>Clifford Carter</h5>
+                                            <h5>Amy Grauherr</h5>
                                             <p className="small-text color-main">
-                                                VISITORS / BUSINESSMAN
+                                               Proud Parent
                                             </p>
                                             <p>
-                                                Pork belly shankle brisket pig swine sausage landjaeger tri-tip
-                                                drumstick kielbasa burgdoggen pork chop prosciutto rump ground round.
-                                                Andouille ribeye chicken swine. Biltong rump venison.
+                                                Our son has been attending Success Martial Arts Center (SMAC) for almost 2 years. We were looking into several martial arts centers before my son chose SMAC, which was one of the best decisions yet. We have felt like family since the first day we walked through the doors. Our son has grown leaps and bounds since starting. He is more out going and has made many friends. The instructors push the kids to the best of their ability through encouragement. They teach them respect, integrity, courage and to support their Team mates through good and bad times. Success Martial Arts Center is the best hands down.
                                             </p>
                                             <i className="fa fa-quote-right" aria-hidden="true"></i>
                                         </blockquote>

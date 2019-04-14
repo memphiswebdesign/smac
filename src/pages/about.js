@@ -16,7 +16,7 @@ export default () => {
                         <div className="divider-70 d-none d-xl-block"></div>
                         <div className="col-md-12 col-xl-6 ">
                             <h3 className="special-heading text-lg-left text-center">about <span
-                                className="color-main">fight</span> school</h3>
+                                className="color-main">smac</span></h3>
                             <div className="divider-40 d-none d-xl-block"></div>
                             <p className="excerpt text-lg-left text-center">Fight School has specialized in
                                 martial arts since 1986 and has one of the most innovative programs in the

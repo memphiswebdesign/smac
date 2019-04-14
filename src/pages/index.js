@@ -45,7 +45,7 @@ class Index extends Component {
                                         <span>FOUNDER / CHIEF INSTRUCTOR</span>
                                     </div>
                                     <div className="signature__right">
-                                        <img src="images/signature.png" alt="signature"/>
+                                        <img className="jw-sig" src="images/jw-signature-light.svg?123" alt="jason warren signature"/>
                                     </div>
                                 </div>
                             </div>
@@ -89,6 +89,7 @@ class Index extends Component {
                                      data-dots="true" data-center="false" data-items="1" data-autoplay="false"
                                      data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="1"
                                      data-responsive-lg="1">
+
                                     <div
                                         className="vertical-item testimonial-item box-shadow content-padding text-center">
                                         <blockquote className="quote-item">
@@ -109,9 +110,25 @@ class Index extends Component {
                                         className="vertical-item testimonial-item box-shadow content-padding text-center">
                                         <blockquote className="quote-item">
                                             <div className="quote-image">
-                                                <img src="images/team/testimonials_04.jpg" alt=""/>
+                                                <img src="images/team/tim-lange-fam.jpg" alt=""/>
                                             </div>
-                                            <h5>Amy Grauherr</h5>
+                                            <h5>Tim Lange</h5>
+                                            <p className="small-text color-main">
+                                                Proud Father
+                                            </p>
+                                            <p>
+                                                For the last two years, my boys have gone to Success Martial Arts Center.  During this time, they have learned not only how to defend themselves, but also respect, discipline, and hard work.  I’m thankful for these lessons that are shaping my children’s character. Jason Warren takes pride in each student and helps them to develop to their fullest potential.  He is always quick with a joke and very friendly with the students.
+                                            </p>
+                                            <i className="fa fa-quote-right" aria-hidden="true"></i>
+                                        </blockquote>
+                                    </div>
+                                    <div
+                                        className="vertical-item testimonial-item box-shadow content-padding text-center">
+                                        <blockquote className="quote-item">
+                                            <div className="quote-image">
+                                                <img src="images/team/amy-grauherr-fam.jpg" alt=""/>
+                                            </div>
+                                            <h5>Amy & Jim Grauherr</h5>
                                             <p className="small-text color-main">
                                                Proud Parent
                                             </p>
@@ -125,38 +142,19 @@ class Index extends Component {
                                         className="vertical-item testimonial-item box-shadow content-padding text-center">
                                         <blockquote className="quote-item">
                                             <div className="quote-image">
-                                                <img src="images/team/testimonials_02.jpg" alt=""/>
+                                                <img src="images/team/kellie-bodiford-fam.jpg" alt=""/>
                                             </div>
-                                            <h5>Clifford Carter</h5>
+                                            <h5>Kellie Bodiford</h5>
                                             <p className="small-text color-main">
-                                                VISITORS / BUSINESSMAN
+                                                Proud Mom
                                             </p>
                                             <p>
-                                                Pork belly shankle brisket pig swine sausage landjaeger tri-tip
-                                                drumstick kielbasa burgdoggen pork chop prosciutto rump ground round.
-                                                Andouille ribeye chicken swine. Biltong rump venison.
+                                                When my son Gavin started Taekwondo two years ago at SMAC he was very shy and lacked self confidence. I can honestly say SMAC  has changed that for him. Not only has his confidence grown substantially he has made many friends at SMAC. He loves the sport and loves competing in tournaments. I am very grateful for the instructors. They go above and beyond for every student. SMAC has been such a positive for Gavin. 
                                             </p>
                                             <i className="fa fa-quote-right" aria-hidden="true"></i>
                                         </blockquote>
                                     </div>
-                                    <div
-                                        className="vertical-item testimonial-item box-shadow content-padding text-center">
-                                        <blockquote className="quote-item">
-                                            <div className="quote-image">
-                                                <img src="images/team/testimonials_03.jpg" alt=""/>
-                                            </div>
-                                            <h5>Clifford Carter</h5>
-                                            <p className="small-text color-main">
-                                                VISITORS / BUSINESSMAN
-                                            </p>
-                                            <p>
-                                                Pork belly shankle brisket pig swine sausage landjaeger tri-tip
-                                                drumstick kielbasa burgdoggen pork chop prosciutto rump ground round.
-                                                Andouille ribeye chicken swine. Biltong rump venison.
-                                            </p>
-                                            <i className="fa fa-quote-right" aria-hidden="true"></i>
-                                        </blockquote>
-                                    </div>
+                                    
                                 </div>
                             </div>
 

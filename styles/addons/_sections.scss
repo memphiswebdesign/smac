@@ -554,11 +554,12 @@ body.boxed {
       color:$lightColor;
     }
   }
-  .signature{
+  .signature {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
     align-items: center;
+
     .signature__left{
       h5{
         margin-bottom: -4px;
@@ -570,6 +571,10 @@ body.boxed {
         font-weight: 400;
         color:$colorMain;
       }
+    }
+    .jw-sig {
+      width: 160px;
+      margin-bottom: -16px;
     }
   }
 }

@@ -39,7 +39,7 @@ export default () => {
                                     <span>FOUNDER / CHIEF INSTRUCTOR</span>
                                 </div>
                                 <div className="signature__right">
-                                    <img src="images/signature.png" alt="signature"/>
+                                    <img className="jw-sig" src="images/jw-signature-light.svg?123" alt="jason warren signature"/>
                                 </div>
                             </div>
                         </div>

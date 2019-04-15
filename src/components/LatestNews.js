@@ -38,13 +38,13 @@ export default () => {
     const { allMarkdownRemark } = getRecentEvents();
 
     return (
-        <section className="ds s-pt-60 s-pb-0 s-py-md-90 c-mb-30 news-section">
+        <section className="ds s-pt-60 s-pb-0 s-py-md-60 c-mb-30 news-section">
             <div className="container">
                 <div className="row">
-                    <div className="divider-70 d-none d-xl-block"></div>
+                    <div className="divider-60 d-none d-xl-block"></div>
                     <div className="col-12">
-                        <h3 className="special-heading text-center">Latest News &amp; Events</h3>
-                        <div className="divider-60 d-none d-xl-block"></div>
+                        <h3 className="special-heading text-center">Upcoming Events • Register Now!</h3>
+                        <div className="divider-40 d-none d-xl-block"></div>
                         <div className="row">
                             {allMarkdownRemark.nodes.map((post, index) => {
                                 return (

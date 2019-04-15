@@ -1,13 +1,13 @@
 import React from 'react';
 
 export default () => (
-    <section className="ds s-py-60 s-py-md-90 c-mb-20 c-gutter-20 form-section">
+    <section className="ds s-py-60 s-py-md-40 c-mb-20 c-gutter-20 form-section">
         <div className="container">
             <div className="row">
-                <div className="divider-70 d-none d-xl-block"></div>
+                <div className="divider-40 d-none d-xl-block"></div>
                 <div className="col-12">
                     <h3 className="special-heading text-center">Contact Us</h3>
-                    <div className="divider-60 d-none d-xl-block"></div>
+                    <div className="divider-40 d-none d-xl-block"></div>
                     <div className="divider-40 hidden-above-md"></div>
 
                     <form name="contact-form" action="/contact-success" method="post" data-netlify="true">
@@ -73,7 +73,7 @@ export default () => (
                     </form>
 
                 </div>
-                <div className="divider-40 d-none d-xl-block"></div>
+                <div className="divider-30 d-none d-xl-block"></div>
             </div>
         </div>
     </section>

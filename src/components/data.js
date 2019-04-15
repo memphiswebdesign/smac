@@ -1,5 +1,16 @@
 export const Instructors = [
         {
+            name: 'Jason Warren',
+            title: 'Founder & Chief Instructor',
+            img_src: 'images/team/jason-warren-headshot.jpg',
+            page: '',
+            social: [
+                { facebook: 'https://www.facebook.com/kbolich' },
+                { instagram: 'https://www.instagram.com/karendabolich/' },
+                { twitter: '' }
+            ]
+        },
+        {
             name: 'Karenda Bolich',
             title: 'Black Belt Instructor',
             img_src: 'images/team/karenda-bolich.jpg',
@@ -24,12 +35,12 @@ export const Instructors = [
             ]
         },
         {
-            name: 'Jacob Besse',
+            name: 'Cole Presley',
             title: 'Black Belt Instructor',
-            img_src: 'images/team/jacob-besse.jpg',
+            img_src: 'images/team/cole-presley.jpg',
             page: '',
             social: [
-                { facebook: 'https://www.facebook.com/jacob.besse.5' },
+                { facebook: 'https://www.facebook.com/cole.presley.35' },
                 { instagram: 'https://www.instagram.com/p/BoiUgXbhoRP/' },
                 { twitter: '' },
                 { site: '' }
@@ -46,6 +57,24 @@ export const Instructors = [
                 { twitter: 'https://twitter.com/ReidPresley' },
                 { site: 'https://equippedfit.com/' }
             ]
+        },
+        {
+            name: 'Jake Presley',
+            title: 'Black Belt Instructor',
+            img_src: 'images/team/jake-presley.jpg',
+            page: '',
+            social: [
+                { facebook: 'https://www.facebook.com/jake.presley.75' }
+            ]
+        },
+        {
+            name: 'Mary Besse',
+            title: 'Black Belt Instructor',
+            img_src: 'images/team/mary-besse.jpg',
+            page: '',
+            social: [
+                { facebook: 'https://www.facebook.com/marybesse' }
+            ]
         }
 ];
 
@@ -53,7 +82,7 @@ export const Links = {
     social: [
         { facebook: 'https://www.facebook.com/smaclebanon/' },
         { twitter: '' },
-        { instagram: 'https://www.instagram.com/explore/locations/185772471/success-martial-arts-center/' },
+        { instagram: 'https://www.instagram.com/smaclebanon/' },
         { site: '' }
     ]
 };

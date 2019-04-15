@@ -2,6 +2,7 @@ import React from "react"
 import Layout from '../components/Layout';
 import Breadcrumb from '../components/Breadcrumb';
 import ContactForm from "../components/ContactForm";
+import InstructorsBlock from "../components/InstructorsBlock";
 
 /* eslint-disable */
 export default () => {
@@ -47,7 +48,7 @@ export default () => {
                     </div>
                 </div>
             </section>
-            <section className="ds ms s-py-60 s-py-md-90 s-overlay team-section">
+            {/*<section className="ds ms s-py-60 s-py-md-90 s-overlay team-section">
                 <div className="container">
                     <div className="row">
                         <div className="divider-70 d-none d-xl-block"></div>
@@ -214,7 +215,11 @@ export default () => {
                         <div className="divider-70 d-none d-xl-block"></div>
                     </div>
                 </div>
-            </section>
+            </section>*/}
+
+            {/* Instructors */}
+            <InstructorsBlock />
+
             <section className="ds s-py-60 s-py-md-90 testimonials-section">
                 <div className="container">
                     <div className="row">

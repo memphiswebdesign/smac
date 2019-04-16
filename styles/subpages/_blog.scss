@@ -213,19 +213,19 @@ h4.entry-title {
   display: flex;
   justify-content: space-between;
   .entry-date{
-    a{
+    a, span {
       color: $darkFontColor;
     }
   }
   .entry-categories{
-    a{
+    a, span {
       color:$colorMain;
       &:hover{
         color:$darkFontColor;
       }
     }
   }
-  a {
+  a, span {
     @include small-text();
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0 !important;

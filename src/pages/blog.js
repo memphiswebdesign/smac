@@ -56,11 +56,11 @@ class Blog extends Component {
                                                             <header className="entry-header">
                                                                 <div className="entry-meta">
                                                                     <div className="entry-date">
-                                                                        <a href="blog-single-video-full.html" rel="bookmark">
-                                                                            <time className="published updated" dateTime="2018-03-18T15:15:12+00:00">
+                                                                        <span>
+                                                                            <time className="published updated">
                                                                                 { blog.frontmatter.date }
                                                                             </time>
-                                                                        </a>
+                                                                        </span>
                                                                     </div>
                                                                 </div>
                                                                 <h4 className="entry-title">
@@ -100,7 +100,13 @@ class Blog extends Component {
 
 export const query = graphql`
 query BlogPageQuery {
-  allMarkdownRemark(filter: {frontmatter: {layout: {eq: "blog"}}}) {
+  allMarkdownRemark(
+  filter: {frontmatter: {layout: {eq: "blog"}}}
+  sort: {
+      fields: [frontmatter___date, frontmatter___title]
+      order: DESC
+    }
+  ) {
     totalCount
     pageInfo {
       hasNextPage

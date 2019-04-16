@@ -23,7 +23,7 @@ export default ({ data }) => {
                                     { frontmatter.featured_image ? (
                                         <img src={ frontmatter.featured_image } alt={ frontmatter.title } />
                                     ) : (
-                                        <img alt="no featured_image was found" />
+                                        <span className="screen-reader-text">No image was find</span>
                                     ) }
                                 </div>
 

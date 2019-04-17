@@ -9,6 +9,4 @@ featured_image: /assets/57294116_516632635532137_6319246353960534016_n.jpg
 
 ## Hazelwood East High School
 
-****[**11300 Dunn Rd, Spanish Lake, Missouri 63138**](https://www.google.com/maps/place/11300+Dunn+Rd,+St.+Louis,+MO+63138/data=!4m2!3m1!1s0x87df4927b16f89df:0x11cf919cd4f8c1d4?sa=X&ved=2ahUKEwisiOaFzdXhAhULCKwKHSU4BKoQ8gEwAHoECAoQAQ)****
-
-****
+11300 Dunn Rd, Spanish Lake, Missouri 63138

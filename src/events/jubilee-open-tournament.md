@@ -7,7 +7,7 @@ featured_image: /assets/jubilee-open-2019.jpg
 ---
 Details coming soon!  You can sign up to receive updates here!
 
-<https://jubileeopen.wordpress.com/>
+<https://jubileeopen.wordpress.com/>{:target="_blank"}
 
 ## Friday, May 3
 

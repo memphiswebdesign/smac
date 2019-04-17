@@ -3,7 +3,7 @@ layout: event
 title: Jubilee Open Tournament
 date: 2019-05-04T13:00:00.000Z
 location: 'Daphne, Alabama'
-featured_image: /assets/jubilee-open-2019-transparent.png
+featured_image: /assets/jubilee-open-2019.jpg
 ---
 Details coming soon!  You can sign up to receive updates here!
 

@@ -9,31 +9,16 @@ class Accordion extends Component {
             activeIndex: 0,
             faqs: [
                 {
-                    header: 'Do I have to be in shape to get started?',
-                    message: `Not at all. You’ll find that our classes for beginners are the
-                                    perfect way to build up your overall fitness level regardless of
-                                    your physical condition. Good luck!`
+                    header: 'Will Martial Arts make my child aggressive?',
+                    message: `The answer is NO. At SMAC, students are taught self control and understand clearly that martial arts is to be used for self defense only. It’s rare that students ever have to use it.`
                 },
                 {
-                    header: 'Can I come and watch a class?',
-                    message: `Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                              single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                              keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                              sapiente ea proident.`
+                    header: 'Will this program increase my child’s self-esteem?',
+                    message: `Absolutely! At SMAC, we teach our students through positive reinforcement. We have many creative ways to help a child overcome obstacles and increase their confidence.`
                 },
                 {
-                    header: 'Am I too old to start martial arts training?',
-                    message: `Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                              single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                              keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                              sapiente ea proident.`
-                },
-                {
-                    header: 'Will I get hurt during the training?',
-                    message: `Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                              synth nesciunt you probably haven't heard of them accusamus labore
-                              sustainable sunt aliqua put a bird on it squid single-origin coffee
-                              shoreditch et.`
+                    header: 'My child struggles making friends and is often bullied. Will this help my child?',
+                    message: `At SMAC students are taught and encouraged to build each other up through praise and support for one another. Some will still struggle making friends at school but, at SMAC, they will make a new set of friends and have a place to feel included. Students dealing with bullies are encouraged to meet with Mr. Warren and parents to develop an action plan.`
                 }
             ]
         }
@@ -42,8 +27,8 @@ class Accordion extends Component {
     render(props) {
         return (
             <div className="faq-section-right">
-                <div className="divider-90 d-none d-xl-block"></div>
-                <h3 className="special-heading text-lg-left text-center">sparring / faq</h3>
+                <div className="divider-90 d-none d-xl-block"></div> 
+                <h3 className="special-heading text-lg-left text-center">faq</h3>
                 <div className="divider-50 d-none d-xl-block"></div>
                 <div className="divider-40 hidden-above-md"></div>
                 <div role="tablist">

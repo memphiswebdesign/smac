@@ -2,11 +2,11 @@ export const Instructors = [
         {
             name: 'Jason Warren',
             title: 'Founder & Chief Instructor',
-            img_src: 'images/team/jason-warren-headshot.jpg',
+            img_src: 'images/team/smac-jason-warren-team.jpg',
             page: '',
             social: [
-                { facebook: 'https://www.facebook.com/kbolich' },
-                { instagram: 'https://www.instagram.com/karendabolich/' },
+                { facebook: 'https://www.facebook.com/jason.warren.311' },
+                { instagram: 'https://www.instagram.com/tkdwarren/' },
                 { twitter: '' }
             ]
         },
@@ -28,10 +28,7 @@ export const Instructors = [
             img_src: 'images/team/amy-williams.jpg',
             page: '',
             social: [
-                { facebook: 'https://www.facebook.com/amy.b.williams.566' },
-                { instagram: '' },
-                { twitter: '' },
-                { site: '' }
+                { facebook: 'https://www.facebook.com/amy.b.williams.566' }
             ]
         },
         {
@@ -40,10 +37,7 @@ export const Instructors = [
             img_src: 'images/team/cole-presley.jpg',
             page: '',
             social: [
-                { facebook: 'https://www.facebook.com/cole.presley.35' },
-                { instagram: 'https://www.instagram.com/p/BoiUgXbhoRP/' },
-                { twitter: '' },
-                { site: '' }
+                { facebook: 'https://www.facebook.com/cole.presley.35' }
             ]
         },
         {

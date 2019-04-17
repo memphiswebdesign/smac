@@ -173,11 +173,11 @@ class Index extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-6">
                                 <div className="faq-section-left embed-responsive embed-responsive-3by2">
-                                    <a href="https://www.youtube.com/embed/mcixldqDIEQ"
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=Go5_CKD4h9M"
                                        className="faq-video embed-placeholder">
 
                                     </a>
-                                </div>
+                                </div> 
                             </div>
                             <div className="col-12 col-lg-6">
                                 <FaqAccordion>

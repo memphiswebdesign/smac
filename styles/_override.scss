@@ -99,10 +99,11 @@ td .media-body {
     font-family: 'FontAwesome';
     position: absolute;
     color: $colorMain;
-    font-size: 14px;
-    line-height: 56px;
-    width: 60px;
-    height: 60px;
+    font-size: 28px;
+    line-height: 2.5em;
+    text-indent: 0.2em;
+    width: 72px;
+    height: 72px;
     text-align: center;
     border: 2px solid $lightColor;
     border-radius: 50%;
@@ -111,9 +112,10 @@ td .media-body {
     margin-left: -30px;
     margin-top: -30px;
   }
-  &:hover:after {
-    opacity: 0.4;
-  }
+  &:hover:after { 
+    background-color: $colorMain;
+    color: #fff;
+  } 
 }
 
 .alert {

@@ -138,7 +138,7 @@ export default class OwlCarousel extends Component {
                  data-responsive-lg="3">
                 <div className="vertical-item text-center">
                     <div className="item-media">
-                        <img width="370" height="230" src="images/gallery/17.jpg" alt=""/>
+                        <img width="370" height="230" src="images/gallery/smac-little-dragons-class.jpg" alt=""/>
                         <div className="media-links">
                             <a className="abs-link" title="" href="/programs"></a>
                         </div>

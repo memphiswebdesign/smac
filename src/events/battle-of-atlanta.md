@@ -11,4 +11,4 @@ featured_image: /assets/battle-of-atlanta-tournament-md.jpg
 
 **ATLANTA, GA**
 
-[Tournament Info](https://www.thebattleofatlanta.com/)
+[Tournament Info](https://www.thebattleofatlanta.com/){:target="_blank"}

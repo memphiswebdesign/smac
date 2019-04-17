@@ -100,7 +100,7 @@ export default () => {
                             })}
                         </div>
                     </div>
-                    <div className="divider-10 d-none d-xl-block"></div>
+                    <div className="col-md-12 text-center"><a class="btn btn-outline-maincolor" href="/events">View All Events</a></div>
                 </div>
             </div>
         </section>

@@ -5,7 +5,7 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <title>Okorner - HTML Template</title>
+        <title>Success Martial Arts Center</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
@@ -15,9 +15,6 @@ export default function HTML(props) {
         <meta charSet="utf-8"/>
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-
-        {/*<script src="/js/compressed.js"></script>*/}
-        {/*<script src="/js/main.js"></script>*/}
 
         {props.headComponents}
       </head>

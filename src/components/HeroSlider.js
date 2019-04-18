@@ -101,7 +101,8 @@ export default class HeroSlider extends Component {
                                             <div className="intro_layers">
                                                 <div className="intro_layer" data-animation="fadeinright">
                                                     <h2 className="intro_featured_word special-heading">
-                                                        welcome to <br/> karate and martial <br/> arts school
+                                                        your success starts here
+                                                        {/*welcome to <br/> Success martial arts center*/}
                                                     </h2>
                                                 </div>
                                                 <div className="intro_layer short"

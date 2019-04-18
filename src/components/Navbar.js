@@ -33,20 +33,16 @@ const pages = [
         url: '/programs',
         subMenu: [
             {
-                display: 'Class 1',
-                url: '/class1'
+                display: 'Little Dragons',
+                url: '/little-dragons'
             },
             {
-                display: 'Class 2',
-                url: '/class2'
+                display: 'Kids Programs',
+                url: '/kids-taekwondo-class'
             },
             {
-                display: 'Class 3',
-                url: '/class3'
-            },
-            {
-                display: 'Class Schedule',
-                url: '/schedule'
+                display: 'Teen & Adult Programs',
+                url: '/teen-adult-taekwondo-class'
             }
         ]
     },

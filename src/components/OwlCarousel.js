@@ -155,7 +155,7 @@ export default class OwlCarousel extends Component {
                             Dynamic, Highly Energetic <em>(30 min)</em> classes for 4 & 5 year old warriors!
                         </p>
                         <div className="services-link">
-                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ export default class OwlCarousel extends Component {
                             We cater to ages 4 and up with our Martial Arts classes.
                         </p>
                         <div className="services-link">
-                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@ export default class OwlCarousel extends Component {
                             We can organize an action-packed birthday party at our studio.
                         </p>
                         <div className="services-link">
-                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
 
@@ -225,7 +225,7 @@ export default class OwlCarousel extends Component {
                             Just looking to get in shape. We have classes to fit your needs.
                         </p>
                         <div className="services-link">
-                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@ export default class OwlCarousel extends Component {
                             One on One training on your schedule.
                         </p>
                         <div className="services-link">
-                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -271,7 +271,7 @@ export default class OwlCarousel extends Component {
                             Not in our area, arrange for a class or classes via Skype.
                         </p>
                         <div className="services-link">
-                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -294,7 +294,7 @@ export default class OwlCarousel extends Component {
                             Join us for a training camp.
                         </p>
                         <div className="services-link">
-                            <a class="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>

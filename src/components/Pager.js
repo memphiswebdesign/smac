@@ -45,11 +45,11 @@ class Pager extends Component {
       return (
           <React.Fragment key={ index }>
             { pages }
-            <a className={`page-numbers ${this.state.page === index + 1 ? 'current' : ''}`}
+            <button className={`page-numbers ${this.state.page === index + 1 ? 'current' : ''}`}
                onClick={() => this.switchPage(index + 1) }>
               <span className="meta-nav screen-reader-text">Page </span>
               { index + 1}
-            </a>
+            </button>
           </React.Fragment>
       )
     });
@@ -57,15 +57,15 @@ class Pager extends Component {
     return (<nav className="navigation pagination" role="navigation">
       <h2 className="screen-reader-text">Posts navigation</h2>
       <div className="nav-links">
-        <a className="prev page-numbers" onClick={() => this.switchPage('-1') }>
+        <button className="prev page-numbers" onClick={() => this.switchPage('-1') }>
           <i className="fa fa-chevron-left"></i>
           <span className="screen-reader-text">Previous page</span>
-        </a>
+        </button>
         { pages }
-        <a className="next page-numbers" onClick={() => this.switchPage('+1') }>
+        <button className="next page-numbers" onClick={() => this.switchPage('+1') }>
           <span className="screen-reader-text">Next page</span>
           <i className="fa fa-chevron-right"></i>
-        </a>
+        </button>
       </div>
     </nav>);
   }

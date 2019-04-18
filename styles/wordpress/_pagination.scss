@@ -6,7 +6,8 @@
 .page-links {
   clear: both;
   & > span,
-  & > a:not(.btn) {
+  & > a:not(.btn),
+  & > button:not(.btn) {
     border: 1px solid $darkBorderColor;
     border-radius: 0 !important;
     color: $darkFontColor;

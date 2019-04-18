@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Layout from '../components/Layout';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Breadcrumb from "../components/Breadcrumb";
 import Pager from "../components/Pager";
 
@@ -37,7 +37,7 @@ class eventsPage extends Component {
                                                         <img src={event.frontmatter.featured_image}
                                                              alt={event.frontmatter.title}/>
                                                         <div className="media-links">
-                                                            <a className="abs-link" href={event.fields.slug}></a>
+                                                            <Link className="abs-link" to={event.fields.slug} />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,13 @@ export default eventsPage;
 export const query =
     graphql`
     query EventsPageQuery {
-      allMarkdownRemark(filter: {frontmatter: {layout: {eq: "event"}}}) {
+      allMarkdownRemark(
+      filter: {frontmatter: {layout: {eq: "event"}}}
+      sort: {
+          fields: [frontmatter___date, frontmatter___title]
+          order: ASC
+        }
+      ) {
         totalCount
         pageInfo {
           hasNextPage

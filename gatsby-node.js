@@ -1,8 +1,9 @@
-const path = require("path")
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const util = require('util');
+const path = require("path");
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.createPages = ({ actions, graphql }) => {
-    const { createPage } = actions
+    const { createPage } = actions;
     return new Promise((resolve, reject) => {
         resolve(graphql(`
     {
@@ -27,11 +28,12 @@ exports.createPages = ({ actions, graphql }) => {
                     console.log(result.errors)
                     return reject(result.errors)
                 }
-                const blogTemplate = path.resolve('./src/templates/blogTemplate.js');
                 result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+                    const type = node.fields.slug.match(/^\/\w+\b/)[0].substr(1);
+                    const template = path.resolve(`./src/templates/${type}Template.js`);
                     createPage({
                         path: node.fields.slug,
-                        component: blogTemplate,
+                        component: template,
                         context: {
                             slug: node.fields.slug,
                         } // additional data can be passed via context

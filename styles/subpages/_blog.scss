@@ -45,6 +45,11 @@ h4.entry-title {
   h1.entry-title {
     margin-top: 5px;
   }
+
+  .entry-header {
+    border-bottom: 1px solid rgba(#fff, 0.2);
+    margin-bottom: 18px;
+  }
 }
 
 
@@ -74,12 +79,12 @@ h4.entry-title {
 
   &.format-link{
     .item-content{
-      padding: 56px 51px 51px;
+      padding: 35px;
       @media(max-width: 450px){
         padding: 30px;
       }
       p{
-        margin: 0 0 8px;
+        margin: 0 0 12px;
         @media(max-width: 768px){
           text-align: center;
         }
@@ -101,12 +106,12 @@ h4.entry-title {
     }
   }
   .item-media + .item-content{
-    padding: 56px;
+    padding: 35px;
     @media(max-width: 450px){
       padding: 25px;
     }
     p{
-      margin: 0 0 8px;
+      margin: 0 0 12px;
     }
 
 }
@@ -139,7 +144,7 @@ h4.entry-title {
   }
 
   & + & {
-    margin-top: 60px;
+    margin-top: 40px;
     @media(max-width: 575px){
       margin-top: 30px;
     }
@@ -177,6 +182,7 @@ h4.entry-title {
 
   ul, ol {
     margin-bottom: 40px;
+    margin-left: 22px;
   }
 
 }
@@ -280,6 +286,14 @@ h4.entry-title {
   }
 }
 
+.entry-content {
+  a {
+    text-decoration: underline;
+    color: $colorMain!important;
+  }
+  img {margin: 6px 0;}
+}
+
 .cat-links {
   font-size: 0;
   display: block;
@@ -348,7 +362,7 @@ h4.entry-title {
 }
 .video-post{
   .item-content{
-    padding: 56px;
+    padding: 35px;
     @media(max-width: 575px){
       padding: 30px;
     }

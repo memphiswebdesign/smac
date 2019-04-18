@@ -19,9 +19,9 @@ class eventsPage extends Component {
             <Layout>
                 <Breadcrumb list={[{name: 'home', url: '/'}, {name: 'events', url: '/events'}]} title={"Events"}/>
 
-                <section className="ds s-pt-60 s-pb-60 s-py-md-90">
+                <section className="ds s-pt-60 s-pb-60 s-py-md-60">
                     <div className="container">
-                        <div className="d-none d-lg-block divider-70"></div>
+                        <div className="d-none d-lg-block divider-40"></div>
 
                         <div className="row c-gutter-60">
 

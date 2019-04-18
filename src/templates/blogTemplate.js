@@ -29,7 +29,7 @@ export default ({ data }) => {
 
                                 <div className="item-content">
                                     <header className="entry-header">
-                                        <h2 className="color-main">{ frontmatter.title }</h2>
+                                        <h2 className="">{ frontmatter.title }</h2>
                                         <div className="entry-meta">
                                             <div className="entry-date">
                                                 <time className="published updated" dateTime="2018-03-18T15:15:12+00:00">

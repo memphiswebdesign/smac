@@ -26,12 +26,13 @@
 
 .ds {
   .entry-date time {
-    color:$colorMain;
+    color:$darkFontColor;
   }
   a:not(.btn) {
-      color:$lightColor;
-    &:hover {
+      // color:$lightColor;
       color:$colorMain;
+    &:hover {
+      text-decoration: underline;
     }
   }
 

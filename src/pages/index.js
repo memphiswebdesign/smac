@@ -70,7 +70,7 @@ class Index extends Component {
                             <div className="divider-40 d-none d-lg-block"></div>
                                 <div className="col-md-12 text-center">
                                   <a className="btn btn-outline-maincolor" href="/programs">All Programs</a>
-                                  <a className="btn btn-outline-maincolor" href="/schedule">Class Schedule</a>
+                                  <a className="btn btn-outline-maincolor" href="/class-schedule">Class Schedule</a>
                                 </div>
                             <div className="divider-70 d-none d-lg-block"></div>
                         </div>

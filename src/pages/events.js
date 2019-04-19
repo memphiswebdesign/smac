@@ -17,7 +17,7 @@ class eventsPage extends Component {
     render() {
         return (
             <Layout>
-                <Breadcrumb list={[{name: 'home', url: '/'}, {name: 'events', url: '/events'}]} title={"Events"}/>
+                <Breadcrumb list={[{name: 'home', url: '/'}, {name: 'events', url: '/events'}]} title={"Upcoming Events"}/>
 
                 <section className="ds s-pt-60 s-pb-60 s-py-md-60">
                     <div className="container">

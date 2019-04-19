@@ -5,7 +5,7 @@ import Breadcrumb from "../components/Breadcrumb";
 export default () => {
     return (
         <Layout>
-        	<Breadcrumb list={[{name: 'home', url: '/'}, {name: 'Kids Classes', url: '/kids-taekwondo-class'}]} title={"Kids Taekwondo Class"}/>
+        	<Breadcrumb list={[{name: 'home', url: '/'}, {name: 'Programs', url: '/programs'}, {name: 'Kids Classes', url: '/kids-taekwondo-class'}]} title={"Kids Taekwondo Class"}/>
         </Layout>
     );
 } 

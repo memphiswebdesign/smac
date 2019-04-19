@@ -29,10 +29,10 @@
     color:$darkFontColor;
   }
   a:not(.btn) {
-      // color:$lightColor;
-      color:$colorMain;
+      color:$lightColor;
+      // color:$colorMain;
     &:hover {
-      text-decoration: underline;
+      // text-decoration: underline;
     }
   }
 

@@ -43,6 +43,10 @@ const pages = [
             {
                 display: 'Teen & Adult Programs',
                 url: '/teen-adult-taekwondo-class'
+            },
+            {
+                display: 'Class Schedule',
+                url: '/class-schedule'
             }
         ]
     },

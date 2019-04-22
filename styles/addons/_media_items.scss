@@ -183,6 +183,14 @@
 
   .item-media + .item-content {
     padding: 25px;
+
+    h5 {
+      margin-bottom: 0.7em;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.4;
+    }
   }
 
   &.content-padding {

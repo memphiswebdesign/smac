@@ -17,11 +17,11 @@ export default () => {
                         	<h4>Ultimate Summer Camp Info Coming Soon..</h4>
                         </div>
 					</div>
-				</div>
+				</div> 
 			</section>
 
             <InfoBanner color={"red"} />
-            
+
         </Layout>
     );
 } 

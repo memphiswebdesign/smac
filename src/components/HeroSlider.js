@@ -101,15 +101,14 @@ export default class HeroSlider extends Component {
                                             <div className="intro_layers">
                                                 <div className="intro_layer" data-animation="fadeinright">
                                                     <h2 className="intro_featured_word special-heading">
-                                                        your success starts here
-                                                        {/*welcome to <br/> Success martial arts center*/}
+                                                        Become a<br/><span className="color-main2">Champion of Success</span>
                                                     </h2>
                                                 </div>
                                                 <div className="intro_layer short"
                                                      data-animation="fadeinright">
-                                                    <p className="intro_before_featured_word">karate is
-                                                        martial art and way of life that trains
-                                                        <br/> a practitioner to be peaceful.</p>
+                                                    <p className="intro_before_featured_word">
+                                                        Join SMAC today & train with the best!<br />We offer prorams for all ages & skill levels.
+                                                    </p>
                                                 </div>
                                                 <div className="intro_layer button"
                                                      data-animation="fadeinleft">
@@ -136,20 +135,18 @@ export default class HeroSlider extends Component {
                                             <div className="intro_layers">
                                                 <div className="intro_layer" data-animation="fadeInRight">
                                                     <h2 className="intro_featured_word special-heading">
-                                                        WELCOME TO <br/> KARATE AND MARTIAL <br/> ARTS SCHOOL
+                                                        Train With<br /><span className="color-main2">Real World Champions</span>
                                                     </h2>
                                                 </div>
                                                 <div className="intro_layer short"
                                                      data-animation="fadeInRight">
-                                                    <p className="intro_before_featured_word">Karate is
-                                                        martial art and way of life that trains
-                                                        <br/> a practitioner to be peaceful.</p>
+                                                    <p className="intro_before_featured_word">
+                                                        Join the Top Ranking Martial Artist today!<br />We train the best of the best.
+                                                    </p>
                                                 </div>
                                                 <div className="intro_layer button"
                                                      data-animation="fadeInLeft">
-                                                    <button className="btn btn-maincolor intro_button">get a
-                                                        free lesson
-                                                    </button>
+                                                    <Link to={"/programs"} className="btn btn-maincolor intro_button">view programs</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -167,22 +164,18 @@ export default class HeroSlider extends Component {
                                                 <div className="intro_layer"
                                                      data-animation="fadeInRight">
                                                     <h2 className="intro_featured_word special-heading">
-                                                        WELCOME TO <br/> KARATE AND MARTIAL <br/> ARTS
-                                                        SCHOOL
+                                                        Begin Your<br/><span className="color-main2">Path to Success</span>
                                                     </h2>
                                                 </div>
                                                 <div className="intro_layer short"
                                                      data-animation="fadeInRight">
-                                                    <p className="intro_before_featured_word">Karate
-                                                        is martial art and way of life that trains
-                                                        <br/> a practitioner to be peaceful.</p>
+                                                    <p className="intro_before_featured_word">
+                                                        Begin your Life Changing Journey Today!
+                                                    </p>
                                                 </div>
                                                 <div className="intro_layer button"
                                                      data-animation="fadeInLeft">
-                                                    <button
-                                                        className="btn btn-maincolor intro_button">get
-                                                        a free lesson
-                                                    </button>
+                                                    <Link to={"/trial"} className="btn btn-maincolor intro_button">get a free lesson</Link>
                                                 </div>
                                             </div>
                                         </div>

@@ -9,7 +9,7 @@ export default () => {
         <Layout>
             <Breadcrumb list={[ {name: 'home', url: '/'}, {name: 'about', url: '/about'}, {name: 'team', url: '/team'} ]} title={"Team"} />
 
-            <section className="ds s-py-60 s-py-md-90">
+            <section className="ds s-py-40 s-py-md-60 team-grid">
                 <div className="container">
                     <div className="row">
 

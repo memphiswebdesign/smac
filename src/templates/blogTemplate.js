@@ -10,11 +10,9 @@ export default ({ data }) => {
         <Layout>
             <Breadcrumb list={[ {name: 'home', url: '/'}, {name: 'blog', url: '/blog'}, {name: frontmatter.title} ]} title={"Blog"} />
 
-            <section className="ds s-pt-60 s-pb-60 s-py-md-90 c-gutter-60">
+            <section className="ds s-pt-60 s-pb-60 s-py-md-40 c-gutter-40">
                 <div className="container">
                     <div className="row">
-
-                        <div className="d-none d-lg-block divider-70"></div>
 
                         <main className="offset-lg-1 col-lg-10">
                             <article className="vertical-item post type-post status-publish format-standard has-post-thumbnail">

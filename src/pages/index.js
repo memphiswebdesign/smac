@@ -30,7 +30,7 @@ class Index extends Component {
                                 <p className="excerpt text-lg-left text-center">"Keep your Guards up Chip.." The emotional moments shared around the World as Sergeant Rob Cesternino surprises his son back home.</p>
                                 <p className="text-lg-left text-center">
                                     After 10 long months of deployment, Sergeant Cesternino surprise his son, Luca, during a blind-folded sparring match. Luca Cesternino is a skilled Taekwondo Black Belt, training in Lebanon, TN...
-                                    <a className="about-link" href="/about">
+                                    <a className="about-link" href="/blog/2019-04-24-sergeant-cesternino-surprises-luca/">
                                         read story <i className="fa fa-arrow-right" aria-hidden="true"></i>
                                     </a>
                                 </p>

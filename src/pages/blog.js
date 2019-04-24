@@ -35,14 +35,12 @@ class Blog extends Component {
                         <div className="container">
 
                             <div className="row c-mb-30">
-                                <div className="d-none d-lg-block divider-70"></div>
 
                                 <main className="col-lg-12">
 
                                     <div className="row isotope-wrapper masonry-layout">
 
                                         {/* Repeat for each blog post */}
-
                                         {this.state.edges.map(({ node }, index) => {
                                             const blog = node;
                                             return (

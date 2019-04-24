@@ -12,7 +12,7 @@ export default () => {
                     <div className="row">
                     	<div className="col-md-1 col-xs-12"></div>
                     	<div className="col-md-5 col-xs-12">
-                        	<img src="images/gallery/smac-little-dragons-class.jpg" alt="Litle Dragons Class"/>
+                        	<img src="/images/gallery/smac-little-dragons-class.jpg" alt="Litle Dragons Class"/>
                     	</div>
                     	<div className="col-md-5 col-xs-12">
                     		<h2>Little Dragons</h2>

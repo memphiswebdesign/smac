@@ -19,10 +19,10 @@ export default () => {
                         <div className="divider-60"></div>
 					</div>
                     <div className="row">
-                        <div className="col-sm-3 col-xs-6"><img src="images/party/smac-party-1.jpg" /></div>
-                        <div className="col-sm-3 col-xs-6"><img src="images/party/smac-party-4.jpg" /></div>
-                        <div className="col-sm-3 col-xs-6"><img src="images/party/smac-party-3.jpg" /></div>
-                        <div className="col-sm-3 col-xs-6"><img src="images/party/smac-party-2.jpg" /></div>
+                        <div className="col-sm-3 col-xs-6"><img src="/images/party/smac-party-1.jpg" /></div>
+                        <div className="col-sm-3 col-xs-6"><img src="/images/party/smac-party-4.jpg" /></div>
+                        <div className="col-sm-3 col-xs-6"><img src="/images/party/smac-party-3.jpg" /></div>
+                        <div className="col-sm-3 col-xs-6"><img src="/images/party/smac-party-2.jpg" /></div>
                     </div>
                     <div className="row">
                         <div className="divider-60"></div>

@@ -20,36 +20,31 @@ class Index extends Component {
                 <InfoBanner color={"navy"} />
 
                 {/* About Block */}
-                <section className="ds s-py-60 s-py-md-90 s-overlay mobile-overlay about-section">
+                <section className="ds s-py-60 s-py-md-90 s-overlay mobile-overlay about-section featured-story-section">
                     <div className="container">
                         <div className="row d-flex justify-content-end">
                             <div className="divider-70 d-none d-xl-block"></div>
                             <div className="col-md-12 col-xl-6 ">
-                                <h3 className="special-heading text-lg-left text-center">about <span
-                                    className="color-main">SMAC</span></h3>
+                                <h3 className="special-heading text-lg-left text-center"><a href="/blog">Latest Story</a></h3>
                                 <div className="divider-40 d-none d-xl-block"></div>
-                                <p className="excerpt text-lg-left text-center">Fight School has specialized in martial
-                                    arts since 1986 and has one of the most innovative programs in the nation.</p>
+                                <p className="excerpt text-lg-left text-center">"Keep your Guards up Chip.." The emotional moments shared around the World as Sergeant Rob Cesternino surprises his son back home.</p>
                                 <p className="text-lg-left text-center">
-                                    We teach martial arts because we love it — not because we want to make money on you.
-                                    Unlike other martial arts schools, we do not require you to sign long term
-                                    contracts.
-                                    You just pay one low monthly fee for your martial arts and self defense classes at
-                                    the beginning of each month. Many martial arts...
-                                    <a className="about-link" href="about">
-                                        read more <i className="fa fa-level-down" aria-hidden="true"></i>
+                                    After 10 long months of deployment, Sergeant Cesternino surprise his son, Luca, during a blind-folded sparring match. Luca Cesternino is a skilled Taekwondo Black Belt, training in Lebanon, TN...
+                                    <a className="about-link" href="/about">
+                                        read story <i className="fa fa-arrow-right" aria-hidden="true"></i>
                                     </a>
                                 </p>
 
-                                <div className="signature">
+                                {/*Old signature for Jason Warren*/}
+                                {/*<div className="signature">
                                     <div className="signature__left">
                                         <h5>Jason Warren</h5>
                                         <span>FOUNDER / CHIEF INSTRUCTOR</span>
                                     </div>
                                     <div className="signature__right">
-                                        <img className="jw-sig" src="images/jw-signature-light.svg?123" alt="jason warren signature"/>
+                                        <img className="jw-sig" src="/images/jw-signature-light.svg?123" alt="jason warren signature"/>
                                     </div>
-                                </div>
+                                </div>*/}
                             </div>
                             <div className="divider-60 d-none d-xl-block"></div>
                         </div>

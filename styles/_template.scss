@@ -241,11 +241,16 @@ img.absolute_image {
 .page_404 {
   background-image: url("../static/images/404.jpg");
 }
-.about-section{
-  background-image: url("../static/images/parallax/about_section_background.jpg");
+.about-section, .featured-story-section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% -10%;
+}
+.about-section {
+  background-image: url("../static/images/parallax/about_section_background.jpg");
+}
+.featured-story-section {
+  background-image: url("../static/images/parallax/soldier-surprise-bg.jpg");
 }
 .ds.coming-soon{
   background-image: url("../static/images/parallax/footer_bg.jpg");

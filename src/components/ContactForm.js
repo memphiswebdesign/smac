@@ -31,30 +31,6 @@ export default () => (
                                            placeholder="Phone Number" defaultValue="" required="required"/>
                                 </div>
                             </div>
-                            {/*<div className="col-xs-12 col-md-2">*/}
-                                {/*<div className="form-group">*/}
-                                    {/*<div className="field-date">*/}
-                                        {/*<select className="form-control" name="date_time_42a77ed"*/}
-                                                {/*required="required">*/}
-                                            {/*<option value="">Date</option>*/}
-                                            {/*<option value="Date">Date</option>*/}
-                                            {/*<option value="Date">Date</option>*/}
-                                        {/*</select>*/}
-                                    {/*</div>*/}
-                                {/*</div>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-xs-12 col-md-2">*/}
-                                {/*<div className="form-group">*/}
-                                    {/*<div className="field-date">*/}
-                                        {/*<select className="form-control" name="date_time_b63914d"*/}
-                                                {/*required="required">*/}
-                                            {/*<option value="">Time</option>*/}
-                                            {/*<option value="Time">Time</option>*/}
-                                            {/*<option value="Time">Time</option>*/}
-                                        {/*</select>*/}
-                                    {/*</div>*/}
-                                {/*</div>*/}
-                            {/*</div>*/}
                         </div>
                         <div className="row">
                             <div className="col-12">
@@ -67,7 +43,6 @@ export default () => (
                         <div className="row">
                             <div className="col-12 text-center">
                                 <button className="btn btn-maincolor" type="submit">Send Message</button>
-                                {/*<button className="btn btn-outline-maincolor" type="submit">our contacts</button>*/}
                             </div>
                         </div>
                     </form>

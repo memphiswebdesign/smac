@@ -579,6 +579,7 @@ body.boxed {
   }
 }
 
-.team-grid {
+.team-grid,
+.form-spaced {
   [class*="col-"] {margin-bottom: 20px;}
 }

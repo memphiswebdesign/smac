@@ -18,7 +18,7 @@ export default () => {
 								<li> Discuss with parent about the needs of their child </li>
 								<li> Adult students will join their class</li>
 							</ul>
-							<img src="images/gallery/smac-boys-uniform-backs.jpg" alt="Intro Class"/>
+							<img src="/images/gallery/smac-boys-uniform-backs.jpg" alt="Intro Class"/>
                     	</div>
                     	<div className="col-md-7 col-xs-12">
                     		<h6>Fill out form & we will be in touch soon to setup your first class.</h6>

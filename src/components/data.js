@@ -2,7 +2,7 @@ export const Instructors = [
         {
             name: 'Jason Warren',
             title: 'Founder & Chief Instructor',
-            img_src: 'images/team/smac-jason-warren-team.jpg',
+            img_src: '/images/team/smac-jason-warren-team.jpg',
             page: '',
             social: [
                 { facebook: 'https://www.facebook.com/jason.warren.311' },
@@ -13,7 +13,7 @@ export const Instructors = [
         {
             name: 'Karenda Bolich',
             title: 'Black Belt Instructor',
-            img_src: 'images/team/karenda-bolich.jpg',
+            img_src: '/images/team/karenda-bolich.jpg',
             page: '',
             social: [
                 { facebook: 'https://www.facebook.com/kbolich' },
@@ -25,7 +25,7 @@ export const Instructors = [
         {
             name: 'Amy Williams',
             title: 'Black Belt Instructor',
-            img_src: 'images/team/amy-williams.jpg',
+            img_src: '/images/team/amy-williams.jpg',
             page: '',
             social: [
                 { facebook: 'https://www.facebook.com/amy.b.williams.566' }
@@ -34,7 +34,7 @@ export const Instructors = [
         {
             name: 'Cole Presley',
             title: 'Black Belt Instructor',
-            img_src: 'images/team/cole-presley.jpg',
+            img_src: '/images/team/cole-presley.jpg',
             page: '',
             social: [
                 { facebook: 'https://www.facebook.com/cole.presley.35' }
@@ -43,7 +43,7 @@ export const Instructors = [
         {
             name: 'Reid Presley',
             title: 'Black Belt Instructor',
-            img_src: 'images/team/reid-presley.jpg',
+            img_src: '/images/team/reid-presley.jpg',
             page: '',
             social: [
                 { facebook: 'https://www.facebook.com/ReidPresleyAthlete/' },
@@ -55,7 +55,7 @@ export const Instructors = [
         {
             name: 'Jake Presley',
             title: 'Black Belt Instructor',
-            img_src: 'images/team/jake-presley.jpg',
+            img_src: '/images/team/jake-presley.jpg',
             page: '',
             social: [
                 { facebook: 'https://www.facebook.com/jake.presley.75' }
@@ -64,7 +64,7 @@ export const Instructors = [
         {
             name: 'Mary Besse',
             title: 'Black Belt Instructor',
-            img_src: 'images/team/mary-besse.jpg',
+            img_src: '/images/team/mary-besse.jpg',
             page: '',
             social: [
                 { facebook: 'https://www.facebook.com/marybesse' }

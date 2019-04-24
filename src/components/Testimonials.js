@@ -6,7 +6,7 @@ function data() {
             className="vertical-item testimonial-item box-shadow content-padding text-center">
             <blockquote className="quote-item">
                 <div className="quote-image">
-                    <img src="images/team/puckett-family.jpg" alt=""/>
+                    <img src="/images/team/puckett-family.jpg" alt=""/>
                 </div>
                 <h5>Danielle Puckett</h5>
                 <p className="small-text color-main">
@@ -22,7 +22,7 @@ function data() {
             className="vertical-item testimonial-item box-shadow content-padding text-center">
             <blockquote className="quote-item">
                 <div className="quote-image">
-                    <img src="images/team/tim-lange-fam.jpg" alt=""/>
+                    <img src="/images/team/tim-lange-fam.jpg" alt=""/>
                 </div>
                 <h5>Tim Lange</h5>
                 <p className="small-text color-main">
@@ -38,7 +38,7 @@ function data() {
             className="vertical-item testimonial-item box-shadow content-padding text-center">
             <blockquote className="quote-item">
                 <div className="quote-image">
-                    <img src="images/team/amy-grauherr-fam.jpg" alt=""/>
+                    <img src="/images/team/amy-grauherr-fam.jpg" alt=""/>
                 </div>
                 <h5>Amy & Jim Grauherr</h5>
                 <p className="small-text color-main">
@@ -54,7 +54,7 @@ function data() {
             className="vertical-item testimonial-item box-shadow content-padding text-center">
             <blockquote className="quote-item">
                 <div className="quote-image">
-                    <img src="images/team/kellie-bodiford-fam.jpg" alt=""/>
+                    <img src="/images/team/kellie-bodiford-fam.jpg" alt=""/>
                 </div>
                 <h5>Kellie Bodiford</h5>
                 <p className="small-text color-main">

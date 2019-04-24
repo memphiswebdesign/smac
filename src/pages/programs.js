@@ -14,7 +14,7 @@ export default () => {
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="vertical-item text-center">
                                 <div className="item-media">
-                                    <img src="images/gallery/smac-little-dragons-class.jpg" alt="Litle Dragons Class"/>
+                                    <img src="/images/gallery/smac-little-dragons-class.jpg" alt="Litle Dragons Class"/>
                                     <div className="media-links">
                                         <a className="abs-link" href="/little-dragons"></a>
                                     </div>
@@ -30,7 +30,7 @@ export default () => {
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="vertical-item text-center">
                                 <div className="item-media">
-                                    <img src="images/gallery/smac-kids-class.jpg" alt="Kids Taekondo Class"/>
+                                    <img src="/images/gallery/smac-kids-class.jpg" alt="Kids Taekondo Class"/>
                                     <div className="media-links">
                                         <a className="abs-link" href="/kids-taekwondo-class"></a>
                                     </div>
@@ -46,7 +46,7 @@ export default () => {
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="vertical-item text-center">
                                 <div className="item-media">
-                                    <img src="images/gallery/smac-teen-adult-class.jpg" alt="Teen and Adult Taekondo Class"/>
+                                    <img src="/images/gallery/smac-teen-adult-class.jpg" alt="Teen and Adult Taekondo Class"/>
                                     <div className="media-links">
                                         <a className="abs-link" href="/teen-adult-taekwondo-class"></a>
                                     </div>

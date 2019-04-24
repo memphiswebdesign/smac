@@ -140,164 +140,119 @@ export default class OwlCarousel extends Component {
                     <div className="item-media">
                         <img width="370" height="230" src="images/gallery/smac-little-dragons-class.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="/programs"></a>
+                            <a className="abs-link" title="" href="/little-dragons"></a>
                         </div>
                     </div>
-                    <a href="/programs" className="services-icon">
+                    <a href="/little-dragons" className="services-icon">
                         <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="/programs">Lil' Dragons</a>
+                            <a href="/little-dragons">Lil' Dragons</a>
                         </h5>
                         {/*<span>10:00-11:00 AM / LIZZIE MEYER</span>*/}
                         <p>
                             Dynamic, Highly Energetic <em>(30 min)</em> classes for 4 & 5 year old warriors!
                         </p>
                         <div className="services-link">
-                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/little-dragons">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="vertical-item text-center">
                     <div className="item-media">
-                        <img src="images/gallery/17.jpg" alt=""/>
+                        <img src="images/gallery/smac-kids-class.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="/programs"></a>
+                            <a className="abs-link" title="" href="/kids-taekwondo-class"></a>
                         </div>
                     </div>
-                    <a href="/programs" className="services-icon">
+                    <a href="/kids-taekwondo-class" className="services-icon">
                         <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="/programs">Adult & Child Martial Arts</a>
+                            <a href="/kids-taekwondo-class">Kids Taekondo Class</a>
+                        </h5>
+                        {/*<span>5:00-6:00 AM / ALEJANDRO DIAZ</span>*/}
+                        <p>
+                            This program is for ages 6-12 year olds.
+                        </p>
+                        <div className="services-link">
+                            <a className="btn-sm bg-icon" href="/kids-taekwondo-class">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="vertical-item text-center">
+                    <div className="item-media">
+                        <img src="images/gallery/smac-teen-adult-class.jpg" alt=""/>
+                        <div className="media-links">
+                            <a className="abs-link" title="" href="/teen-adult-taekwondo-class"></a>
+                        </div>
+                    </div>
+                    <a href="/teen-adult-taekwondo-class" className="services-icon">
+                        <i className="fa fa-users"></i>
+                    </a>
+                    <div className="item-content">
+                        <h5>
+                            <a href="/teen-adult-taekwondo-class">Adult & Child Martial Arts</a>
                         </h5>
                         {/*<span>5:00-6:00 AM / ALEJANDRO DIAZ</span>*/}
                         <p>
                             We cater to ages 4 and up with our Martial Arts classes.
                         </p>
                         <div className="services-link">
-                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/teen-adult-taekwondo-class">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="vertical-item text-center">
                     <div className="item-media">
-                        <img src="images/gallery/17.jpg" alt=""/>
+                        <img src="images/gallery/smac-birthday-grp.jpg" alt=""/>
                         <div className="media-links">
-                            <a className="abs-link" title="" href="/programs"></a>
+                            <a className="abs-link" title="" href="/birthday-parties"></a>
                         </div>
                     </div>
-                    <a href="/programs" className="services-icon">
+                    <a href="/birthday-parties" className="services-icon">
                         <i className="fa fa-users"></i>
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="/programs">Birthday parties</a>
+                            <a href="/birthday-parties">Birthday parties</a>
                         </h5>
                         {/*<span>6:00-7:00 PM / COLE BUTLER</span>*/}
                         <p>
                             We can organize an action-packed birthday party at our studio.
                         </p>
                         <div className="services-link">
-                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a className="btn-sm bg-icon" href="/birthday-parties">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
+                </div>
+                <div className="vertical-item text-center">
+                    <div className="item-media">
+                        <img src="images/gallery/smac-private-lessons.jpg" alt=""/>
+                        <div className="media-links">
+                            <a className="abs-link" title="" href="/private-lessons"></a>
+                        </div>
+                    </div>
+                    <a href="/private-lessons" className="services-icon">
+                        <i className="fa fa-users"></i>
+                    </a>
+                    <div className="item-content">
+                        <h5>
+                            <a href="/private-lessons">Private Lessons</a>
+                        </h5>
+                        {/*<span>6:00-7:00 PM / COLE BUTLER</span>*/}
+                        <p>
+                            Train one-on-one with a SMAC instructor. Appointment Required.
+                        </p>
+                        <div className="services-link">
+                            <a className="btn-sm bg-icon" href="/private-lessons">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
 
-                </div>
-                <div className="vertical-item text-center">
-                    <div className="item-media">
-                        <img src="images/gallery/17.jpg" alt=""/>
-                        <div className="media-links">
-                            <a className="abs-link" title="" href="/programs"></a>
-                        </div>
-                    </div>
-                    <a href="/programs" className="services-icon">
-                        <i className="fa fa-users"></i>
-                    </a>
-                    <div className="item-content">
-                        <h5>
-                            <a href="/programs">Fitness Classes</a>
-                        </h5>
-                        {/*<span>10:00-11:00 AM / LIZZIE MEYER</span>*/}
-                        <p>
-                            Just looking to get in shape. We have classes to fit your needs.
-                        </p>
-                        <div className="services-link">
-                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="vertical-item text-center">
-                    <div className="item-media">
-                        <img src="images/gallery/17.jpg" alt=""/>
-                        <div className="media-links">
-                            <a className="abs-link" title="" href="/programs"></a>
-                        </div>
-                    </div>
-                    <a href="/programs" className="services-icon">
-                        <i className="fa fa-users"></i>
-                    </a>
-                    <div className="item-content">
-                        <h5>
-                            <a href="/programs">Private Training Available</a>
-                        </h5>
-                        {/*<span>5:00-6:00 AM / ALEJANDRO DIAZ</span>*/}
-                        <p>
-                            One on One training on your schedule.
-                        </p>
-                        <div className="services-link">
-                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="vertical-item text-center">
-                    <div className="item-media">
-                        <img src="images/gallery/17.jpg" alt=""/>
-                        <div className="media-links">
-                            <a className="abs-link" title="" href="/programs"></a>
-                        </div>
-                    </div>
-                    <a href="/programs" className="services-icon">
-                        <i className="fa fa-users"></i>
-                    </a>
-                    <div className="item-content">
-                        <h5>
-                            <a href="/programs">Training via Skype</a>
-                        </h5>
-                        {/*<span>6:00-7:00 PM / COLE BUTLER</span>*/}
-                        <p>
-                            Not in our area, arrange for a class or classes via Skype.
-                        </p>
-                        <div className="services-link">
-                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="vertical-item text-center">
-                    <div className="item-media">
-                        <img src="images/gallery/17.jpg" alt=""/>
-                        <div className="media-links">
-                            <a className="abs-link" title="" href="/programs"></a>
-                        </div>
-                    </div>
-                    <a href="/programs" className="services-icon">
-                        <i className="fa fa-users"></i>
-                    </a>
-                    <div className="item-content">
-                        <h5>
-                            <a href="/programs">Training Camp programs</a>
-                        </h5>
-                        {/*<span>6:00-7:00 PM / COLE BUTLER</span>*/}
-                        <p>
-                            Join us for a training camp.
-                        </p>
-                        <div className="services-link">
-                            <a className="btn-sm bg-icon" href="/programs">Learn More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+                
 
             </div>
         )

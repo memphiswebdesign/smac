@@ -128,7 +128,7 @@ img.absolute_image {
 .header_absolute {
   &.cover-background,
   &.s-parallax {
-    background-image: url("../static/images/parallax/video_section_background.jpg");
+    background-image: url("../static/images/parallax/footer_bg.jpg");
   }
 }
 .contact-info{
@@ -183,7 +183,7 @@ img.absolute_image {
 .page_title {
   &.cover-background,
   &.s-parallax {
-    background-image: url("../static/images/parallax/breadcrumbs.jpg");
+    background-image: url("../static/images/parallax/footer_bg.jpg");
   }
   h1,
   h2 {
@@ -258,13 +258,8 @@ img.absolute_image {
     background-color: $darkgreyColor;
   }
 }
-.team-section{
-  background-image: url("../static/images/parallax/team-section.jpg");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-.program-section{
+.team-section,
+.program-section {
   background-image: url("../static/images/parallax/programs-bg.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -391,7 +386,7 @@ img.absolute_image {
   line-height: 30px;
   &.cover-background,
   &.s-parallax {
-    background-image: url("../static/images/parallax/breadcrumbs.jpg");
+    background-image: url("../static/images/parallax/footer_bg.jpg");
   }
 }
 

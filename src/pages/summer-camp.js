@@ -3,7 +3,6 @@ import Layout from '../components/Layout';
 import Breadcrumb from "../components/Breadcrumb";
 import InfoBanner from "../components/InfoBanner";
 
-
 export default () => {
     return (
         <Layout>
@@ -15,11 +14,39 @@ export default () => {
                     <div className="row">
                         <div className="col-md-12 text-center animate" data-animation="fadeIn" data-delay="70">
                         	<h4>Ultimate Summer Camp Info Coming Soon..</h4>
-                            <p>Get a head start. Download the Waiver. Fill it out & submit to SMAC location.</p>
                             <a className="btn btn-outline-maincolor" href="/images/docs/smac-summer-camp-waiver.pdf" target="_blank">Summer Camp Waiver</a>
-                            
                         </div>
-                        <div className="col-md-12 text-center ">
+                        <div className="divider-40"></div>
+                        <div className="col-md-6">
+                            <p>Folks, the summer is just about here and many you will need a place to send your kids. Have you ever considered a camp that is full of fun and games along with learning vital skills such as confidence, discipline, teamwork, focus and respect? Well SMAC is the place for you.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <p>Here at SMAC, we provide a fun and safe environment that is packed full of games, Arts and crafts, basic acrobatics, martial arts and a built-in Bully defense? What more can you ask for? Below are some of the reasons your child would love our camp!!!</p>
+                        </div>
+                        <div className="divider-20"></div> 
+                        <div className="col-md-12 text-center"><hr /></div>
+                        <div className="col-md-6">
+                            <ol className="list-num">
+                                <li>Big Nerf Wars</li>
+                                <li><strong>Fun Games such as:</strong> Ninja Dodgeball, Ultimate Dodgeball, Trampoline Dodgeball, Ninja Soccer, Taekwondo Baseball, High Jump Contests, Relay Races, Ninja Obstacle Course, Zombies and much much more.</li>
+                                <li>Martial Arts</li>
+                                <li>Acrobatics</li>
+                                <li>Field Trips</li>
+                                <li>Bully Defense</li>
+                                <li>Arts and Crafts</li>
+                            </ol>
+                            <div className="divider-20"></div>
+                        </div>
+                        <div className="col-md-6">
+                            <h5 className="mb-2">Prices vary based on the number of weeks your child attends.</h5>
+                            <ul className="list-styled">
+                                <li>1-3 Weeks = 119.00 per week</li>
+                                <li>4-6 weeks = 109.00 per week</li>
+                                <li>7-9 weeks = 99.00 per week</li>
+                            <span className="color-main">*</span> <em>Closed Memorial Day, Closed July 4-5 for Independence Day</em>
+                            </ul>
+                        </div>
+                        <div className="col-md-12 text-center">
                             <hr />
                             <h4>Sign-up now for the SMAC Ultimate Summer Camp</h4>
                             <form name="contact-form" action="/contact-success" method="post" data-netlify="true" className="form-spaced">
@@ -61,10 +88,11 @@ export default () => {
                                                        placeholder="Phone Number" defaultValue="" required="required"/>
                                             </div>
                                         </div>
-                                        <div className="col-xl-12">
+                                        <div className="col-xl-12 text-left">
                                             <div className="form-group">
+                                                <p className="mb-1"><strong>Full Mailing Address</strong></p>                                            
                                                 <input className="form-control" type="text" name="address"
-                                                       placeholder="Full Mailing Address" defaultValue="" required="required"/>
+                                                       placeholder="Mailing Address (Street/City/Zip)" defaultValue="" required="required"/>
                                             </div>
                                         </div>
                                         <div className="col-xl-8 text-left">

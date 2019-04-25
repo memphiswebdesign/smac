@@ -691,9 +691,7 @@ ul.list-styled li:before {
 	font-size: 7px;
 	left: 3px;
 	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
+	top: 4px;
 }
 
 ol.list-num {
@@ -719,9 +717,7 @@ ol.list-num li:after {
 	font-weight: bold;
 	left: 2px;
 	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
+	top: 4px;
 }
 
 /*

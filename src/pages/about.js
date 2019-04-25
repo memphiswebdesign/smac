@@ -2,7 +2,6 @@ import React from "react"
 import Layout from '../components/Layout';
 import Breadcrumb from '../components/Breadcrumb';
 import ContactForm from "../components/ContactForm";
-import OwlCarousel from '../components/OwlCarousel';
 import InstructorsBlock from "../components/InstructorsBlock";
 import Testimonials from "../components/Testimonials";
 
@@ -52,7 +51,7 @@ export default () => {
                                 Success Martial Arts Center has made its mark over the years in Wilson County and has trained many National and World Champions. All of its owners have produced many Junior Olympic and Taekwondo Nationals gold medalists. SMAC currently has four world champions who have competed all over the world and performed for the Macy’s Day Parade, Spider-Man and Captain America commercials, Into The Badlands tv series (season 1) and The Accountant, starring Ben Affleck.
                             </p>
                         </div>
-                        <div className="col-md-6">                        
+                        <div className="col-md-6">
                             <p className="text-lg-left">
                                 While we are proud of our “Success” in competition, that is not our main focus. Our main focus is character building for our students. Aspects such as confidence, discipline, focus, courtesy, improved school grades, self defense and fitness are just some of the areas we strive to develop in our students. However, if you want your child to find a sport they can compete in then there is no better place than here.
                             </p>

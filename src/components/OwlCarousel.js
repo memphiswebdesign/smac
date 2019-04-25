@@ -171,7 +171,7 @@ export default class OwlCarousel extends Component {
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="/kids-taekwondo-class">Kids Taekondo Class</a>
+                            <a href="/kids-taekwondo-class">Kids Taekwondo Class</a>
                         </h5>
                         {/*<span>5:00-6:00 AM / ALEJANDRO DIAZ</span>*/}
                         <p>
@@ -252,7 +252,7 @@ export default class OwlCarousel extends Component {
                     </div>
                 </div>
 
-                
+
 
             </div>
         )

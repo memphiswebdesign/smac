@@ -51,9 +51,7 @@ ul.list-styled {
       content: "\f111";
       position: absolute;
       left: 3px;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%);
+      top: 4px;
     }
   }
 }
@@ -74,9 +72,7 @@ ol.list-num{
       counter-increment: li;
       position: absolute;
       left: 2px;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%);
+      top: 4px;
       font-weight: bold;
       color: $colorMain;
     }

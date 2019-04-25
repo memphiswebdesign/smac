@@ -70,7 +70,7 @@ function data() {
             className="vertical-item testimonial-item box-shadow content-padding text-center">
             <blockquote className="quote-item">
                 <div className="quote-image">
-                    {/*<img src="/images/team/kellie-bodiford-fam.jpg" alt=""/>*/}
+                    <img src="/images/team/mclea-fam.jpg" alt=""/>
                 </div>
                 <h5>Daniela McLea</h5>
                 <p className="small-text color-main">

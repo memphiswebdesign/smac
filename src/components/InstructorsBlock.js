@@ -150,7 +150,7 @@ class InstructorsBlock extends Component {
                             </div>
                           </div>
                           <div className="item-content">
-                            <h5><a href="team-single.html">{ instructor.name }</a></h5>
+                            <h5>{ instructor.name }</h5>
                             <p className="small-text color-main">{ instructor.title }</p>
                             <p className="social-icons">
                               <SocialLinkList list={ instructor.social } />

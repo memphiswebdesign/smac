@@ -60,16 +60,16 @@ export const Instructors = [
             social: [
                 { facebook: 'https://www.facebook.com/jake.presley.75' }
             ]
-        },
-        {
-            name: 'Mary Besse',
-            title: 'Black Belt Instructor',
-            img_src: '/images/team/mary-besse.jpg',
-            page: '',
-            social: [
-                { facebook: 'https://www.facebook.com/marybesse' }
-            ]
         }
+        // {
+        //     name: 'Mary Besse',
+        //     title: 'Black Belt Instructor',
+        //     img_src: '/images/team/mary-besse.jpg',
+        //     page: '',
+        //     social: [
+        //         { facebook: 'https://www.facebook.com/marybesse' }
+        //     ]
+        // }
 ];
 
 export const Links = {

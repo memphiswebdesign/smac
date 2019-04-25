@@ -150,10 +150,11 @@ html[xmlns] .slides {
 .flex-direction-nav a:before {
   font-family: "FontAwesome";
   font-size: 20px;
+  line-height: 1;
   content: '\f104';
   color: $lightColor;
   position: absolute;
-  top: 5px;
+  top: -3px;
   left: 12px;
 }
 

@@ -129,7 +129,7 @@ class InstructorsBlock extends Component {
   render(props) {
     return (
         <>
-          <section className="ds ms s-py-60 s-py-md-90 s-overlay team-section">
+          <section className="ds ms s-py-60 s-py-md-90 s-overlay s-parallax team-section">
             <div className="container">
               <div className="row">
                 <div className="divider-70 d-none d-xl-block"></div>

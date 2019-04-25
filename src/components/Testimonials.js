@@ -66,6 +66,22 @@ function data() {
                 <i className="fa fa-quote-right" aria-hidden="true"></i>
             </blockquote>
         </div>
+        <div
+            className="vertical-item testimonial-item box-shadow content-padding text-center">
+            <blockquote className="quote-item">
+                <div className="quote-image">
+                    {/*<img src="/images/team/kellie-bodiford-fam.jpg" alt=""/>*/}
+                </div>
+                <h5>Daniela McLea</h5>
+                <p className="small-text color-main">
+                    Proud Mom
+                </p>
+                <p>
+                    SMAC has been a blessing in our lives. There are many different times a week to attend which makes it really convenient. SMAC keeps it challenging and interesting for the kids. Besides the classes there a multiple activities like: Ninja ball, nerf gun nights, glow in the dark ninja ball and many more fun activities. The environment is very safe and our kids have gained tremendous self confidence. Jason and the coaches are very consistent. The SMAC family is like a village to us.
+                </p>
+                <i className="fa fa-quote-right" aria-hidden="true"></i>
+            </blockquote>
+        </div>
         </>
     )
 }

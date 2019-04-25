@@ -10,7 +10,7 @@ export const getRecentEvents = () => {
                   frontmatter: {layout: {eq: "event"}}
                 }
                 limit: 3
-                sort: {fields: frontmatter___date, order: DESC}
+                sort: {fields: frontmatter___date, order: ASC}
               ) {
                 nodes {
                   fields {

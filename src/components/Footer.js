@@ -90,6 +90,8 @@ export default class Footer extends Component {
                         <MailchimpSignup />
 
                         <div className="divider-70 d-none d-xl-block"></div>
+                        <img className="d-none" src="/images/smac-profile-sq.jpg" alt={""}/>
+
                     </div>
                 </div>
             </footer>

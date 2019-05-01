@@ -16,13 +16,11 @@ export default function HTML(props) {
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-        {/*Global site tag (gtag.js) - Google Analytics*/}
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5725188-1"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
           gtag('config', 'UA-5725188-1');
         </script>
 

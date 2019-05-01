@@ -194,7 +194,7 @@ export default class OwlCarousel extends Component {
                     </a>
                     <div className="item-content">
                         <h5>
-                            <a href="/teen-adult-taekwondo-class">Adult & Child Martial Arts</a>
+                            <a href="/teen-adult-taekwondo-class">Teen & Adult Taekwondo Class</a>
                         </h5>
                         {/*<span>5:00-6:00 AM / ALEJANDRO DIAZ</span>*/}
                         <p>

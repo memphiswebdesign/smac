@@ -52,7 +52,17 @@ const pages = [
     },
     {
         display: 'Events',
-        url: '/events'
+        url: '/events',
+        subMenu: [
+            {
+                display: 'Birthday Parties',
+                url: '/birthday-parties'
+            },
+            {
+                display: 'Private Lessons',
+                url: '/private-lessons'
+            }
+        ]
     },
     {
         display: 'Summer Camp',

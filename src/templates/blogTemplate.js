@@ -17,10 +17,11 @@ export default ({ data }) => {
                     <meta property="og:description" content={`${excerpt}`} />
                 ) : (<></>) }
                 { frontmatter.featured_image ? (
-                    <meta property="og:image" content={`https://smaclebanon.com${ frontmatter.featured_image }`} />
-                ) : (
-                    <meta property="og:image" content="https://smaclebanon.com/assets/smac-profile-sq.jpg" />
-                ) }
+                    <>
+                        <meta property="og:image" content={`https://smaclebanon.com${ frontmatter.featured_image }`} />
+                        <meta property="og:image:secure_url" content={`https://smaclebanon.com${ frontmatter.featured_image }`} />
+                    </>
+                ) : (<></>) }
             </Helmet>
 
             <Breadcrumb list={[ {name: 'home', url: '/'}, {name: 'blog', url: '/blog'}, {name: frontmatter.title} ]} title={"Blog"} />

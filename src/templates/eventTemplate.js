@@ -17,9 +17,9 @@ export default ({ data }) => {
                     <meta property="og:description" content={`${excerpt}`} />
                 ) : (<></>) }
                 { frontmatter.featured_image ? (
-                    <meta property="og:image" content={`http://smaclebanon.com${ frontmatter.featured_image }`} />
+                    <meta property="og:image" content={`https://smaclebanon.com${ frontmatter.featured_image }`} />
                 ) : (
-                    <meta property="og:image" content="http://smaclebanon.com/assets/smac-profile-sq.jpg" />
+                    <meta property="og:image" content="https://smaclebanon.com/assets/smac-profile-sq.jpg" />
                 ) }
             </Helmet>
 

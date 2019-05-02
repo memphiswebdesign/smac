@@ -22,8 +22,8 @@ export default function HTML(props) {
         <meta property="og:url" content="https://smaclebanon.com/" data-react-helmet="true" />
         <meta property="og:title" content="SMAC - Success Martial Arts Center | Lebanon TN" data-react-helmet="true" />
         <meta property="og:description" content="To provide a safe & fun environment while instilling core values, reinforcing what is taught at home and creating a positive lifestyle for your family through Martial Arts in the Lebanon TN area."  data-react-helmet="true"/>
-        <meta property="og:image" content="https://smaclebanon.com/assets/smac-profile-sq.jpg" data-react-helmet="true" />
-        <meta property="og:image:secure_url" content="https://smaclebanon.com/assets/smac-profile-sq.jpg" data-react-helmet="true" />
+        <meta property="og:image" content="https://smaclebanon.com/images/smac-profile-sq.jpg" data-react-helmet="true" />
+        <meta property="og:image:secure_url" content="https://smaclebanon.com/images/smac-profile-sq.jpg" data-react-helmet="true" />
 
         {props.headComponents}
     </head>

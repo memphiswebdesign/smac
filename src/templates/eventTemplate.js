@@ -2,12 +2,27 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Breadcrumb from "../components/Breadcrumb";
+import { Helmet } from "react-helmet";
 
 export default ({ data }) => {
     const { markdownRemark } = data; // data.markdownRemark holds our post data
-    const { frontmatter, html } = markdownRemark;
+    const { frontmatter, html, excerpt } = markdownRemark;
     return (
         <Layout>
+
+            <Helmet>
+                <title>SMAC Event | { frontmatter.title }</title>
+                <meta property="og:title" content={`SMAC Event | ${ frontmatter.title }`} />
+                { excerpt ? (
+                    <meta property="og:description" content={`${excerpt}`} />
+                ) : (<></>) }
+                { frontmatter.featured_image ? (
+                    <meta property="og:image" content={`http://smaclebanon.com${ frontmatter.featured_image }`} />
+                ) : (
+                    <meta property="og:image" content="http://smaclebanon.com/assets/smac-profile-sq.jpg" />
+                ) }
+            </Helmet>
+
             <Breadcrumb list={[ {name: 'home', url: '/'}, {name: 'events', url: '/events'}, {name: frontmatter.title} ]} title={"Events"} />
 
             <section className="ds s-pt-60 s-pb-60 s-py-md-40 c-gutter-40">
@@ -63,6 +78,7 @@ query($path: String!) {
         fields {
             slug
         }
+        excerpt
         frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title

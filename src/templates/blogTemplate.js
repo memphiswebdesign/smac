@@ -2,12 +2,27 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Breadcrumb from "../components/Breadcrumb";
+import { Helmet } from "react-helmet";
 
 export default ({ data }) => {
     const { markdownRemark } = data; // data.markdownRemark holds our post data
-    const { frontmatter, html } = markdownRemark;
+    const { frontmatter, html, excerpt } = markdownRemark;
     return (
         <Layout>
+
+            <Helmet>
+                <title>SMAC Blog | { frontmatter.title }</title>
+                <meta property="og:title" content={`SMAC Blog | ${ frontmatter.title }`} />
+                { excerpt ? (
+                    <meta property="og:description" content={`${excerpt}`} />
+                ) : (<></>) }
+                { frontmatter.featured_image ? (
+                    <meta property="og:image" content={`http://smaclebanon.com${ frontmatter.featured_image }`} />
+                ) : (
+                    <meta property="og:image" content="http://smaclebanon.com/assets/smac-profile-sq.jpg" />
+                ) }
+            </Helmet>
+
             <Breadcrumb list={[ {name: 'home', url: '/'}, {name: 'blog', url: '/blog'}, {name: frontmatter.title} ]} title={"Blog"} />
 
             <section className="ds s-pt-60 s-pb-60 s-py-md-40 c-gutter-40">
@@ -44,72 +59,6 @@ export default ({ data }) => {
 
                                 </div>
                             </article>
-
-                            {/*<div className="ds ms author-bio side-item content-padding">*/}
-                                {/*<div className="row">*/}
-                                    {/*<div className="col-xl-4 col-lg-6 col-md-6">*/}
-                                        {/*<div className="item-media cover-image">*/}
-                                            {/*<img src="images/team/02.jpg" alt="" />*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-
-                                    {/*<div className="col-xl-8 col-lg-6 col-md-6">*/}
-                                        {/*<div className="item-content">*/}
-                                            {/*<h5>Mario Roberts</h5>*/}
-                                            {/*<p className="small-text text-left color-main">*/}
-                                                {/*visitor*/}
-                                            {/*</p>*/}
-                                            {/*<p>*/}
-                                                {/*Cow beef ball tip, biltong beef ribs ham hamburger pork capicola salami pig tenderloin.*/}
-                                                {/*Porchetta cupim strip lion steak beef.*/}
-                                            {/*</p>*/}
-                                            {/*<div className="author-social">*/}
-                                                {/*<a href="#" className="fa fa-facebook"></a>*/}
-                                                {/*<a href="#" className="fa fa-twitter"></a>*/}
-                                                {/*<a href="#" className="fa fa-google"></a>*/}
-                                            {/*</div>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                {/*</div>*/}
-                            {/*</div>*/}
-
-                            {/*<nav className="navigation post-nav" role="navigation">*/}
-                                {/*<h2 className="screen-reader-text">Post navigation</h2>*/}
-                                {/*<div className="nav-links">*/}
-                                    {/*<div className="nav-previous cover-image s-overlay ds">*/}
-                                        {/*<div className="post-nav-image">*/}
-                                            {/*<img src="images/gallery/01.jpg" alt="" />*/}
-                                        {/*</div>*/}
-
-                                        {/*<div className="post-nav-text-wrap">*/}
-                                            {/*<span className="screen-reader-text">prev</span>*/}
-                                            {/*<span aria-hidden="true" className="nav-subtitle color-main">prev</span>*/}
-
-                                            {/*<h5 className="nav-title">*/}
-                                                {/*Meatloaf Jowl Pig Bacon*/}
-                                                {/*Kevin Burgdoggen*/}
-                                            {/*</h5>*/}
-                                        {/*</div>*/}
-                                        {/*<a href="blog-single-right.html" rel="prev"></a>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="nav-next cover-image s-overlay ds">*/}
-                                        {/*<div className="post-nav-image">*/}
-                                            {/*<img src="images/gallery/02.jpg" alt="" />*/}
-                                        {/*</div>*/}
-
-                                        {/*<div className="post-nav-text-wrap">*/}
-                                            {/*<span className="screen-reader-text">next</span>*/}
-                                            {/*<span aria-hidden="true" className="nav-subtitle color-main">next</span>*/}
-
-                                            {/*<h5 className="nav-title">*/}
-                                                {/*Corned Beef Andouille*/}
-                                                {/*Jowl Ball Tip*/}
-                                            {/*</h5>*/}
-                                        {/*</div>*/}
-                                        {/*<a href="blog-single-right.html" rel="next"></a>*/}
-                                    {/*</div>*/}
-                                {/*</div>*/}
-                            {/*</nav>*/}
                         </main>
 
                         <div className="d-none d-lg-block divider-70"></div>
@@ -128,6 +77,7 @@ query($path: String!) {
         fields {
             slug
         }
+        excerpt
         frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title

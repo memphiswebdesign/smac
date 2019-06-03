@@ -13,14 +13,17 @@ export default () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center animate" data-animation="fadeIn" data-delay="70">
-                        	<h4>Ultimate Summer Camp Info Coming Soon..</h4>
+                        	<h4>June 3rd-7th, 17th-21st and July 8th-13th.</h4>
                             <a className="btn btn-outline-maincolor" href="/images/docs/smac-summer-camp-waiver.pdf" target="_blank">Summer Camp Waiver</a>
+                            <a className="btn btn-outline-maincolor" href="#signup">Sign-up</a>
                         </div>
                         <div className="divider-40"></div>
-                        <div className="col-md-6">
-                            <p>Folks, the summer is just about here and many you will need a place to send your kids. Have you ever considered a camp that is full of fun and games along with learning vital skills such as confidence, discipline, teamwork, focus and respect? Well SMAC is the place for you.</p>
+                        <div className="col-md-3">
+                            <a href="/images/docs/smac-summer-camp-waiver.pdf" target="_blank"><img src="/images/smac-summer-camp-flyer.jpg" alt="SMAC Summer Camp Flyer" /></a>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-9">
+                            <div className="divider-20"></div>
+                            <p>Folks, the summer is just about here and many you will need a place to send your kids. Have you ever considered a camp that is full of fun and games along with learning vital skills such as confidence, discipline, teamwork, focus and respect? Well SMAC is the place for you.</p>
                             <p>Here at SMAC, we provide a fun and safe environment that is packed full of games, Arts and crafts, basic acrobatics, martial arts and a built-in Bully defense? What more can you ask for? Below are some of the reasons your child would love our camp!!!</p>
                         </div>
                         <div className="divider-20"></div> 
@@ -46,7 +49,7 @@ export default () => {
                             <span className="color-main">*</span> <em>Closed Memorial Day, Closed July 4-5 for Independence Day</em>
                             </ul>
                         </div>
-                        <div className="col-md-12 text-center">
+                        <div id="signup" className="col-md-12 text-center">
                             <hr />
                             <h4>Sign-up now for the SMAC Ultimate Summer Camp</h4>
                             <form name="contact-form" action="/contact-success" method="post" data-netlify="true" className="form-spaced">

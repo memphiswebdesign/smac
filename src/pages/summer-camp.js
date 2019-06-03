@@ -14,6 +14,7 @@ export default () => {
                     <div className="row">
                         <div className="col-md-12 text-center animate" data-animation="fadeIn" data-delay="70">
                         	<h4>June 3rd-7th, 17th-21st and July 8th-13th.</h4>
+                            <h5 className="mt-0">Only $99 per week!</h5>
                             <a className="btn btn-outline-maincolor" href="/images/docs/smac-summer-camp-waiver.pdf" target="_blank">Summer Camp Waiver</a>
                             <a className="btn btn-outline-maincolor" href="#signup">Sign-up</a>
                         </div>
@@ -48,6 +49,7 @@ export default () => {
                                 <li>7-9 weeks = 99.00 per week</li>
                             <span className="color-main">*</span> <em>Closed Memorial Day, Closed July 4-5 for Independence Day</em>
                             </ul>
+                            <div className="alert alert-primary">For weeks, June 3-7, 17-21 and July 8-13, SMAC Summer Camp is only $99/week. Register Now!</div>
                         </div>
                         <div id="signup" className="col-md-12 text-center">
                             <hr />

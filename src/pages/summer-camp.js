@@ -55,7 +55,7 @@ export default () => {
                             <hr />
                             <h4>Sign-up now for the SMAC Ultimate Summer Camp</h4>
                             <form name="summer-camp-form" action="/contact-success" method="post" data-netlify="true" className="form-spaced">
-                                    <input type="hidden" name="form-name" value="contact-form" />
+                                    <input type="hidden" name="form-name" value="summer-camp-form" />
                                     <div className="row">
                                         <div className="col-xl-6">
                                             <div className="form-group">
